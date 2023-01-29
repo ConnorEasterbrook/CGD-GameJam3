@@ -74,7 +74,6 @@ public class PlayerScript : MonoBehaviour
     {
         transform.rotation = panRotation;
         playerCamera.transform.localEulerAngles = Vector3.right * cameraTiltSmooth;
-        // playerCamera.transform.localPosition = Vector3.Lerp(playerCamera.transform.localPosition, oldCameraPos, 0.1f);
 
         FixedGravity();
         CalculatePlayerMovement();
