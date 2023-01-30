@@ -49,6 +49,8 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+
         playerCamera = GetComponentInChildren<Camera>();
         playerRigidbody = GetComponent<Rigidbody>();
         playerChild = transform.GetChild(0).gameObject;
