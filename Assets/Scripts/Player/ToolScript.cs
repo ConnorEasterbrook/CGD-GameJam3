@@ -4,14 +4,24 @@ using UnityEngine;
 
 public class ToolScript : MonoBehaviour
 {
-    [SerializeField] private Animator[] _animators;
     [SerializeField] private GameObject[] _tools;
+    private Animator[] _animators;
+    private WeaponAttack[] _weaponAttackScripts;
     private int _currentToolSelected = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         _tools[_currentToolSelected].SetActive(true);
+
+        _animators = new Animator[_tools.Length];
+        _weaponAttackScripts = new WeaponAttack[_tools.Length];
+
+        for (int i = 0; i < _tools.Length; i--)
+        {
+            _animators[i] = _tools[i].GetComponent<Animator>();
+            _weaponAttackScripts[i] = _tools[i].GetComponent<WeaponAttack>();
+        }
     }
 
     // Update is called once per frame
@@ -21,6 +31,7 @@ public class ToolScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             _animators[_currentToolSelected].SetBool("Attack", true);
+            _weaponAttackScripts[_currentToolSelected].isAttacking = true;
 
             // When the animation is done, set the bool back to false
             StartCoroutine(ResetAttackBool());
