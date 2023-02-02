@@ -3265,7 +3265,7 @@ GameObject:
   - component: {fileID: 360145401}
   m_Layer: 0
   m_Name: Rock_16
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4378,7 +4378,7 @@ GameObject:
   - component: {fileID: 467387609}
   m_Layer: 0
   m_Name: Rock_24 (2)
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4563,7 +4563,7 @@ GameObject:
   - component: {fileID: 483452813}
   m_Layer: 0
   m_Name: Rock_24 (1)
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5141,7 +5141,7 @@ GameObject:
   - component: {fileID: 541049547}
   m_Layer: 0
   m_Name: Rock_18 (1)
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5495,7 +5495,7 @@ GameObject:
   - component: {fileID: 599375285}
   m_Layer: 0
   m_Name: Rock_18
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10574,7 +10574,7 @@ GameObject:
   - component: {fileID: 1017602136}
   m_Layer: 0
   m_Name: DeadOak2 (1)
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14100,7 +14100,7 @@ GameObject:
   - component: {fileID: 1449022311}
   m_Layer: 0
   m_Name: Rock_24
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17337,7 +17337,7 @@ GameObject:
   - component: {fileID: 1883158054}
   m_Layer: 0
   m_Name: Rock_16 (1)
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17745,7 +17745,7 @@ GameObject:
   - component: {fileID: 1917397786}
   m_Layer: 0
   m_Name: DeadOak2
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18644,7 +18644,7 @@ GameObject:
   - component: {fileID: 2029884235}
   m_Layer: 0
   m_Name: DeadOak3 (1)
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19880,6 +19880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 25
   isAttacking: 0
+  _resourceScript: {fileID: 4976062623035207489}
 --- !u!33 &818208281522920887
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -26035,6 +26036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 25
   isAttacking: 0
+  _resourceScript: {fileID: 4976062623035207489}
 --- !u!33 &4609647433562745639
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -27420,7 +27422,7 @@ GameObject:
   - component: {fileID: 6313484967912491304}
   m_Layer: 0
   m_Name: DeadOak3
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
