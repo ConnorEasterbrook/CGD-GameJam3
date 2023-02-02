@@ -17,7 +17,7 @@ public class ToolScript : MonoBehaviour
         _animators = new Animator[_tools.Length];
         _weaponAttackScripts = new WeaponAttack[_tools.Length];
 
-        for (int i = 0; i < _tools.Length; i--)
+        for (int i = 0; i < _tools.Length; i++)
         {
             _animators[i] = _tools[i].GetComponent<Animator>();
             _weaponAttackScripts[i] = _tools[i].GetComponent<WeaponAttack>();
