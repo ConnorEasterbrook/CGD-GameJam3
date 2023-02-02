@@ -36,19 +36,19 @@ public class SampleMobsController : MonoBehaviour
         }
     }
 
-    IEnumerator DoMove()
-    {
-        foreach (var animationsController in _animationsControllers)
-        {
-            animationsController.SetMovingState(true);
-        }
+    // IEnumerator DoMove()
+    // {
+    //     foreach (var animationsController in _animationsControllers)
+    //     {
+    //         animationsController.SetMovingState(true);
+    //     }
 
-        yield return new WaitForSeconds(4.2f);
-        foreach (var animationsController in _animationsControllers)
-        {
-            animationsController.SetMovingState(false);
-        }
-    }
+    //     yield return new WaitForSeconds(4.2f);
+    //     foreach (var animationsController in _animationsControllers)
+    //     {
+    //         animationsController.SetMovingState(false);
+    //     }
+    // }
 
     IEnumerator DoDeath()
     {
@@ -72,7 +72,7 @@ public class SampleMobsController : MonoBehaviour
         foreach (var animationsController in _animationsControllers)
         {
             animationsController.ClearDead();
-            animationsController.SetMovingState(false);
+            // animationsController.SetMovingState(false);
         }
     }
 
@@ -82,7 +82,7 @@ public class SampleMobsController : MonoBehaviour
         {
             ClearAll();
             StartCoroutine(ShowText("Run", 4));
-            StartCoroutine(DoMove());
+            // StartCoroutine(DoMove());
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))

@@ -28,15 +28,15 @@ public class AnimationsController : MonoBehaviour
 
             if (_lastPosition.x != position.x||_lastPosition.z != position.z)
             {
-                _animator.SetBool(MovingHash, true);
+                // _animator.SetBool(MovingHash, true);
                 var dirrection = position - _lastPosition;
                 dirrection.y = 0;
                 _lastRotation = Quaternion.LookRotation(dirrection);
             }
-            else
-            {
-                _animator.SetBool(MovingHash, false);
-            }
+            // else
+            // {
+            //     _animator.SetBool(MovingHash, false);
+            // }
             transform.rotation = Quaternion.Lerp(transform.rotation,_lastRotation,10f*Time.deltaTime);
             _lastPosition = position;
         }
@@ -50,10 +50,10 @@ public class AnimationsController : MonoBehaviour
         }
     }
 
-    public void SetMovingState(bool val)
-    {
-        _animator.SetBool(MovingHash, val);
-    }
+    // public void SetMovingState(bool val)
+    // {
+    //     _animator.SetBool(MovingHash, val);
+    // }
 
     public void SetDead()
     {
@@ -74,8 +74,8 @@ public class AnimationsController : MonoBehaviour
         _animator.SetTrigger(HitHash);
     }
 
-    public bool IsMoving
-    {
-        get { return _animator.GetBool(MovingHash); }
-    }
+    // public bool IsMoving
+    // {
+    //     get { return _animator.GetBool(MovingHash); }
+    // }
 }
