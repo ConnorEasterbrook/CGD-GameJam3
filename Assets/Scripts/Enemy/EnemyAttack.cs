@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    [SerializeField] private PlayerScript _playerScript;
+    private PlayerScript _playerScript;
     [SerializeField] private float _damage = 10f;
     private Rigidbody _rigidbody;
     private bool _inAttackRange = false;
@@ -17,20 +17,23 @@ public class EnemyAttack : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
+        _playerScript = GameObject.Find("Player").GetComponent<PlayerScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (!_inAttackRange)
         {
-            _rigidbody.velocity = transform.forward * _speed;
+            Vector3 vel = transform.forward * _speed;
+            vel.y = _rigidbody.velocity.y;
+            _rigidbody.velocity = vel;
+
             _animator.SetBool("IsMoving", true);
 
             // LookAt the player but only rotate on y axis
-            Vector3 targetPosition = new Vector3(_playerScript.transform.position.x, transform.position.y, _playerScript.transform.position.z);
-            transform.LookAt(targetPosition);
+            // Vector3 targetPosition = new Vector3(_playerScript.transform.position.x, transform.position.y, _playerScript.transform.position.z);
+            transform.LookAt(_playerScript.transform.position);
         }
         else
         {
