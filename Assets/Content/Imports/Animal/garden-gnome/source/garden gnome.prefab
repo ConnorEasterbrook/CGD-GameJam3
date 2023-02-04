@@ -13,13 +13,15 @@ GameObject:
   - component: {fileID: 4762986125334268762}
   - component: {fileID: 8793283853926038433}
   - component: {fileID: 8793283853926038434}
+  - component: {fileID: 518333236}
+  - component: {fileID: 518333237}
   m_Layer: 0
   m_Name: garden gnome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5931991099805937717
 Transform:
   m_ObjectHideFlags: 0
@@ -33,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &7349155428262559632
 MeshFilter:
@@ -107,7 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _materials: []
   _placeDistance: 5
-  _multipleMaterials: 0
+  _isTurret: 1
 --- !u!64 &8793283853926038434
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -122,3 +124,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 9181766798815692114, guid: b3a6564be7762f34ca29fefd8bfdede1, type: 3}
+--- !u!114 &518333236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6420297800919444111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e8508dda23529439eb65f64e565e56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bullet: {fileID: 6118735724692238352, guid: 97f312791097ff943ba1bab073bc7959, type: 3}
+  _fireRate: 1
+  _range: 10
+  _damage: 10
+  _bulletSpeed: 10
+--- !u!135 &518333237
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6420297800919444111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.047125306
+  m_Center: {x: 0, y: -0.0017622905, z: 0.009797794}

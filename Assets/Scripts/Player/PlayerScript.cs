@@ -21,7 +21,7 @@ public class PlayerScript : MonoBehaviour
     private float cameraTilt; // Looking up and down
     private float cameraTiltSmooth; // For smoothing the tilt movement
     private float cameraTiltSmoothVelocity; // Tilt smoothing speed
-    private Quaternion panRotation;
+    private Quaternion panRotation; // For rotating the camera left and right
     private Vector3 oldCameraPos;
 
     [Header("Player Movement")]
@@ -74,11 +74,12 @@ public class PlayerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.rotation = panRotation;
+        transform.localRotation = panRotation;
         playerCamera.transform.localEulerAngles = Vector3.right * cameraTiltSmooth;
 
         FixedGravity();
         CalculatePlayerMovement();
+
         Vector3 localMove = transform.TransformDirection(velocity); // Final calculation
         playerRigidbody.MovePosition(playerRigidbody.position + localMove * Time.fixedDeltaTime);
     }

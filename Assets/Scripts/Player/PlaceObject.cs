@@ -10,6 +10,7 @@ public class PlaceObject : MonoBehaviour
     [SerializeField] private List<Material> _materials;
     [SerializeField] private float _placeDistance = 5f;
     private Vector3 _originalRotation;
+    [SerializeField] private bool _isTurret = false;
 
     // Start is called before the first frame update
     void Start()
@@ -57,14 +58,20 @@ public class PlaceObject : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                GameObject gameObject = new GameObject();
-                gameObject.AddComponent<MeshFilter>().mesh = GetComponent<MeshFilter>().mesh;
-                gameObject.AddComponent<MeshRenderer>().materials = _materials.ToArray();
-                gameObject.AddComponent<BoxCollider>();
+                GameObject newGO = new GameObject("Gnome Turret");
+                newGO.AddComponent<MeshFilter>().mesh = GetComponent<MeshFilter>().mesh;
+                newGO.AddComponent<MeshRenderer>().materials = _materials.ToArray();
+                newGO.AddComponent<BoxCollider>();
 
-                gameObject.transform.position = pos;
-                gameObject.transform.rotation = transform.rotation;
-                gameObject.transform.localScale = transform.localScale;
+                if (_isTurret)
+                {
+                    newGO.AddComponent<SphereCollider>().isTrigger = true;
+                    newGO.AddComponent<TurretShoot>().bullet = GetComponent<TurretShoot>().bullet;
+                }
+
+                newGO.transform.position = pos;
+                newGO.transform.rotation = transform.rotation;
+                newGO.transform.localScale = transform.localScale;
             }
         }
         else
