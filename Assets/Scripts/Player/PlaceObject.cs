@@ -13,6 +13,7 @@ public class PlaceObject : MonoBehaviour
     [SerializeField] private bool _isTurret = false;
     [SerializeField] private LayerMask _layerMask;
     [SerializeField] private ResourceScript _resourceScript;
+    private GameObject[] _children;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,12 @@ public class PlaceObject : MonoBehaviour
         }
 
         _originalRotation = transform.rotation.eulerAngles;
+
+        _children = new GameObject[transform.childCount];
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            _children[i] = transform.GetChild(i).gameObject;
+        }
     }
 
     // Update is called once per frame
@@ -93,6 +100,12 @@ public class PlaceObject : MonoBehaviour
                 newGO.transform.position = pos;
                 newGO.transform.rotation = transform.rotation;
                 newGO.transform.localScale = transform.localScale;
+
+                for (int i = 0; i < _children.Length; i++)
+                {
+                    GameObject child = Instantiate(_children[i], newGO.transform);
+                    child.transform.localPosition = Vector3.zero;
+                }
 
                 _resourceScript.RemoveAmmo(100);
                 _resourceScript.RemoveWood(50);

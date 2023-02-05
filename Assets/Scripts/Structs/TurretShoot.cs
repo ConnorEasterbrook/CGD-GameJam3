@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class TurretShoot : MonoBehaviour
 {
@@ -11,7 +12,8 @@ public class TurretShoot : MonoBehaviour
     [SerializeField] private float _range = 10f;
     [SerializeField] private float _damage = 10f;
     [SerializeField] private float _bulletSpeed = 10f;
-    private int _ammo;
+    public int ammo = 100;
+    [SerializeField] private TextMeshProUGUI _ammoText;
     public bool _isPlaced = false;
 
 
@@ -21,6 +23,8 @@ public class TurretShoot : MonoBehaviour
         _enemiesInRange = new List<GameObject>();
         GetComponent<SphereCollider>().radius = _range / 10;
 
+        _ammoText = transform.GetComponentInChildren<TextMeshProUGUI>();
+
         StartCoroutine(ShootAtEnemy());
     }
 
@@ -29,6 +33,9 @@ public class TurretShoot : MonoBehaviour
     {
         // Set target to the closest enemy
         GetClosestEnemy();
+
+        // Update ammo text
+        _ammoText.text = ammo.ToString();
     }
 
     private void GetClosestEnemy()
@@ -68,7 +75,7 @@ public class TurretShoot : MonoBehaviour
     {
         while (true)
         {
-            if (_target != null && _isPlaced && _ammo > 0)
+            if (_target != null && _isPlaced && ammo > 0)
             {
                 GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
                 newBullet.AddComponent<DestroyOnCollision>();
@@ -78,7 +85,7 @@ public class TurretShoot : MonoBehaviour
 
                 _target.GetComponent<EnemyReceiveAttack>().ReceiveDamage(_damage);
 
-                _ammo--;
+                ammo--;
             }
 
             float waitTime = 1f / _fireRatePerSecond;
@@ -93,8 +100,14 @@ public class TurretShoot : MonoBehaviour
         _range = turret._range;
         _damage = turret._damage;
         _bulletSpeed = turret._bulletSpeed;
-        _ammo = 100;
+        ammo = 100;
         _isPlaced = true;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, _range);
     }
 
     private void OnTriggerEnter(Collider other)
