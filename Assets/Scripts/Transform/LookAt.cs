@@ -6,10 +6,19 @@ using UnityEngine;
 public class LookAt : MonoBehaviour
 {
     [SerializeField] private Transform _target;
+    [SerializeField] private bool _invert;
 
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(_target);
+        if (_invert)
+        {
+            Quaternion rotation = Quaternion.LookRotation(transform.position - _target.position);
+            transform.rotation = rotation;
+        }
+        else
+        {
+            transform.LookAt(_target);
+        }
     }
 }
