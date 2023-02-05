@@ -10,7 +10,7 @@ public class Footsteps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerscript.velocity.x >= 1 || playerscript.velocity.z >= 1 || playerscript.velocity.x <= -1 || playerscript.velocity.z <= -1)
+        if ((playerscript.velocity.x >= 1 || playerscript.velocity.z >= 1 || playerscript.velocity.x <= -1 || playerscript.velocity.z <= -1) && playerscript.fallingVelocity <= 0.5)
         {
             footstepsound.enabled = true;
         }

@@ -34,7 +34,7 @@ public class PlayerScript : MonoBehaviour
     public float jumpForce = 8.0f;
     [Tooltip("Amount of gravity. 10.0f feels good for arcade-like gravity. 20.0f for realistic gravity.")]
     public float gravityForce = 4.0f;
-    private float fallingVelocity = 0.0f; // Keep track of falling speed
+    public float fallingVelocity = 0.0f; // Keep track of falling speed
     public Vector3 velocity;
     private Vector3 currentVelocity;
 
