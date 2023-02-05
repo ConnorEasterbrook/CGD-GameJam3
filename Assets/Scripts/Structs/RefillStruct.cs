@@ -21,5 +21,10 @@ public class RefillStruct : MonoBehaviour
                 _turretShoot.ammo++;
             }
         }
+
+        if (other.gameObject.tag == "Tool" && Input.GetMouseButtonDown(0))
+        {
+            GetComponentInParent<TurretShoot>().buildStrikes++;
+        }
     }
 }

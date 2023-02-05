@@ -15,6 +15,7 @@ public class TurretShoot : MonoBehaviour
     public int ammo = 100;
     [SerializeField] private TextMeshProUGUI _ammoText;
     public bool _isPlaced = false;
+    [HideInInspector] public int buildStrikes = 0;
 
 
     // Start is called before the first frame update
@@ -34,8 +35,15 @@ public class TurretShoot : MonoBehaviour
         // Set target to the closest enemy
         GetClosestEnemy();
 
-        // Update ammo text
-        _ammoText.text = ammo.ToString();
+        if (buildStrikes >= 3)
+        {
+            // Update ammo text
+            _ammoText.text = ammo.ToString();
+        }
+        else
+        {
+            _ammoText.text = buildStrikes + "/3";
+        }
     }
 
     private void GetClosestEnemy()
@@ -75,7 +83,7 @@ public class TurretShoot : MonoBehaviour
     {
         while (true)
         {
-            if (_target != null && _isPlaced && ammo > 0)
+            if (_target != null && _isPlaced && ammo > 0 && buildStrikes >= 3)
             {
                 GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
                 newBullet.AddComponent<DestroyOnCollision>();
