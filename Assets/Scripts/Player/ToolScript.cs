@@ -5,6 +5,8 @@ using UnityEngine;
 public class ToolScript : MonoBehaviour
 {
     [SerializeField] private GameObject[] _tools;
+    [SerializeField] private int _animatorCount = 0;
+    [SerializeField] private int _placementToolPosition = 0;
     private Animator[] _animators;
     private WeaponAttack[] _weaponAttackScripts;
     private int _currentToolSelected = 0;
@@ -17,7 +19,7 @@ public class ToolScript : MonoBehaviour
         _animators = new Animator[_tools.Length];
         _weaponAttackScripts = new WeaponAttack[_tools.Length];
 
-        for (int i = 0; i < _tools.Length; i++)
+        for (int i = 0; i < _animatorCount; i++)
         {
             _animators[i] = _tools[i].GetComponent<Animator>();
             _weaponAttackScripts[i] = _tools[i].GetComponent<WeaponAttack>();
@@ -30,11 +32,14 @@ public class ToolScript : MonoBehaviour
         // If the player presses the left click, swing the tool
         if (Input.GetMouseButtonDown(0))
         {
-            _animators[_currentToolSelected].SetBool("Attack", true);
-            _weaponAttackScripts[_currentToolSelected].isAttacking = true;
+            if (_currentToolSelected < _animatorCount)
+            {
+                _animators[_currentToolSelected].SetBool("Attack", true);
+                _weaponAttackScripts[_currentToolSelected].isAttacking = true;
 
-            // When the animation is done, set the bool back to false
-            StartCoroutine(ResetAttackBool());
+                // When the animation is done, set the bool back to false
+                StartCoroutine(ResetAttackBool());
+            }
         }
 
         if (_tools.Length > 1)
@@ -54,6 +59,22 @@ public class ToolScript : MonoBehaviour
                 _currentToolSelected = 1;
                 _tools[_currentToolSelected].SetActive(true);
             }
+
+            if (_tools.Length >= _placementToolPosition)
+            {
+                PlacementTools();
+            }
+        }
+    }
+
+    private void PlacementTools()
+    {
+        // If the player presses the 3 key, select the third tool
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            _tools[_currentToolSelected].SetActive(false);
+            _currentToolSelected = 2;
+            _tools[_currentToolSelected].SetActive(true);
         }
     }
 

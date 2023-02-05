@@ -17,4 +17,14 @@ public class ResourceScript : MonoBehaviour
         _ammoText.text = "Ammo: " + ammoAmount.ToString();
         _woodText.text = "Wood: " + woodAmount.ToString();
     }
+
+    public void RemoveAmmo(int amount)
+    {
+        ammoAmount -= amount;
+    }
+
+    public void RemoveWood(int amount)
+    {
+        woodAmount -= amount;
+    }
 }

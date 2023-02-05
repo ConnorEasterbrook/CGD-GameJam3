@@ -10,6 +10,10 @@ public class PlaceObject : MonoBehaviour
     [SerializeField] private List<Material> _materials;
     [SerializeField] private float _placeDistance = 5f;
     private Vector3 _originalRotation;
+    [SerializeField] private bool _isTurret = false;
+    [SerializeField] private LayerMask _layerMask;
+    [SerializeField] private ResourceScript _resourceScript;
+    private GameObject[] _children;
 
     // Start is called before the first frame update
     void Start()
@@ -29,17 +33,41 @@ public class PlaceObject : MonoBehaviour
         }
 
         _originalRotation = transform.rotation.eulerAngles;
+
+        _children = new GameObject[transform.childCount];
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            _children[i] = transform.GetChild(i).gameObject;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
+        RaycastHit hit = new RaycastHit();
 
         Vector3 lookRotation = Quaternion.LookRotation(ray.direction).eulerAngles;
 
-        if (Physics.Raycast(ray, out hit, _placeDistance))
+        if (_resourceScript.woodAmount >= 50 && _resourceScript.ammoAmount >= 100)
+        {
+            PlaceObjectIfResources(ray, hit, lookRotation);
+        }
+        else
+        {
+            transform.position = ray.origin + ray.direction * (_placeDistance - 0.5f);
+            transform.rotation = Quaternion.Euler(_originalRotation.x, lookRotation.y, _originalRotation.z);
+
+            for (int i = 0; i < _materials.Count; i++)
+            {
+                GetComponent<MeshRenderer>().materials[i].color = Color.red;
+            }
+        }
+    }
+
+    private void PlaceObjectIfResources(Ray ray, RaycastHit hit, Vector3 lookRotation)
+    {
+        if (Physics.Raycast(ray, out hit, _placeDistance, _layerMask))
         {
             Vector3 pos = new Vector3(hit.point.x, hit.point.y + 0.5f, hit.point.z);
 
@@ -57,14 +85,30 @@ public class PlaceObject : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0))
             {
-                GameObject gameObject = new GameObject();
-                gameObject.AddComponent<MeshFilter>().mesh = GetComponent<MeshFilter>().mesh;
-                gameObject.AddComponent<MeshRenderer>().materials = _materials.ToArray();
-                gameObject.AddComponent<BoxCollider>();
+                GameObject newGO = new GameObject("Gnome Turret");
+                newGO.AddComponent<MeshFilter>().mesh = GetComponent<MeshFilter>().mesh;
+                newGO.AddComponent<MeshRenderer>().materials = _materials.ToArray();
+                newGO.AddComponent<BoxCollider>();
 
-                gameObject.transform.position = pos;
-                gameObject.transform.rotation = transform.rotation;
-                gameObject.transform.localScale = transform.localScale;
+                if (_isTurret)
+                {
+                    newGO.AddComponent<SphereCollider>().isTrigger = true;
+                    TurretShoot turretShoot = newGO.AddComponent<TurretShoot>();
+                    turretShoot.CopyTurret(GetComponent<TurretShoot>());
+                }
+
+                newGO.transform.position = pos;
+                newGO.transform.rotation = transform.rotation;
+                newGO.transform.localScale = transform.localScale;
+
+                for (int i = 0; i < _children.Length; i++)
+                {
+                    GameObject child = Instantiate(_children[i], newGO.transform);
+                    child.transform.localPosition = Vector3.zero;
+                }
+
+                _resourceScript.RemoveAmmo(100);
+                _resourceScript.RemoveWood(50);
             }
         }
         else

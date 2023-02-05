@@ -5,12 +5,16 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     private PlayerScript _playerScript;
+    private HealthScript _healthScript;
+    private BoxCollider _enemyTarget;
     [SerializeField] private float _damage = 10f;
     private Rigidbody _rigidbody;
     private bool _inAttackRange = false;
     public bool isAttacking = false;
     [SerializeField] private float _speed = 2f;
     private Animator _animator;
+    private int _randTarget;
+    private bool _isAttackingPlayer = false;
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +22,22 @@ public class EnemyAttack : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
         _playerScript = GameObject.Find("Player").GetComponent<PlayerScript>();
+        _healthScript = _playerScript.GetComponent<HealthScript>();
+        GameObject[] targetList = GameObject.FindGameObjectsWithTag("EnemyTarget");
+
+        // Get a random number between 0 and the length of the object list
+        _randTarget = Random.Range(0, targetList.Length);
+        _enemyTarget = targetList[_randTarget].GetComponent<BoxCollider>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (_playerScript == null)
+        {
+            return;
+        }
+        
         if (!_inAttackRange)
         {
             Vector3 vel = transform.forward * _speed;
@@ -31,13 +46,25 @@ public class EnemyAttack : MonoBehaviour
 
             _animator.SetBool("IsMoving", true);
 
-            // LookAt the player but only rotate on y axis
-            // Vector3 targetPosition = new Vector3(_playerScript.transform.position.x, transform.position.y, _playerScript.transform.position.z);
-            transform.LookAt(_playerScript.transform.position);
+            PrimaryFocus();
         }
         else
         {
             _rigidbody.velocity = Vector3.zero;
+        }
+    }
+
+    private void PrimaryFocus()
+    {
+        // If the player is close to the spider then focus on the player using Distance
+        if (Vector3.Distance(transform.position, _playerScript.transform.position) < 10f)
+        {
+            transform.LookAt(_playerScript.transform.position);
+        }
+        else
+        {
+            Vector3 targetPos = new Vector3(_enemyTarget.bounds.center.x, transform.position.y, _enemyTarget.bounds.center.z);
+            transform.LookAt(targetPos);
         }
     }
 
@@ -47,6 +74,8 @@ public class EnemyAttack : MonoBehaviour
         {
             _inAttackRange = true;
             _animator.SetBool("IsMoving", false);
+
+            _healthScript.TakeDamage(_damage);
         }
     }
 
@@ -56,6 +85,8 @@ public class EnemyAttack : MonoBehaviour
         {
             _inAttackRange = true;
             _animator.SetBool("IsMoving", false);
+
+            _healthScript.TakeDamage(_damage);
         }
     }
 
