@@ -35,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &7349155428262559632
 MeshFilter:
@@ -110,6 +110,10 @@ MonoBehaviour:
   _materials: []
   _placeDistance: 5
   _isTurret: 1
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  _resourceScript: {fileID: 0}
 --- !u!64 &8793283853926038434
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -136,11 +140,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67e8508dda23529439eb65f64e565e56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bullet: {fileID: 6118735724692238352, guid: 97f312791097ff943ba1bab073bc7959, type: 3}
-  _fireRate: 1
+  bullet: {fileID: 6118735724692238352, guid: 97f312791097ff943ba1bab073bc7959, type: 3}
+  _fireRatePerSecond: 1
   _range: 10
-  _damage: 10
+  _damage: 40
   _bulletSpeed: 10
+  _isPlaced: 0
 --- !u!135 &518333237
 SphereCollider:
   m_ObjectHideFlags: 0

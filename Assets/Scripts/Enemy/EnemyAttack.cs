@@ -33,6 +33,11 @@ public class EnemyAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_playerScript == null)
+        {
+            return;
+        }
+        
         if (!_inAttackRange)
         {
             Vector3 vel = transform.forward * _speed;
@@ -46,8 +51,6 @@ public class EnemyAttack : MonoBehaviour
         else
         {
             _rigidbody.velocity = Vector3.zero;
-
-
         }
     }
 

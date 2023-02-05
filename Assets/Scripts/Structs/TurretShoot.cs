@@ -11,6 +11,8 @@ public class TurretShoot : MonoBehaviour
     [SerializeField] private float _range = 10f;
     [SerializeField] private float _damage = 10f;
     [SerializeField] private float _bulletSpeed = 10f;
+    private int _ammo;
+    public bool _isPlaced = false;
 
 
     // Start is called before the first frame update
@@ -42,6 +44,12 @@ public class TurretShoot : MonoBehaviour
 
         for (int i = 0; i < _enemiesInRange.Count; i++)
         {
+            if (_enemiesInRange[i] == null)
+            {
+                _enemiesInRange.RemoveAt(i);
+                continue;
+            }
+
             // If there are enemies in range then shoot at the closest
             if (_enemiesInRange[i].transform.position.x <= _range)
             {
@@ -60,13 +68,17 @@ public class TurretShoot : MonoBehaviour
     {
         while (true)
         {
-            if (_target != null)
+            if (_target != null && _isPlaced && _ammo > 0)
             {
                 GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
                 newBullet.AddComponent<DestroyOnCollision>();
                 Vector3 direction = (_target.transform.position - transform.position).normalized;
                 Physics.IgnoreCollision(newBullet.GetComponent<Collider>(), GetComponent<Collider>());
                 newBullet.GetComponent<Rigidbody>().AddForce(direction * (_bulletSpeed * 100));
+
+                _target.GetComponent<EnemyReceiveAttack>().ReceiveDamage(_damage);
+
+                _ammo--;
             }
 
             float waitTime = 1f / _fireRatePerSecond;
@@ -74,11 +86,30 @@ public class TurretShoot : MonoBehaviour
         }
     }
 
+    public void CopyTurret(TurretShoot turret)
+    {
+        bullet = turret.bullet;
+        _fireRatePerSecond = turret._fireRatePerSecond;
+        _range = turret._range;
+        _damage = turret._damage;
+        _bulletSpeed = turret._bulletSpeed;
+        _ammo = 100;
+        _isPlaced = true;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
             _enemiesInRange.Add(other.gameObject);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            _enemiesInRange.Remove(other.gameObject);
         }
     }
 }
