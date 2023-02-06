@@ -16,6 +16,7 @@ public class TurretShoot : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _ammoText;
     public bool _isPlaced = false;
     [HideInInspector] public int buildStrikes = 0;
+    [SerializeField] private bool _forceShoot = false;
 
 
     // Start is called before the first frame update
@@ -25,6 +26,11 @@ public class TurretShoot : MonoBehaviour
         GetComponent<SphereCollider>().radius = _range / 10;
 
         _ammoText = transform.GetComponentInChildren<TextMeshProUGUI>();
+
+        if (_forceShoot)
+        {
+            buildStrikes = 3;
+        }
 
         StartCoroutine(ShootAtEnemy());
     }
@@ -66,9 +72,9 @@ public class TurretShoot : MonoBehaviour
             }
 
             // If there are enemies in range then shoot at the closest
-            if (_enemiesInRange[i].transform.position.x <= _range)
+            if (Vector3.Distance(transform.position, _enemiesInRange[i].transform.position) <= _range)
             {
-                float distanceToEnemy = (_enemiesInRange[i].transform.position - transform.position).sqrMagnitude;
+                float distanceToEnemy = Vector3.Distance(transform.position, _enemiesInRange[i].transform.position);
 
                 if (distanceToEnemy < distanceToClosestEnemy)
                 {
@@ -85,6 +91,7 @@ public class TurretShoot : MonoBehaviour
         {
             if (_target != null && _isPlaced && ammo > 0 && buildStrikes >= 3)
             {
+                Debug.Log("Shooting at " + _target.name);
                 GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
                 newBullet.AddComponent<DestroyOnCollision>();
                 Vector3 direction = (_target.transform.position - transform.position).normalized;
