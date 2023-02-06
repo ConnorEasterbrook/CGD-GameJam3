@@ -7,6 +7,8 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI multText;
+    private int multiplier = 1;
     //public Image fadeImage;
 
     private Blade blade;
@@ -57,8 +59,10 @@ public class GameManager : MonoBehaviour
 
     public void IncreaseScore(int points)
     {
-        score += points;
+        multiplier++;
+        score += points * multiplier;
         scoreText.text = score.ToString();
+        multText.text = multiplier.ToString() + ("X");
     }
 
     public void Explode()
