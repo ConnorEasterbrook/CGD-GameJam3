@@ -6,7 +6,8 @@ public class PositionChange : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _objects;
     private int _index = 0;
-    private float _speed = 3f;
+    [SerializeField] private float _moveSpeed = 3f;
+    [SerializeField] private float _rotationSpeed = 3f;
 
     // Start is called before the first frame update
     void Start()
@@ -31,8 +32,8 @@ public class PositionChange : MonoBehaviour
         {
             if (transform.position != _objects[_index].transform.position)
             {
-                transform.position = Vector3.MoveTowards(transform.position, _objects[_index].transform.position, _speed * Time.deltaTime);
-                transform.rotation = Quaternion.Lerp(transform.rotation, _objects[_index].transform.rotation, _speed / 10 * Time.deltaTime);
+                transform.position = Vector3.MoveTowards(transform.position, _objects[_index].transform.position, _moveSpeed * Time.deltaTime);
+                transform.rotation = Quaternion.Lerp(transform.rotation, _objects[_index].transform.rotation, _rotationSpeed * Time.deltaTime);
             }
             else if (transform.position == _objects[_index].transform.position)
             {
