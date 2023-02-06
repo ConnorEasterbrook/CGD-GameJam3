@@ -88,7 +88,6 @@ public class PlaceObject : MonoBehaviour
                 GameObject newGO = new GameObject("Gnome Turret");
                 newGO.AddComponent<MeshFilter>().mesh = GetComponent<MeshFilter>().mesh;
                 newGO.AddComponent<MeshRenderer>().materials = _materials.ToArray();
-                newGO.AddComponent<BoxCollider>();
 
                 if (_isTurret)
                 {

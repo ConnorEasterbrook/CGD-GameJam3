@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _enemyPrefabs;
-    private int _spawnLevel = 1;
+    private int _spawnLevel = 0;
     private Bounds _spawnerBounds;
     private int _difficultyTick = 10;
 

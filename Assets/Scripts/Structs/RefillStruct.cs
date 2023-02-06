@@ -5,10 +5,19 @@ using UnityEngine;
 public class RefillStruct : MonoBehaviour
 {
     private TurretShoot _turretShoot;
+    private bool _isBuilding = false;
 
     private void Start()
     {
         _turretShoot = GetComponentInParent<TurretShoot>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            _isBuilding = true;
+        }
     }
 
     private void OnTriggerStay(Collider other)
@@ -22,9 +31,10 @@ public class RefillStruct : MonoBehaviour
             }
         }
 
-        if (other.gameObject.tag == "Tool" && Input.GetMouseButtonDown(0))
+        if (other.gameObject.tag == "Tool" && _isBuilding)
         {
             GetComponentInParent<TurretShoot>().buildStrikes++;
+            _isBuilding = false;
         }
     }
 }
