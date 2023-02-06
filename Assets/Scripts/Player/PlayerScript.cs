@@ -45,6 +45,7 @@ public class PlayerScript : MonoBehaviour
 
     [Header("Misc")]
     public bool lockCursor = false;
+    public bool disablePlayer = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -69,11 +70,21 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
+        if (disablePlayer)
+        {
+            return;
+        }
+
         CalculateCameraMovement();
     }
 
     void FixedUpdate()
     {
+        if (disablePlayer)
+        {
+            return;
+        }
+
         transform.localRotation = panRotation;
         playerCamera.transform.localEulerAngles = Vector3.right * cameraTiltSmooth;
 
