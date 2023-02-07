@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Timer : MonoBehaviour
+public class OrderTimer : MonoBehaviour
 {
     public float currentTime = 59f;
     public float startingTime = 59f;

@@ -9290,7 +9290,10 @@ MonoBehaviour:
   movementSmoothTime: 0.1
   jumpForce: 8
   gravityForce: 4
+  fallingVelocity: 0
+  velocity: {x: 0, y: 0, z: 0}
   lockCursor: 0
+  disablePlayer: 0
 --- !u!54 &147405654
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36417,7 +36420,10 @@ MonoBehaviour:
   movementSmoothTime: 0.1
   jumpForce: 8
   gravityForce: 4
+  fallingVelocity: 0
+  velocity: {x: 0, y: 0, z: 0}
   lockCursor: 0
+  disablePlayer: 0
 --- !u!54 &570891032
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -94805,7 +94811,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1388284161
 Transform:
   m_ObjectHideFlags: 0
@@ -117343,7 +117349,10 @@ MonoBehaviour:
   movementSmoothTime: 0.1
   jumpForce: 8
   gravityForce: 4
+  fallingVelocity: 0
+  velocity: {x: 0, y: 0, z: 0}
   lockCursor: 0
+  disablePlayer: 0
 --- !u!54 &1752981904
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -125769,7 +125778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1863191899
 Transform:
   m_ObjectHideFlags: 0
@@ -146223,7 +146232,10 @@ MonoBehaviour:
   movementSmoothTime: 0.1
   jumpForce: 8
   gravityForce: 4
+  fallingVelocity: 0
+  velocity: {x: 0, y: 0, z: 0}
   lockCursor: 0
+  disablePlayer: 0
 --- !u!54 &4976062622868354305
 Rigidbody:
   m_ObjectHideFlags: 0
