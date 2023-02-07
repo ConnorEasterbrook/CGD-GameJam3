@@ -10,8 +10,8 @@ public class JoshSceneManager : MonoBehaviour
 {
     public Image FadeImage;
     int dayCounter;
-    float currentTime = 3f;
-    float startingTime = 3f;
+    float currentTime = 59f;
+    float startingTime = 59f;
     public static bool countDownStarted = false;
     public GameObject gameoverScreen;
 

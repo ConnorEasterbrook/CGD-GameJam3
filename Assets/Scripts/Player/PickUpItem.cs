@@ -12,6 +12,7 @@ public class PickUpItem : MonoBehaviour
 
     public Camera playerCam;
     public LayerMask pickUpLayer;
+    bool crouching;
 
     void FoundObject()
     {
@@ -78,6 +79,7 @@ public class PickUpItem : MonoBehaviour
 
     void Update()
     {
+      
         FoundObject();
     }
 }
