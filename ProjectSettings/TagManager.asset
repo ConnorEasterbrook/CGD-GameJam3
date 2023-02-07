@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Root
   - EnemyTarget
+  - Tool
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,7 @@ TagManager:
   - 
   - PP
   - 
-  - 
-  - 
+  - Pickup
   - 
   - 
   - 

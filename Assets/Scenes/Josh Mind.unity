@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 1300982}
   - component: {fileID: 1300981}
   - component: {fileID: 1300980}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 2687453}
   - component: {fileID: 2687452}
   - component: {fileID: 2687451}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 9994312}
   - component: {fileID: 9994311}
   - component: {fileID: 9994310}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ GameObject:
   - component: {fileID: 10630679}
   - component: {fileID: 10630678}
   - component: {fileID: 10630677}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,7 +787,7 @@ GameObject:
   - component: {fileID: 12508745}
   - component: {fileID: 12508744}
   - component: {fileID: 12508743}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   - component: {fileID: 15999926}
   - component: {fileID: 15999925}
   - component: {fileID: 15999924}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1115,7 +1115,7 @@ GameObject:
   - component: {fileID: 20281583}
   - component: {fileID: 20281582}
   - component: {fileID: 20281581}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1229,7 @@ GameObject:
   - component: {fileID: 20876417}
   - component: {fileID: 20876416}
   - component: {fileID: 20876415}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1344,7 +1344,7 @@ GameObject:
   - component: {fileID: 24445058}
   - component: {fileID: 24445057}
   - component: {fileID: 24445056}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1459,7 +1459,7 @@ GameObject:
   - component: {fileID: 24468647}
   - component: {fileID: 24468646}
   - component: {fileID: 24468645}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2081,7 +2081,7 @@ GameObject:
   - component: {fileID: 31864413}
   - component: {fileID: 31864412}
   - component: {fileID: 31864411}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2196,7 +2196,7 @@ GameObject:
   - component: {fileID: 31866942}
   - component: {fileID: 31866941}
   - component: {fileID: 31866945}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2602,7 +2602,7 @@ GameObject:
   - component: {fileID: 37770598}
   - component: {fileID: 37770597}
   - component: {fileID: 37770596}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2716,7 +2716,7 @@ GameObject:
   - component: {fileID: 38313142}
   - component: {fileID: 38313141}
   - component: {fileID: 38313144}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3316,7 +3316,7 @@ GameObject:
   - component: {fileID: 47384150}
   - component: {fileID: 47384149}
   - component: {fileID: 47384148}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3559,7 +3559,7 @@ GameObject:
   - component: {fileID: 49711833}
   - component: {fileID: 49711832}
   - component: {fileID: 49711836}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4098,7 +4098,7 @@ GameObject:
   - component: {fileID: 53298762}
   - component: {fileID: 53298761}
   - component: {fileID: 53298760}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4310,7 +4310,7 @@ GameObject:
   - component: {fileID: 57935649}
   - component: {fileID: 57935648}
   - component: {fileID: 57935652}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4456,7 +4456,7 @@ GameObject:
   - component: {fileID: 60235075}
   - component: {fileID: 60235074}
   - component: {fileID: 60235073}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4861,7 +4861,7 @@ GameObject:
   - component: {fileID: 69350597}
   - component: {fileID: 69350596}
   - component: {fileID: 69350595}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4975,7 +4975,7 @@ GameObject:
   - component: {fileID: 69979030}
   - component: {fileID: 69979029}
   - component: {fileID: 69979033}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5090,7 +5090,7 @@ GameObject:
   - component: {fileID: 76172224}
   - component: {fileID: 76172223}
   - component: {fileID: 76172222}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5303,7 +5303,7 @@ GameObject:
   - component: {fileID: 80465419}
   - component: {fileID: 80465418}
   - component: {fileID: 80465417}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5514,7 +5514,7 @@ GameObject:
   - component: {fileID: 85792676}
   - component: {fileID: 85792675}
   - component: {fileID: 85792674}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6009,7 +6009,7 @@ GameObject:
   - component: {fileID: 94560459}
   - component: {fileID: 94560458}
   - component: {fileID: 94560462}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6123,7 +6123,7 @@ GameObject:
   - component: {fileID: 97328204}
   - component: {fileID: 97328203}
   - component: {fileID: 97328202}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6238,7 +6238,7 @@ GameObject:
   - component: {fileID: 103820549}
   - component: {fileID: 103820548}
   - component: {fileID: 103820547}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6486,7 +6486,7 @@ GameObject:
   - component: {fileID: 109680560}
   - component: {fileID: 109680559}
   - component: {fileID: 109680558}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6601,7 +6601,7 @@ GameObject:
   - component: {fileID: 111919035}
   - component: {fileID: 111919034}
   - component: {fileID: 111919033}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6715,7 +6715,7 @@ GameObject:
   - component: {fileID: 114063056}
   - component: {fileID: 114063055}
   - component: {fileID: 114063059}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6830,7 +6830,7 @@ GameObject:
   - component: {fileID: 114492770}
   - component: {fileID: 114492769}
   - component: {fileID: 114492768}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7148,7 +7148,7 @@ GameObject:
   - component: {fileID: 116886790}
   - component: {fileID: 116886789}
   - component: {fileID: 116886788}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7263,7 +7263,7 @@ GameObject:
   - component: {fileID: 117180087}
   - component: {fileID: 117180086}
   - component: {fileID: 117180090}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7733,7 +7733,7 @@ GameObject:
   - component: {fileID: 126049491}
   - component: {fileID: 126049490}
   - component: {fileID: 126049489}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7848,7 +7848,7 @@ GameObject:
   - component: {fileID: 126918171}
   - component: {fileID: 126918170}
   - component: {fileID: 126918169}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8187,7 +8187,7 @@ GameObject:
   - component: {fileID: 137517936}
   - component: {fileID: 137517935}
   - component: {fileID: 137517934}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8301,7 +8301,7 @@ GameObject:
   - component: {fileID: 138059746}
   - component: {fileID: 138059745}
   - component: {fileID: 138059744}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8610,7 +8610,7 @@ GameObject:
   - component: {fileID: 141429844}
   - component: {fileID: 141429843}
   - component: {fileID: 141429842}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8725,7 +8725,7 @@ GameObject:
   - component: {fileID: 142398938}
   - component: {fileID: 142398937}
   - component: {fileID: 142398936}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8917,7 +8917,7 @@ GameObject:
   - component: {fileID: 146019895}
   - component: {fileID: 146019894}
   - component: {fileID: 146019893}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9270,7 +9270,7 @@ MonoBehaviour:
   playerCam: {fileID: 954532846}
   pickUpLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!114 &147405653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9595,7 +9595,7 @@ GameObject:
   - component: {fileID: 156594713}
   - component: {fileID: 156594712}
   - component: {fileID: 156594711}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9904,7 +9904,7 @@ GameObject:
   - component: {fileID: 166158462}
   - component: {fileID: 166158461}
   - component: {fileID: 166158460}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10018,7 +10018,7 @@ GameObject:
   - component: {fileID: 166210958}
   - component: {fileID: 166210957}
   - component: {fileID: 166210956}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10132,7 +10132,7 @@ GameObject:
   - component: {fileID: 167508493}
   - component: {fileID: 167508492}
   - component: {fileID: 167508496}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10247,7 +10247,7 @@ GameObject:
   - component: {fileID: 170437965}
   - component: {fileID: 170437964}
   - component: {fileID: 170437963}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10361,7 +10361,7 @@ GameObject:
   - component: {fileID: 171655747}
   - component: {fileID: 171655746}
   - component: {fileID: 171655745}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10475,7 +10475,7 @@ GameObject:
   - component: {fileID: 175022584}
   - component: {fileID: 175022583}
   - component: {fileID: 175022582}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10910,6 +10910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -10949,7 +10953,7 @@ GameObject:
   - component: {fileID: 187868782}
   - component: {fileID: 187868781}
   - component: {fileID: 187868780}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11063,7 +11067,7 @@ GameObject:
   - component: {fileID: 188112275}
   - component: {fileID: 188112274}
   - component: {fileID: 188112273}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11177,7 +11181,7 @@ GameObject:
   - component: {fileID: 188548698}
   - component: {fileID: 188548697}
   - component: {fileID: 188548700}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11682,7 +11686,7 @@ GameObject:
   - component: {fileID: 195413447}
   - component: {fileID: 195413446}
   - component: {fileID: 195413445}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11796,7 +11800,7 @@ GameObject:
   - component: {fileID: 196329964}
   - component: {fileID: 196329963}
   - component: {fileID: 196329962}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11911,7 +11915,7 @@ GameObject:
   - component: {fileID: 197584182}
   - component: {fileID: 197584181}
   - component: {fileID: 197584180}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12025,7 +12029,7 @@ GameObject:
   - component: {fileID: 198845655}
   - component: {fileID: 198845654}
   - component: {fileID: 198845653}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12238,7 +12242,7 @@ GameObject:
   - component: {fileID: 202179300}
   - component: {fileID: 202179299}
   - component: {fileID: 202179298}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12676,7 +12680,7 @@ GameObject:
   - component: {fileID: 210958047}
   - component: {fileID: 210958046}
   - component: {fileID: 210958045}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13314,7 +13318,7 @@ GameObject:
   - component: {fileID: 223569488}
   - component: {fileID: 223569487}
   - component: {fileID: 223569486}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13526,7 +13530,7 @@ GameObject:
   - component: {fileID: 224992950}
   - component: {fileID: 224992949}
   - component: {fileID: 224992952}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13640,7 +13644,7 @@ GameObject:
   - component: {fileID: 225458451}
   - component: {fileID: 225458450}
   - component: {fileID: 225458449}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13754,7 +13758,7 @@ GameObject:
   - component: {fileID: 226546249}
   - component: {fileID: 226546248}
   - component: {fileID: 226546247}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13869,7 +13873,7 @@ GameObject:
   - component: {fileID: 228336827}
   - component: {fileID: 228336826}
   - component: {fileID: 228336825}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14371,7 +14375,7 @@ GameObject:
   - component: {fileID: 239577643}
   - component: {fileID: 239577642}
   - component: {fileID: 239577646}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14566,7 +14570,7 @@ GameObject:
   - component: {fileID: 242836507}
   - component: {fileID: 242836506}
   - component: {fileID: 242836505}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14874,7 +14878,7 @@ GameObject:
   - component: {fileID: 247073250}
   - component: {fileID: 247073249}
   - component: {fileID: 247073248}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15013,7 +15017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 251193019}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Pickups (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15394,7 +15398,7 @@ GameObject:
   - component: {fileID: 252614826}
   - component: {fileID: 252614825}
   - component: {fileID: 252614824}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15560,6 +15564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -15650,6 +15658,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -15689,7 +15701,7 @@ GameObject:
   - component: {fileID: 255647981}
   - component: {fileID: 255647980}
   - component: {fileID: 255647979}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16192,7 +16204,7 @@ GameObject:
   - component: {fileID: 262717835}
   - component: {fileID: 262717834}
   - component: {fileID: 262717833}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16308,7 +16320,7 @@ GameObject:
   - component: {fileID: 262747344}
   - component: {fileID: 262747343}
   - component: {fileID: 262747342}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16423,7 +16435,7 @@ GameObject:
   - component: {fileID: 264000871}
   - component: {fileID: 264000870}
   - component: {fileID: 264000869}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16635,7 +16647,7 @@ GameObject:
   - component: {fileID: 271592502}
   - component: {fileID: 271592501}
   - component: {fileID: 271592500}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16846,7 +16858,7 @@ GameObject:
   - component: {fileID: 274978528}
   - component: {fileID: 274978527}
   - component: {fileID: 274978526}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17059,7 +17071,7 @@ GameObject:
   - component: {fileID: 277464640}
   - component: {fileID: 277464639}
   - component: {fileID: 277464643}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17174,7 +17186,7 @@ GameObject:
   - component: {fileID: 280723145}
   - component: {fileID: 280723144}
   - component: {fileID: 280723143}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17289,7 +17301,7 @@ GameObject:
   - component: {fileID: 281341814}
   - component: {fileID: 281341813}
   - component: {fileID: 281341817}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17404,7 +17416,7 @@ GameObject:
   - component: {fileID: 283664762}
   - component: {fileID: 283664761}
   - component: {fileID: 283664765}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17616,7 +17628,7 @@ GameObject:
   - component: {fileID: 285783214}
   - component: {fileID: 285783213}
   - component: {fileID: 285783212}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17731,7 +17743,7 @@ GameObject:
   - component: {fileID: 293841593}
   - component: {fileID: 293841592}
   - component: {fileID: 293841591}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18039,7 +18051,7 @@ GameObject:
   - component: {fileID: 296668421}
   - component: {fileID: 296668420}
   - component: {fileID: 296668419}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18153,7 +18165,7 @@ GameObject:
   - component: {fileID: 297114654}
   - component: {fileID: 297114653}
   - component: {fileID: 297114652}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18462,7 +18474,7 @@ GameObject:
   - component: {fileID: 305838897}
   - component: {fileID: 305838896}
   - component: {fileID: 305838895}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18577,7 +18589,7 @@ GameObject:
   - component: {fileID: 306199779}
   - component: {fileID: 306199778}
   - component: {fileID: 306199777}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18692,7 +18704,7 @@ GameObject:
   - component: {fileID: 306214456}
   - component: {fileID: 306214455}
   - component: {fileID: 306214454}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18807,7 +18819,7 @@ GameObject:
   - component: {fileID: 307597244}
   - component: {fileID: 307597243}
   - component: {fileID: 307597242}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18921,7 +18933,7 @@ GameObject:
   - component: {fileID: 308256956}
   - component: {fileID: 308256955}
   - component: {fileID: 308256954}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19035,7 +19047,7 @@ GameObject:
   - component: {fileID: 308761740}
   - component: {fileID: 308761739}
   - component: {fileID: 308761743}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19247,7 +19259,7 @@ GameObject:
   - component: {fileID: 310085334}
   - component: {fileID: 310085333}
   - component: {fileID: 310085332}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19363,7 +19375,7 @@ GameObject:
   - component: {fileID: 314053267}
   - component: {fileID: 314053266}
   - component: {fileID: 314053265}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19478,7 +19490,7 @@ GameObject:
   - component: {fileID: 316981494}
   - component: {fileID: 316981493}
   - component: {fileID: 316981492}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19691,7 +19703,7 @@ GameObject:
   - component: {fileID: 320269133}
   - component: {fileID: 320269132}
   - component: {fileID: 320269131}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19806,7 +19818,7 @@ GameObject:
   - component: {fileID: 322379974}
   - component: {fileID: 322379973}
   - component: {fileID: 322379977}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20092,7 +20104,7 @@ GameObject:
   - component: {fileID: 326651187}
   - component: {fileID: 326651186}
   - component: {fileID: 326651190}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20207,7 +20219,7 @@ GameObject:
   - component: {fileID: 329023033}
   - component: {fileID: 329023032}
   - component: {fileID: 329023036}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20322,7 +20334,7 @@ GameObject:
   - component: {fileID: 329085243}
   - component: {fileID: 329085242}
   - component: {fileID: 329085241}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20536,7 +20548,7 @@ GameObject:
   - component: {fileID: 340596583}
   - component: {fileID: 340596582}
   - component: {fileID: 340596581}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20935,7 +20947,7 @@ MonoBehaviour:
   orderComplete: 0
   pickup:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!1 &342880999
 GameObject:
   m_ObjectHideFlags: 0
@@ -20949,7 +20961,7 @@ GameObject:
   - component: {fileID: 342881003}
   - component: {fileID: 342881002}
   - component: {fileID: 342881001}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21307,7 +21319,7 @@ GameObject:
   - component: {fileID: 351178762}
   - component: {fileID: 351178761}
   - component: {fileID: 351178760}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21598,7 +21610,7 @@ GameObject:
   - component: {fileID: 365925429}
   - component: {fileID: 365925428}
   - component: {fileID: 365925427}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21944,7 +21956,7 @@ GameObject:
   - component: {fileID: 372034518}
   - component: {fileID: 372034517}
   - component: {fileID: 372034521}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22059,7 +22071,7 @@ GameObject:
   - component: {fileID: 372594201}
   - component: {fileID: 372594200}
   - component: {fileID: 372594199}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22174,7 +22186,7 @@ GameObject:
   - component: {fileID: 373136578}
   - component: {fileID: 373136577}
   - component: {fileID: 373136576}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22485,7 +22497,7 @@ GameObject:
   - component: {fileID: 375500644}
   - component: {fileID: 375500643}
   - component: {fileID: 375500642}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22697,7 +22709,7 @@ GameObject:
   - component: {fileID: 377940321}
   - component: {fileID: 377940320}
   - component: {fileID: 377940319}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22811,7 +22823,7 @@ GameObject:
   - component: {fileID: 378807868}
   - component: {fileID: 378807867}
   - component: {fileID: 378807866}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23477,7 +23489,7 @@ GameObject:
   - component: {fileID: 387006771}
   - component: {fileID: 387006770}
   - component: {fileID: 387006769}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23592,7 +23604,7 @@ GameObject:
   - component: {fileID: 387089513}
   - component: {fileID: 387089512}
   - component: {fileID: 387089511}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23804,7 +23816,7 @@ GameObject:
   - component: {fileID: 388961432}
   - component: {fileID: 388961431}
   - component: {fileID: 388961435}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24016,7 +24028,7 @@ GameObject:
   - component: {fileID: 390558955}
   - component: {fileID: 390558954}
   - component: {fileID: 390558953}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24131,7 +24143,7 @@ GameObject:
   - component: {fileID: 396756904}
   - component: {fileID: 396756903}
   - component: {fileID: 396756907}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24775,7 +24787,7 @@ GameObject:
   - component: {fileID: 403896503}
   - component: {fileID: 403896502}
   - component: {fileID: 403896505}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24889,7 +24901,7 @@ GameObject:
   - component: {fileID: 404377473}
   - component: {fileID: 404377472}
   - component: {fileID: 404377471}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25003,7 +25015,7 @@ GameObject:
   - component: {fileID: 409371477}
   - component: {fileID: 409371476}
   - component: {fileID: 409371480}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25117,7 +25129,7 @@ GameObject:
   - component: {fileID: 409666411}
   - component: {fileID: 409666410}
   - component: {fileID: 409666409}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25329,7 +25341,7 @@ GameObject:
   - component: {fileID: 414541449}
   - component: {fileID: 414541448}
   - component: {fileID: 414541447}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25810,7 +25822,7 @@ GameObject:
   - component: {fileID: 422712938}
   - component: {fileID: 422712937}
   - component: {fileID: 422712936}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26021,7 +26033,7 @@ GameObject:
   - component: {fileID: 428750983}
   - component: {fileID: 428750982}
   - component: {fileID: 428750981}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26368,7 +26380,7 @@ GameObject:
   - component: {fileID: 430380775}
   - component: {fileID: 430380774}
   - component: {fileID: 430380773}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26677,7 +26689,7 @@ GameObject:
   - component: {fileID: 432770584}
   - component: {fileID: 432770583}
   - component: {fileID: 432770582}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26888,7 +26900,7 @@ GameObject:
   - component: {fileID: 438070087}
   - component: {fileID: 438070086}
   - component: {fileID: 438070090}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27248,6 +27260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -27287,7 +27303,7 @@ GameObject:
   - component: {fileID: 440916027}
   - component: {fileID: 440916026}
   - component: {fileID: 440916025}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27499,7 +27515,7 @@ GameObject:
   - component: {fileID: 444045514}
   - component: {fileID: 444045513}
   - component: {fileID: 444045517}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27614,7 +27630,7 @@ GameObject:
   - component: {fileID: 445726706}
   - component: {fileID: 445726705}
   - component: {fileID: 445726709}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27729,7 +27745,7 @@ GameObject:
   - component: {fileID: 446099358}
   - component: {fileID: 446099357}
   - component: {fileID: 446099356}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27991,6 +28007,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -28592,7 +28612,7 @@ GameObject:
   - component: {fileID: 454914657}
   - component: {fileID: 454914656}
   - component: {fileID: 454914659}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28706,7 +28726,7 @@ GameObject:
   - component: {fileID: 458799362}
   - component: {fileID: 458799361}
   - component: {fileID: 458799365}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28821,7 +28841,7 @@ GameObject:
   - component: {fileID: 458852783}
   - component: {fileID: 458852782}
   - component: {fileID: 458852786}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29130,7 +29150,7 @@ GameObject:
   - component: {fileID: 460643359}
   - component: {fileID: 460643358}
   - component: {fileID: 460643362}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29245,7 +29265,7 @@ GameObject:
   - component: {fileID: 462437469}
   - component: {fileID: 462437468}
   - component: {fileID: 462437467}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29361,7 +29381,7 @@ GameObject:
   - component: {fileID: 463097299}
   - component: {fileID: 463097298}
   - component: {fileID: 463097297}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29475,7 +29495,7 @@ GameObject:
   - component: {fileID: 463498788}
   - component: {fileID: 463498787}
   - component: {fileID: 463498786}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29877,7 +29897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 473712062}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Pickups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30432,7 +30452,7 @@ GameObject:
   - component: {fileID: 481165190}
   - component: {fileID: 481165189}
   - component: {fileID: 481165188}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30597,6 +30617,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -30831,7 +30855,7 @@ GameObject:
   - component: {fileID: 486475746}
   - component: {fileID: 486475745}
   - component: {fileID: 486475749}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30946,7 +30970,7 @@ GameObject:
   - component: {fileID: 487369249}
   - component: {fileID: 487369248}
   - component: {fileID: 487369247}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31061,7 +31085,7 @@ GameObject:
   - component: {fileID: 487511269}
   - component: {fileID: 487511268}
   - component: {fileID: 487511267}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31273,7 +31297,7 @@ GameObject:
   - component: {fileID: 488602193}
   - component: {fileID: 488602192}
   - component: {fileID: 488602191}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31482,7 +31506,7 @@ GameObject:
   - component: {fileID: 489537791}
   - component: {fileID: 489537790}
   - component: {fileID: 489537789}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31694,7 +31718,7 @@ GameObject:
   - component: {fileID: 490589461}
   - component: {fileID: 490589460}
   - component: {fileID: 490589459}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31809,7 +31833,7 @@ GameObject:
   - component: {fileID: 491361415}
   - component: {fileID: 491361414}
   - component: {fileID: 491361413}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32246,7 +32270,7 @@ GameObject:
   - component: {fileID: 498690178}
   - component: {fileID: 498690177}
   - component: {fileID: 498690176}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32361,7 +32385,7 @@ GameObject:
   - component: {fileID: 500162283}
   - component: {fileID: 500162282}
   - component: {fileID: 500162281}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32476,7 +32500,7 @@ GameObject:
   - component: {fileID: 502084600}
   - component: {fileID: 502084599}
   - component: {fileID: 502084602}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32706,7 +32730,7 @@ GameObject:
   - component: {fileID: 504431392}
   - component: {fileID: 504431391}
   - component: {fileID: 504431395}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32956,7 +32980,7 @@ GameObject:
   - component: {fileID: 515433769}
   - component: {fileID: 515433768}
   - component: {fileID: 515433767}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33070,7 +33094,7 @@ GameObject:
   - component: {fileID: 515563620}
   - component: {fileID: 515563619}
   - component: {fileID: 515563618}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33185,7 +33209,7 @@ GameObject:
   - component: {fileID: 518018151}
   - component: {fileID: 518018150}
   - component: {fileID: 518018149}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33473,7 +33497,7 @@ GameObject:
   - component: {fileID: 519186358}
   - component: {fileID: 519186357}
   - component: {fileID: 519186356}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33646,7 +33670,7 @@ MonoBehaviour:
   orderComplete: 0
   pickup:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!1 &522773783
 GameObject:
   m_ObjectHideFlags: 0
@@ -33983,7 +34007,7 @@ GameObject:
   - component: {fileID: 537480604}
   - component: {fileID: 537480603}
   - component: {fileID: 537480602}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34098,7 +34122,7 @@ GameObject:
   - component: {fileID: 539064589}
   - component: {fileID: 539064588}
   - component: {fileID: 539064591}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34507,7 +34531,7 @@ GameObject:
   - component: {fileID: 543111274}
   - component: {fileID: 543111273}
   - component: {fileID: 543111272}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34805,7 +34829,7 @@ GameObject:
   - component: {fileID: 545705911}
   - component: {fileID: 545705910}
   - component: {fileID: 545705914}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34920,7 +34944,7 @@ GameObject:
   - component: {fileID: 545912381}
   - component: {fileID: 545912380}
   - component: {fileID: 545912379}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35282,6 +35306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -35515,7 +35543,7 @@ GameObject:
   - component: {fileID: 562438740}
   - component: {fileID: 562438739}
   - component: {fileID: 562438742}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35763,7 +35791,7 @@ GameObject:
   - component: {fileID: 565810674}
   - component: {fileID: 565810673}
   - component: {fileID: 565810672}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35976,7 +36004,7 @@ GameObject:
   - component: {fileID: 566937124}
   - component: {fileID: 566937123}
   - component: {fileID: 566937122}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36189,7 +36217,7 @@ GameObject:
   - component: {fileID: 569075845}
   - component: {fileID: 569075844}
   - component: {fileID: 569075843}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36400,7 +36428,7 @@ MonoBehaviour:
   playerCam: {fileID: 1817802230}
   pickUpLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!114 &570891031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36614,7 +36642,7 @@ GameObject:
   - component: {fileID: 575034018}
   - component: {fileID: 575034017}
   - component: {fileID: 575034016}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36923,7 +36951,7 @@ GameObject:
   - component: {fileID: 579037130}
   - component: {fileID: 579037129}
   - component: {fileID: 579037128}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37330,7 +37358,7 @@ GameObject:
   - component: {fileID: 583120474}
   - component: {fileID: 583120473}
   - component: {fileID: 583120472}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37444,7 +37472,7 @@ GameObject:
   - component: {fileID: 583916705}
   - component: {fileID: 583916704}
   - component: {fileID: 583916703}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37684,7 +37712,7 @@ GameObject:
   - component: {fileID: 587365140}
   - component: {fileID: 587365139}
   - component: {fileID: 587365138}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37895,7 +37923,7 @@ GameObject:
   - component: {fileID: 588458831}
   - component: {fileID: 588458830}
   - component: {fileID: 588458829}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38010,7 +38038,7 @@ GameObject:
   - component: {fileID: 588854230}
   - component: {fileID: 588854229}
   - component: {fileID: 588854232}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38356,7 +38384,7 @@ GameObject:
   - component: {fileID: 594967397}
   - component: {fileID: 594967396}
   - component: {fileID: 594967395}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38609,7 +38637,7 @@ GameObject:
   - component: {fileID: 601560879}
   - component: {fileID: 601560878}
   - component: {fileID: 601560877}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38724,7 +38752,7 @@ GameObject:
   - component: {fileID: 602766664}
   - component: {fileID: 602766663}
   - component: {fileID: 602766662}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38897,7 +38925,7 @@ GameObject:
   - component: {fileID: 604710069}
   - component: {fileID: 604710068}
   - component: {fileID: 604710071}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39011,7 +39039,7 @@ GameObject:
   - component: {fileID: 608578566}
   - component: {fileID: 608578565}
   - component: {fileID: 608578564}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39175,6 +39203,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -39351,7 +39383,7 @@ GameObject:
   - component: {fileID: 617955383}
   - component: {fileID: 617955382}
   - component: {fileID: 617955381}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39633,7 +39665,7 @@ GameObject:
   - component: {fileID: 620607118}
   - component: {fileID: 620607117}
   - component: {fileID: 620607120}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39747,7 +39779,7 @@ GameObject:
   - component: {fileID: 620883919}
   - component: {fileID: 620883918}
   - component: {fileID: 620883917}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39959,7 +39991,7 @@ GameObject:
   - component: {fileID: 621365538}
   - component: {fileID: 621365537}
   - component: {fileID: 621365536}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40170,7 +40202,7 @@ GameObject:
   - component: {fileID: 623385422}
   - component: {fileID: 623385421}
   - component: {fileID: 623385420}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40479,7 +40511,7 @@ GameObject:
   - component: {fileID: 627154699}
   - component: {fileID: 627154698}
   - component: {fileID: 627154697}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40690,7 +40722,7 @@ GameObject:
   - component: {fileID: 627944736}
   - component: {fileID: 627944735}
   - component: {fileID: 627944734}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40804,7 +40836,7 @@ GameObject:
   - component: {fileID: 629664347}
   - component: {fileID: 629664346}
   - component: {fileID: 629664345}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40918,7 +40950,7 @@ GameObject:
   - component: {fileID: 630537776}
   - component: {fileID: 630537775}
   - component: {fileID: 630537774}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41227,7 +41259,7 @@ GameObject:
   - component: {fileID: 634047045}
   - component: {fileID: 634047044}
   - component: {fileID: 634047043}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41341,7 +41373,7 @@ GameObject:
   - component: {fileID: 634248039}
   - component: {fileID: 634248038}
   - component: {fileID: 634248037}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41554,7 +41586,7 @@ GameObject:
   - component: {fileID: 636697974}
   - component: {fileID: 636697973}
   - component: {fileID: 636697972}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42170,7 +42202,7 @@ GameObject:
   - component: {fileID: 641517653}
   - component: {fileID: 641517652}
   - component: {fileID: 641517651}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42285,7 +42317,7 @@ GameObject:
   - component: {fileID: 641652575}
   - component: {fileID: 641652574}
   - component: {fileID: 641652573}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42496,7 +42528,7 @@ GameObject:
   - component: {fileID: 644193153}
   - component: {fileID: 644193152}
   - component: {fileID: 644193151}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42805,7 +42837,7 @@ GameObject:
   - component: {fileID: 648573749}
   - component: {fileID: 648573748}
   - component: {fileID: 648573747}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42920,7 +42952,7 @@ GameObject:
   - component: {fileID: 650155744}
   - component: {fileID: 650155743}
   - component: {fileID: 650155742}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43131,7 +43163,7 @@ GameObject:
   - component: {fileID: 650796630}
   - component: {fileID: 650796629}
   - component: {fileID: 650796628}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43419,7 +43451,7 @@ GameObject:
   - component: {fileID: 651635899}
   - component: {fileID: 651635898}
   - component: {fileID: 651635897}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43728,7 +43760,7 @@ GameObject:
   - component: {fileID: 653800915}
   - component: {fileID: 653800914}
   - component: {fileID: 653800913}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43843,7 +43875,7 @@ GameObject:
   - component: {fileID: 654050223}
   - component: {fileID: 654050222}
   - component: {fileID: 654050221}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44131,7 +44163,7 @@ GameObject:
   - component: {fileID: 654632334}
   - component: {fileID: 654632333}
   - component: {fileID: 654632332}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44534,7 +44566,7 @@ GameObject:
   - component: {fileID: 661405848}
   - component: {fileID: 661405847}
   - component: {fileID: 661405846}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44650,7 +44682,7 @@ GameObject:
   - component: {fileID: 662085447}
   - component: {fileID: 662085446}
   - component: {fileID: 662085445}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44862,7 +44894,7 @@ GameObject:
   - component: {fileID: 664704581}
   - component: {fileID: 664704580}
   - component: {fileID: 664704579}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45113,7 +45145,7 @@ GameObject:
   - component: {fileID: 670330075}
   - component: {fileID: 670330074}
   - component: {fileID: 670330073}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45306,7 +45338,7 @@ GameObject:
   - component: {fileID: 671050809}
   - component: {fileID: 671050808}
   - component: {fileID: 671050807}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45421,7 +45453,7 @@ GameObject:
   - component: {fileID: 674028119}
   - component: {fileID: 674028118}
   - component: {fileID: 674028117}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45633,7 +45665,7 @@ GameObject:
   - component: {fileID: 677443951}
   - component: {fileID: 677443950}
   - component: {fileID: 677443954}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45748,7 +45780,7 @@ GameObject:
   - component: {fileID: 678668810}
   - component: {fileID: 678668809}
   - component: {fileID: 678668813}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46096,7 +46128,7 @@ GameObject:
   - component: {fileID: 679671823}
   - component: {fileID: 679671822}
   - component: {fileID: 679671821}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46210,7 +46242,7 @@ GameObject:
   - component: {fileID: 684912087}
   - component: {fileID: 684912086}
   - component: {fileID: 684912085}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46325,7 +46357,7 @@ GameObject:
   - component: {fileID: 685149210}
   - component: {fileID: 685149209}
   - component: {fileID: 685149208}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46538,7 +46570,7 @@ GameObject:
   - component: {fileID: 685998166}
   - component: {fileID: 685998165}
   - component: {fileID: 685998164}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46802,6 +46834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -47035,7 +47071,7 @@ GameObject:
   - component: {fileID: 690000328}
   - component: {fileID: 690000327}
   - component: {fileID: 690000326}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47150,7 +47186,7 @@ GameObject:
   - component: {fileID: 690560053}
   - component: {fileID: 690560052}
   - component: {fileID: 690560051}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47426,7 +47462,7 @@ GameObject:
   - component: {fileID: 691716820}
   - component: {fileID: 691716819}
   - component: {fileID: 691716823}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47638,7 +47674,7 @@ GameObject:
   - component: {fileID: 692300144}
   - component: {fileID: 692300143}
   - component: {fileID: 692300142}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47913,7 +47949,7 @@ MonoBehaviour:
   orderComplete: 0
   pickup:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!65 &693656944
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48053,7 +48089,7 @@ GameObject:
   - component: {fileID: 693928081}
   - component: {fileID: 693928080}
   - component: {fileID: 693928079}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48218,6 +48254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -48239,7 +48279,7 @@ GameObject:
   - component: {fileID: 694154910}
   - component: {fileID: 694154909}
   - component: {fileID: 694154908}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48519,7 +48559,7 @@ GameObject:
   - component: {fileID: 704481236}
   - component: {fileID: 704481235}
   - component: {fileID: 704481234}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48727,7 +48767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 705823899}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Pickups (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49057,7 +49097,7 @@ GameObject:
   - component: {fileID: 713488505}
   - component: {fileID: 713488504}
   - component: {fileID: 713488503}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49268,7 +49308,7 @@ GameObject:
   - component: {fileID: 716102400}
   - component: {fileID: 716102399}
   - component: {fileID: 716102398}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49481,7 +49521,7 @@ GameObject:
   - component: {fileID: 717397912}
   - component: {fileID: 717397911}
   - component: {fileID: 717397914}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49827,7 +49867,7 @@ GameObject:
   - component: {fileID: 719665828}
   - component: {fileID: 719665827}
   - component: {fileID: 719665826}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49941,7 +49981,7 @@ GameObject:
   - component: {fileID: 725260020}
   - component: {fileID: 725260019}
   - component: {fileID: 725260018}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50055,7 +50095,7 @@ GameObject:
   - component: {fileID: 725324346}
   - component: {fileID: 725324345}
   - component: {fileID: 725324344}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50266,7 +50306,7 @@ GameObject:
   - component: {fileID: 730036185}
   - component: {fileID: 730036184}
   - component: {fileID: 730036183}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50381,7 +50421,7 @@ GameObject:
   - component: {fileID: 732684839}
   - component: {fileID: 732684838}
   - component: {fileID: 732684842}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50573,7 +50613,7 @@ GameObject:
   - component: {fileID: 735652314}
   - component: {fileID: 735652313}
   - component: {fileID: 735652312}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50882,7 +50922,7 @@ GameObject:
   - component: {fileID: 738860694}
   - component: {fileID: 738860693}
   - component: {fileID: 738860692}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51093,7 +51133,7 @@ GameObject:
   - component: {fileID: 740879026}
   - component: {fileID: 740879025}
   - component: {fileID: 740879028}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51342,7 +51382,7 @@ GameObject:
   - component: {fileID: 744178431}
   - component: {fileID: 744178430}
   - component: {fileID: 744178434}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51457,7 +51497,7 @@ GameObject:
   - component: {fileID: 746051616}
   - component: {fileID: 746051615}
   - component: {fileID: 746051614}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51670,7 +51710,7 @@ GameObject:
   - component: {fileID: 754541519}
   - component: {fileID: 754541518}
   - component: {fileID: 754541521}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52076,7 +52116,7 @@ GameObject:
   - component: {fileID: 764392069}
   - component: {fileID: 764392068}
   - component: {fileID: 764392067}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52191,7 +52231,7 @@ GameObject:
   - component: {fileID: 770851827}
   - component: {fileID: 770851826}
   - component: {fileID: 770851825}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52466,7 +52506,7 @@ GameObject:
   - component: {fileID: 775281626}
   - component: {fileID: 775281625}
   - component: {fileID: 775281629}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53063,7 +53103,7 @@ GameObject:
   - component: {fileID: 787272018}
   - component: {fileID: 787272017}
   - component: {fileID: 787272016}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53177,7 +53217,7 @@ GameObject:
   - component: {fileID: 789894065}
   - component: {fileID: 789894064}
   - component: {fileID: 789894063}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53292,7 +53332,7 @@ GameObject:
   - component: {fileID: 790544773}
   - component: {fileID: 790544772}
   - component: {fileID: 790544771}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53603,7 +53643,7 @@ GameObject:
   - component: {fileID: 791892680}
   - component: {fileID: 791892679}
   - component: {fileID: 791892678}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53913,7 +53953,7 @@ GameObject:
   - component: {fileID: 793958824}
   - component: {fileID: 793958823}
   - component: {fileID: 793958822}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54027,7 +54067,7 @@ GameObject:
   - component: {fileID: 795520493}
   - component: {fileID: 795520492}
   - component: {fileID: 795520491}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54338,7 +54378,7 @@ GameObject:
   - component: {fileID: 800480082}
   - component: {fileID: 800480081}
   - component: {fileID: 800480080}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54550,7 +54590,7 @@ GameObject:
   - component: {fileID: 802626175}
   - component: {fileID: 802626174}
   - component: {fileID: 802626173}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54762,7 +54802,7 @@ GameObject:
   - component: {fileID: 807383597}
   - component: {fileID: 807383596}
   - component: {fileID: 807383595}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54877,7 +54917,7 @@ GameObject:
   - component: {fileID: 807385358}
   - component: {fileID: 807385357}
   - component: {fileID: 807385356}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54992,7 +55032,7 @@ GameObject:
   - component: {fileID: 807659358}
   - component: {fileID: 807659357}
   - component: {fileID: 807659360}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55203,7 +55243,7 @@ GameObject:
   - component: {fileID: 809916680}
   - component: {fileID: 809916679}
   - component: {fileID: 809916678}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55319,7 +55359,7 @@ GameObject:
   - component: {fileID: 809938261}
   - component: {fileID: 809938260}
   - component: {fileID: 809938259}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55561,7 +55601,7 @@ GameObject:
   - component: {fileID: 812908839}
   - component: {fileID: 812908838}
   - component: {fileID: 812908837}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55675,7 +55715,7 @@ GameObject:
   - component: {fileID: 813990085}
   - component: {fileID: 813990084}
   - component: {fileID: 813990083}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55790,7 +55830,7 @@ GameObject:
   - component: {fileID: 817863482}
   - component: {fileID: 817863481}
   - component: {fileID: 817863480}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55906,7 +55946,7 @@ GameObject:
   - component: {fileID: 819551162}
   - component: {fileID: 819551161}
   - component: {fileID: 819551160}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56371,7 +56411,7 @@ GameObject:
   - component: {fileID: 832832344}
   - component: {fileID: 832832343}
   - component: {fileID: 832832342}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56486,7 +56526,7 @@ GameObject:
   - component: {fileID: 833364204}
   - component: {fileID: 833364203}
   - component: {fileID: 833364202}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56748,6 +56788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -56884,7 +56928,7 @@ GameObject:
   - component: {fileID: 835413216}
   - component: {fileID: 835413215}
   - component: {fileID: 835413214}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56999,7 +57043,7 @@ GameObject:
   - component: {fileID: 835623121}
   - component: {fileID: 835623120}
   - component: {fileID: 835623119}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57113,7 +57157,7 @@ GameObject:
   - component: {fileID: 836164824}
   - component: {fileID: 836164823}
   - component: {fileID: 836164822}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57645,7 +57689,7 @@ GameObject:
   - component: {fileID: 845874294}
   - component: {fileID: 845874293}
   - component: {fileID: 845874292}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57760,7 +57804,7 @@ GameObject:
   - component: {fileID: 846667007}
   - component: {fileID: 846667006}
   - component: {fileID: 846667010}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57875,7 +57919,7 @@ GameObject:
   - component: {fileID: 847730892}
   - component: {fileID: 847730891}
   - component: {fileID: 847730890}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58271,6 +58315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -58310,7 +58358,7 @@ GameObject:
   - component: {fileID: 854459499}
   - component: {fileID: 854459498}
   - component: {fileID: 854459497}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58424,7 +58472,7 @@ GameObject:
   - component: {fileID: 857225570}
   - component: {fileID: 857225569}
   - component: {fileID: 857225568}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58570,7 +58618,7 @@ GameObject:
   - component: {fileID: 857875358}
   - component: {fileID: 857875357}
   - component: {fileID: 857875361}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58685,7 +58733,7 @@ GameObject:
   - component: {fileID: 858403141}
   - component: {fileID: 858403140}
   - component: {fileID: 858403139}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58801,7 +58849,7 @@ GameObject:
   - component: {fileID: 859465285}
   - component: {fileID: 859465284}
   - component: {fileID: 859465283}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58915,7 +58963,7 @@ GameObject:
   - component: {fileID: 861276839}
   - component: {fileID: 861276838}
   - component: {fileID: 861276837}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59029,7 +59077,7 @@ GameObject:
   - component: {fileID: 864789909}
   - component: {fileID: 864789908}
   - component: {fileID: 864789907}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59144,7 +59192,7 @@ GameObject:
   - component: {fileID: 865678900}
   - component: {fileID: 865678899}
   - component: {fileID: 865678903}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59356,7 +59404,7 @@ GameObject:
   - component: {fileID: 866060543}
   - component: {fileID: 866060542}
   - component: {fileID: 866060546}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59471,7 +59519,7 @@ GameObject:
   - component: {fileID: 867238468}
   - component: {fileID: 867238467}
   - component: {fileID: 867238471}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59586,7 +59634,7 @@ GameObject:
   - component: {fileID: 867335900}
   - component: {fileID: 867335899}
   - component: {fileID: 867335898}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59798,7 +59846,7 @@ GameObject:
   - component: {fileID: 871206751}
   - component: {fileID: 871206750}
   - component: {fileID: 871206749}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59913,7 +59961,7 @@ GameObject:
   - component: {fileID: 871348552}
   - component: {fileID: 871348551}
   - component: {fileID: 871348550}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60232,7 +60280,7 @@ GameObject:
   - component: {fileID: 875373715}
   - component: {fileID: 875373714}
   - component: {fileID: 875373713}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60346,7 +60394,7 @@ GameObject:
   - component: {fileID: 876642727}
   - component: {fileID: 876642726}
   - component: {fileID: 876642725}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60848,7 +60896,7 @@ GameObject:
   - component: {fileID: 882055787}
   - component: {fileID: 882055786}
   - component: {fileID: 882055785}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61189,7 +61237,7 @@ GameObject:
   - component: {fileID: 884090297}
   - component: {fileID: 884090296}
   - component: {fileID: 884090295}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61477,7 +61525,7 @@ GameObject:
   - component: {fileID: 886580768}
   - component: {fileID: 886580767}
   - component: {fileID: 886580766}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61591,7 +61639,7 @@ GameObject:
   - component: {fileID: 887359954}
   - component: {fileID: 887359953}
   - component: {fileID: 887359952}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61901,7 +61949,7 @@ GameObject:
   - component: {fileID: 893614835}
   - component: {fileID: 893614834}
   - component: {fileID: 893614838}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62066,6 +62114,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -62262,7 +62314,7 @@ GameObject:
   - component: {fileID: 897454732}
   - component: {fileID: 897454731}
   - component: {fileID: 897454730}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62472,7 +62524,7 @@ GameObject:
   - component: {fileID: 907617181}
   - component: {fileID: 907617180}
   - component: {fileID: 907617184}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62645,7 +62697,7 @@ GameObject:
   - component: {fileID: 911739006}
   - component: {fileID: 911739005}
   - component: {fileID: 911739004}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62934,7 +62986,7 @@ GameObject:
   - component: {fileID: 913851204}
   - component: {fileID: 913851203}
   - component: {fileID: 913851202}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63049,7 +63101,7 @@ GameObject:
   - component: {fileID: 916595562}
   - component: {fileID: 916595561}
   - component: {fileID: 916595564}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63163,7 +63215,7 @@ GameObject:
   - component: {fileID: 917457281}
   - component: {fileID: 917457280}
   - component: {fileID: 917457284}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63472,7 +63524,7 @@ GameObject:
   - component: {fileID: 918832212}
   - component: {fileID: 918832211}
   - component: {fileID: 918832210}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63782,7 +63834,7 @@ GameObject:
   - component: {fileID: 929047752}
   - component: {fileID: 929047751}
   - component: {fileID: 929047750}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63896,7 +63948,7 @@ GameObject:
   - component: {fileID: 930593282}
   - component: {fileID: 930593281}
   - component: {fileID: 930593280}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64060,6 +64112,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -64565,7 +64621,7 @@ GameObject:
   - component: {fileID: 937874975}
   - component: {fileID: 937874974}
   - component: {fileID: 937874973}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64680,7 +64736,7 @@ GameObject:
   - component: {fileID: 941011755}
   - component: {fileID: 941011754}
   - component: {fileID: 941011753}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64989,7 +65045,7 @@ GameObject:
   - component: {fileID: 943322008}
   - component: {fileID: 943322007}
   - component: {fileID: 943322011}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65201,7 +65257,7 @@ GameObject:
   - component: {fileID: 946339485}
   - component: {fileID: 946339484}
   - component: {fileID: 946339483}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65315,7 +65371,7 @@ GameObject:
   - component: {fileID: 946848557}
   - component: {fileID: 946848556}
   - component: {fileID: 946848555}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65825,7 +65881,7 @@ GameObject:
   - component: {fileID: 949337092}
   - component: {fileID: 949337091}
   - component: {fileID: 949337090}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65940,7 +65996,7 @@ GameObject:
   - component: {fileID: 951225536}
   - component: {fileID: 951225535}
   - component: {fileID: 951225534}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66054,7 +66110,7 @@ GameObject:
   - component: {fileID: 951430963}
   - component: {fileID: 951430962}
   - component: {fileID: 951430961}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66265,7 +66321,7 @@ GameObject:
   - component: {fileID: 953848130}
   - component: {fileID: 953848129}
   - component: {fileID: 953848128}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66464,7 +66520,7 @@ GameObject:
   - component: {fileID: 955618598}
   - component: {fileID: 955618597}
   - component: {fileID: 955618596}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67178,7 +67234,7 @@ GameObject:
   - component: {fileID: 978492205}
   - component: {fileID: 978492204}
   - component: {fileID: 978492203}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67293,7 +67349,7 @@ GameObject:
   - component: {fileID: 983388179}
   - component: {fileID: 983388178}
   - component: {fileID: 983388182}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67698,7 +67754,7 @@ GameObject:
   - component: {fileID: 987634886}
   - component: {fileID: 987634885}
   - component: {fileID: 987634884}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67910,7 +67966,7 @@ GameObject:
   - component: {fileID: 989904198}
   - component: {fileID: 989904197}
   - component: {fileID: 989904196}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68024,7 +68080,7 @@ GameObject:
   - component: {fileID: 990330578}
   - component: {fileID: 990330577}
   - component: {fileID: 990330576}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68780,7 +68836,7 @@ GameObject:
   - component: {fileID: 1002075194}
   - component: {fileID: 1002075193}
   - component: {fileID: 1002075192}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69186,7 +69242,7 @@ GameObject:
   - component: {fileID: 1005226384}
   - component: {fileID: 1005226383}
   - component: {fileID: 1005226382}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69398,7 +69454,7 @@ GameObject:
   - component: {fileID: 1007084462}
   - component: {fileID: 1007084461}
   - component: {fileID: 1007084460}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69512,7 +69568,7 @@ GameObject:
   - component: {fileID: 1012678407}
   - component: {fileID: 1012678406}
   - component: {fileID: 1012678405}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69627,7 +69683,7 @@ GameObject:
   - component: {fileID: 1012803383}
   - component: {fileID: 1012803382}
   - component: {fileID: 1012803381}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69936,7 +69992,7 @@ GameObject:
   - component: {fileID: 1017924842}
   - component: {fileID: 1017924841}
   - component: {fileID: 1017924840}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70344,7 +70400,7 @@ GameObject:
   - component: {fileID: 1024222855}
   - component: {fileID: 1024222854}
   - component: {fileID: 1024222853}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70459,7 +70515,7 @@ GameObject:
   - component: {fileID: 1025019135}
   - component: {fileID: 1025019134}
   - component: {fileID: 1025019133}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70574,7 +70630,7 @@ GameObject:
   - component: {fileID: 1026787136}
   - component: {fileID: 1026787135}
   - component: {fileID: 1026787134}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70688,7 +70744,7 @@ GameObject:
   - component: {fileID: 1027232028}
   - component: {fileID: 1027232027}
   - component: {fileID: 1027232031}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70900,7 +70956,7 @@ GameObject:
   - component: {fileID: 1027719663}
   - component: {fileID: 1027719662}
   - component: {fileID: 1027719661}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71113,7 +71169,7 @@ GameObject:
   - component: {fileID: 1030414936}
   - component: {fileID: 1030414935}
   - component: {fileID: 1030414934}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71724,7 +71780,7 @@ GameObject:
   - component: {fileID: 1046404712}
   - component: {fileID: 1046404711}
   - component: {fileID: 1046404710}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72201,6 +72257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -72240,7 +72300,7 @@ GameObject:
   - component: {fileID: 1052062231}
   - component: {fileID: 1052062230}
   - component: {fileID: 1052062229}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72548,7 +72608,7 @@ GameObject:
   - component: {fileID: 1055953923}
   - component: {fileID: 1055953922}
   - component: {fileID: 1055953921}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72953,7 +73013,7 @@ GameObject:
   - component: {fileID: 1059888380}
   - component: {fileID: 1059888379}
   - component: {fileID: 1059888378}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73397,7 +73457,7 @@ GameObject:
   - component: {fileID: 1062546354}
   - component: {fileID: 1062546353}
   - component: {fileID: 1062546352}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73511,7 +73571,7 @@ GameObject:
   - component: {fileID: 1063821616}
   - component: {fileID: 1063821615}
   - component: {fileID: 1063821614}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73821,7 +73881,7 @@ GameObject:
   - component: {fileID: 1066164251}
   - component: {fileID: 1066164250}
   - component: {fileID: 1066164249}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73936,7 +73996,7 @@ GameObject:
   - component: {fileID: 1072779292}
   - component: {fileID: 1072779291}
   - component: {fileID: 1072779290}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74052,7 +74112,7 @@ GameObject:
   - component: {fileID: 1072798467}
   - component: {fileID: 1072798466}
   - component: {fileID: 1072798465}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74167,7 +74227,7 @@ GameObject:
   - component: {fileID: 1082442315}
   - component: {fileID: 1082442314}
   - component: {fileID: 1082442313}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74379,7 +74439,7 @@ GameObject:
   - component: {fileID: 1083917564}
   - component: {fileID: 1083917563}
   - component: {fileID: 1083917562}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74591,7 +74651,7 @@ GameObject:
   - component: {fileID: 1086190719}
   - component: {fileID: 1086190718}
   - component: {fileID: 1086190721}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74937,7 +74997,7 @@ GameObject:
   - component: {fileID: 1092073260}
   - component: {fileID: 1092073259}
   - component: {fileID: 1092073258}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75052,7 +75112,7 @@ GameObject:
   - component: {fileID: 1096225825}
   - component: {fileID: 1096225824}
   - component: {fileID: 1096225828}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75167,7 +75227,7 @@ GameObject:
   - component: {fileID: 1097093637}
   - component: {fileID: 1097093636}
   - component: {fileID: 1097093635}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75282,7 +75342,7 @@ GameObject:
   - component: {fileID: 1105972333}
   - component: {fileID: 1105972332}
   - component: {fileID: 1105972331}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75397,7 +75457,7 @@ GameObject:
   - component: {fileID: 1106691274}
   - component: {fileID: 1106691273}
   - component: {fileID: 1106691276}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75608,7 +75668,7 @@ GameObject:
   - component: {fileID: 1108490549}
   - component: {fileID: 1108490548}
   - component: {fileID: 1108490547}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76090,7 +76150,7 @@ GameObject:
   - component: {fileID: 1118959299}
   - component: {fileID: 1118959298}
   - component: {fileID: 1118959301}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76204,7 +76264,7 @@ GameObject:
   - component: {fileID: 1119136906}
   - component: {fileID: 1119136905}
   - component: {fileID: 1119136904}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76456,7 +76516,7 @@ GameObject:
   - component: {fileID: 1121569939}
   - component: {fileID: 1121569938}
   - component: {fileID: 1121569937}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76669,7 +76729,7 @@ GameObject:
   - component: {fileID: 1124497672}
   - component: {fileID: 1124497671}
   - component: {fileID: 1124497675}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76784,7 +76844,7 @@ GameObject:
   - component: {fileID: 1126561172}
   - component: {fileID: 1126561171}
   - component: {fileID: 1126561170}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77165,7 +77225,7 @@ GameObject:
   - component: {fileID: 1130611253}
   - component: {fileID: 1130611252}
   - component: {fileID: 1130611251}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77280,7 +77340,7 @@ GameObject:
   - component: {fileID: 1131564968}
   - component: {fileID: 1131564967}
   - component: {fileID: 1131564966}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77395,7 +77455,7 @@ GameObject:
   - component: {fileID: 1133234346}
   - component: {fileID: 1133234345}
   - component: {fileID: 1133234344}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77901,7 +77961,7 @@ GameObject:
   - component: {fileID: 1144305715}
   - component: {fileID: 1144305714}
   - component: {fileID: 1144305713}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78114,7 +78174,7 @@ GameObject:
   - component: {fileID: 1144529575}
   - component: {fileID: 1144529574}
   - component: {fileID: 1144529578}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78326,7 +78386,7 @@ GameObject:
   - component: {fileID: 1146256617}
   - component: {fileID: 1146256616}
   - component: {fileID: 1146256615}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78632,7 +78692,7 @@ GameObject:
   - component: {fileID: 1149513573}
   - component: {fileID: 1149513572}
   - component: {fileID: 1149513571}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78747,7 +78807,7 @@ GameObject:
   - component: {fileID: 1149859553}
   - component: {fileID: 1149859552}
   - component: {fileID: 1149859551}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79251,7 +79311,7 @@ GameObject:
   - component: {fileID: 1160637529}
   - component: {fileID: 1160637528}
   - component: {fileID: 1160637527}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79464,7 +79524,7 @@ GameObject:
   - component: {fileID: 1162480987}
   - component: {fileID: 1162480986}
   - component: {fileID: 1162480985}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79579,7 +79639,7 @@ GameObject:
   - component: {fileID: 1163740138}
   - component: {fileID: 1163740137}
   - component: {fileID: 1163740136}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80084,7 +80144,7 @@ GameObject:
   - component: {fileID: 1171592590}
   - component: {fileID: 1171592589}
   - component: {fileID: 1171592588}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80249,6 +80309,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -80483,7 +80547,7 @@ GameObject:
   - component: {fileID: 1184221895}
   - component: {fileID: 1184221894}
   - component: {fileID: 1184221893}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80597,7 +80661,7 @@ GameObject:
   - component: {fileID: 1184478160}
   - component: {fileID: 1184478159}
   - component: {fileID: 1184478158}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80808,7 +80872,7 @@ GameObject:
   - component: {fileID: 1187809422}
   - component: {fileID: 1187809421}
   - component: {fileID: 1187809420}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81057,7 +81121,7 @@ GameObject:
   - component: {fileID: 1188509282}
   - component: {fileID: 1188509281}
   - component: {fileID: 1188509280}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81172,7 +81236,7 @@ GameObject:
   - component: {fileID: 1188903035}
   - component: {fileID: 1188903034}
   - component: {fileID: 1188903033}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81286,7 +81350,7 @@ GameObject:
   - component: {fileID: 1190737192}
   - component: {fileID: 1190737191}
   - component: {fileID: 1190737190}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81401,7 +81465,7 @@ GameObject:
   - component: {fileID: 1192297472}
   - component: {fileID: 1192297471}
   - component: {fileID: 1192297474}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81650,7 +81714,7 @@ GameObject:
   - component: {fileID: 1195363064}
   - component: {fileID: 1195363063}
   - component: {fileID: 1195363062}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81862,7 +81926,7 @@ GameObject:
   - component: {fileID: 1197958213}
   - component: {fileID: 1197958212}
   - component: {fileID: 1197958211}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82442,7 +82506,7 @@ GameObject:
   - component: {fileID: 1202562241}
   - component: {fileID: 1202562240}
   - component: {fileID: 1202562239}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83020,7 +83084,7 @@ GameObject:
   - component: {fileID: 1208649482}
   - component: {fileID: 1208649481}
   - component: {fileID: 1208649480}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83135,7 +83199,7 @@ GameObject:
   - component: {fileID: 1208757583}
   - component: {fileID: 1208757582}
   - component: {fileID: 1208757581}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83444,7 +83508,7 @@ GameObject:
   - component: {fileID: 1211880078}
   - component: {fileID: 1211880077}
   - component: {fileID: 1211880076}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83656,7 +83720,7 @@ GameObject:
   - component: {fileID: 1212690817}
   - component: {fileID: 1212690816}
   - component: {fileID: 1212690815}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84041,7 +84105,7 @@ GameObject:
   - component: {fileID: 1216147539}
   - component: {fileID: 1216147538}
   - component: {fileID: 1216147537}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84155,7 +84219,7 @@ GameObject:
   - component: {fileID: 1217298292}
   - component: {fileID: 1217298291}
   - component: {fileID: 1217298295}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84270,7 +84334,7 @@ GameObject:
   - component: {fileID: 1217586218}
   - component: {fileID: 1217586217}
   - component: {fileID: 1217586221}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84566,7 +84630,7 @@ GameObject:
   - component: {fileID: 1219243040}
   - component: {fileID: 1219243039}
   - component: {fileID: 1219243038}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84680,7 +84744,7 @@ GameObject:
   - component: {fileID: 1220468194}
   - component: {fileID: 1220468193}
   - component: {fileID: 1220468192}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84795,7 +84859,7 @@ GameObject:
   - component: {fileID: 1225556647}
   - component: {fileID: 1225556646}
   - component: {fileID: 1225556645}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85008,7 +85072,7 @@ GameObject:
   - component: {fileID: 1229575371}
   - component: {fileID: 1229575370}
   - component: {fileID: 1229575369}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85705,7 +85769,7 @@ GameObject:
   - component: {fileID: 1240115591}
   - component: {fileID: 1240115590}
   - component: {fileID: 1240115594}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85871,7 +85935,7 @@ GameObject:
   - component: {fileID: 1241858231}
   - component: {fileID: 1241858230}
   - component: {fileID: 1241858229}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86081,7 +86145,7 @@ GameObject:
   - component: {fileID: 1242629503}
   - component: {fileID: 1242629502}
   - component: {fileID: 1242629506}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86196,7 +86260,7 @@ GameObject:
   - component: {fileID: 1242642527}
   - component: {fileID: 1242642526}
   - component: {fileID: 1242642529}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86504,7 +86568,7 @@ GameObject:
   - component: {fileID: 1243922546}
   - component: {fileID: 1243922545}
   - component: {fileID: 1243922544}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86717,7 +86781,7 @@ GameObject:
   - component: {fileID: 1245434429}
   - component: {fileID: 1245434428}
   - component: {fileID: 1245434427}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87006,7 +87070,7 @@ GameObject:
   - component: {fileID: 1252236049}
   - component: {fileID: 1252236048}
   - component: {fileID: 1252236047}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87121,7 +87185,7 @@ GameObject:
   - component: {fileID: 1254281650}
   - component: {fileID: 1254281649}
   - component: {fileID: 1254281648}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87430,7 +87494,7 @@ GameObject:
   - component: {fileID: 1258925937}
   - component: {fileID: 1258925936}
   - component: {fileID: 1258925935}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87545,7 +87609,7 @@ GameObject:
   - component: {fileID: 1260247607}
   - component: {fileID: 1260247606}
   - component: {fileID: 1260247605}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87854,7 +87918,7 @@ GameObject:
   - component: {fileID: 1270122166}
   - component: {fileID: 1270122165}
   - component: {fileID: 1270122164}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87969,7 +88033,7 @@ GameObject:
   - component: {fileID: 1272002105}
   - component: {fileID: 1272002104}
   - component: {fileID: 1272002103}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88083,7 +88147,7 @@ GameObject:
   - component: {fileID: 1272728721}
   - component: {fileID: 1272728720}
   - component: {fileID: 1272728719}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88198,7 +88262,7 @@ GameObject:
   - component: {fileID: 1274032982}
   - component: {fileID: 1274032981}
   - component: {fileID: 1274032980}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88343,7 +88407,7 @@ GameObject:
   - component: {fileID: 1277781176}
   - component: {fileID: 1277781175}
   - component: {fileID: 1277781179}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88555,7 +88619,7 @@ GameObject:
   - component: {fileID: 1282183070}
   - component: {fileID: 1282183069}
   - component: {fileID: 1282183068}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88767,7 +88831,7 @@ GameObject:
   - component: {fileID: 1285533036}
   - component: {fileID: 1285533035}
   - component: {fileID: 1285533034}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88979,7 +89043,7 @@ GameObject:
   - component: {fileID: 1286763335}
   - component: {fileID: 1286763334}
   - component: {fileID: 1286763337}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89190,7 +89254,7 @@ GameObject:
   - component: {fileID: 1290161456}
   - component: {fileID: 1290161455}
   - component: {fileID: 1290161454}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89638,7 +89702,7 @@ GameObject:
   - component: {fileID: 1300321739}
   - component: {fileID: 1300321738}
   - component: {fileID: 1300321737}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89948,7 +90012,7 @@ GameObject:
   - component: {fileID: 1304161381}
   - component: {fileID: 1304161380}
   - component: {fileID: 1304161383}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90062,7 +90126,7 @@ GameObject:
   - component: {fileID: 1308246471}
   - component: {fileID: 1308246470}
   - component: {fileID: 1308246469}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90274,7 +90338,7 @@ GameObject:
   - component: {fileID: 1313971615}
   - component: {fileID: 1313971614}
   - component: {fileID: 1313971613}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90389,7 +90453,7 @@ GameObject:
   - component: {fileID: 1314464604}
   - component: {fileID: 1314464603}
   - component: {fileID: 1314464602}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90694,7 +90758,7 @@ GameObject:
   - component: {fileID: 1325563343}
   - component: {fileID: 1325563342}
   - component: {fileID: 1325563345}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90808,7 +90872,7 @@ GameObject:
   - component: {fileID: 1325909476}
   - component: {fileID: 1325909475}
   - component: {fileID: 1325909474}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91019,7 +91083,7 @@ GameObject:
   - component: {fileID: 1326830837}
   - component: {fileID: 1326830836}
   - component: {fileID: 1326830835}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91133,7 +91197,7 @@ GameObject:
   - component: {fileID: 1327634628}
   - component: {fileID: 1327634627}
   - component: {fileID: 1327634626}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91345,7 +91409,7 @@ GameObject:
   - component: {fileID: 1329813771}
   - component: {fileID: 1329813770}
   - component: {fileID: 1329813769}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91460,7 +91524,7 @@ GameObject:
   - component: {fileID: 1329866278}
   - component: {fileID: 1329866277}
   - component: {fileID: 1329866276}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91866,7 +91930,7 @@ GameObject:
   - component: {fileID: 1336939451}
   - component: {fileID: 1336939450}
   - component: {fileID: 1336939449}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91981,7 +92045,7 @@ GameObject:
   - component: {fileID: 1342552437}
   - component: {fileID: 1342552436}
   - component: {fileID: 1342552435}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92125,7 +92189,7 @@ GameObject:
   - component: {fileID: 1345612626}
   - component: {fileID: 1345612625}
   - component: {fileID: 1345612624}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92239,7 +92303,7 @@ GameObject:
   - component: {fileID: 1346980595}
   - component: {fileID: 1346980594}
   - component: {fileID: 1346980593}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92354,7 +92418,7 @@ GameObject:
   - component: {fileID: 1351106014}
   - component: {fileID: 1351106013}
   - component: {fileID: 1351106012}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92662,7 +92726,7 @@ GameObject:
   - component: {fileID: 1355658135}
   - component: {fileID: 1355658134}
   - component: {fileID: 1355658133}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92942,7 +93006,7 @@ GameObject:
   - component: {fileID: 1358006072}
   - component: {fileID: 1358006071}
   - component: {fileID: 1358006070}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93056,7 +93120,7 @@ GameObject:
   - component: {fileID: 1358673508}
   - component: {fileID: 1358673507}
   - component: {fileID: 1358673506}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93200,7 +93264,7 @@ GameObject:
   - component: {fileID: 1359439070}
   - component: {fileID: 1359439069}
   - component: {fileID: 1359439068}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93408,7 +93472,7 @@ GameObject:
   - component: {fileID: 1362149465}
   - component: {fileID: 1362149464}
   - component: {fileID: 1362149463}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93523,7 +93587,7 @@ GameObject:
   - component: {fileID: 1363927478}
   - component: {fileID: 1363927477}
   - component: {fileID: 1363927476}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93688,6 +93752,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -93825,7 +93893,7 @@ GameObject:
   - component: {fileID: 1376687393}
   - component: {fileID: 1376687392}
   - component: {fileID: 1376687391}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93941,7 +94009,7 @@ GameObject:
   - component: {fileID: 1378312706}
   - component: {fileID: 1378312705}
   - component: {fileID: 1378312704}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94056,7 +94124,7 @@ GameObject:
   - component: {fileID: 1378478531}
   - component: {fileID: 1378478530}
   - component: {fileID: 1378478529}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94171,7 +94239,7 @@ GameObject:
   - component: {fileID: 1381725993}
   - component: {fileID: 1381725992}
   - component: {fileID: 1381725991}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94286,7 +94354,7 @@ GameObject:
   - component: {fileID: 1384833594}
   - component: {fileID: 1384833593}
   - component: {fileID: 1384833592}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94498,7 +94566,7 @@ GameObject:
   - component: {fileID: 1387877904}
   - component: {fileID: 1387877903}
   - component: {fileID: 1387877902}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94854,7 +94922,7 @@ GameObject:
   - component: {fileID: 1390362970}
   - component: {fileID: 1390362969}
   - component: {fileID: 1390362968}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95825,7 +95893,7 @@ GameObject:
   - component: {fileID: 1398224765}
   - component: {fileID: 1398224764}
   - component: {fileID: 1398224763}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96036,7 +96104,7 @@ GameObject:
   - component: {fileID: 1400202673}
   - component: {fileID: 1400202672}
   - component: {fileID: 1400202671}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96152,7 +96220,7 @@ GameObject:
   - component: {fileID: 1401629644}
   - component: {fileID: 1401629643}
   - component: {fileID: 1401629642}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96267,7 +96335,7 @@ GameObject:
   - component: {fileID: 1404724140}
   - component: {fileID: 1404724139}
   - component: {fileID: 1404724138}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96382,7 +96450,7 @@ GameObject:
   - component: {fileID: 1408054537}
   - component: {fileID: 1408054536}
   - component: {fileID: 1408054535}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96825,7 +96893,7 @@ GameObject:
   - component: {fileID: 1414167594}
   - component: {fileID: 1414167593}
   - component: {fileID: 1414167596}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97036,7 +97104,7 @@ GameObject:
   - component: {fileID: 1418508875}
   - component: {fileID: 1418508874}
   - component: {fileID: 1418508878}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97383,7 +97451,7 @@ GameObject:
   - component: {fileID: 1420972640}
   - component: {fileID: 1420972639}
   - component: {fileID: 1420972638}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97691,7 +97759,7 @@ GameObject:
   - component: {fileID: 1423594768}
   - component: {fileID: 1423594767}
   - component: {fileID: 1423594766}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97902,7 +97970,7 @@ GameObject:
   - component: {fileID: 1430845663}
   - component: {fileID: 1430845662}
   - component: {fileID: 1430845665}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98150,7 +98218,7 @@ GameObject:
   - component: {fileID: 1433077199}
   - component: {fileID: 1433077198}
   - component: {fileID: 1433077202}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98265,7 +98333,7 @@ GameObject:
   - component: {fileID: 1433093294}
   - component: {fileID: 1433093293}
   - component: {fileID: 1433093292}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98380,7 +98448,7 @@ GameObject:
   - component: {fileID: 1433516189}
   - component: {fileID: 1433516188}
   - component: {fileID: 1433516187}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98765,7 +98833,7 @@ GameObject:
   - component: {fileID: 1435505469}
   - component: {fileID: 1435505468}
   - component: {fileID: 1435505467}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99073,7 +99141,7 @@ GameObject:
   - component: {fileID: 1440915892}
   - component: {fileID: 1440915891}
   - component: {fileID: 1440915890}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99187,7 +99255,7 @@ GameObject:
   - component: {fileID: 1441742783}
   - component: {fileID: 1441742782}
   - component: {fileID: 1441742786}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99592,7 +99660,7 @@ GameObject:
   - component: {fileID: 1460944958}
   - component: {fileID: 1460944957}
   - component: {fileID: 1460944956}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99938,7 +100006,7 @@ GameObject:
   - component: {fileID: 1466565763}
   - component: {fileID: 1466565762}
   - component: {fileID: 1466565761}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100188,7 +100256,7 @@ GameObject:
   - component: {fileID: 1467663398}
   - component: {fileID: 1467663397}
   - component: {fileID: 1467663396}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100302,7 +100370,7 @@ GameObject:
   - component: {fileID: 1469250373}
   - component: {fileID: 1469250372}
   - component: {fileID: 1469250371}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100514,7 +100582,7 @@ GameObject:
   - component: {fileID: 1470302563}
   - component: {fileID: 1470302562}
   - component: {fileID: 1470302565}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100628,7 +100696,7 @@ GameObject:
   - component: {fileID: 1471364642}
   - component: {fileID: 1471364641}
   - component: {fileID: 1471364640}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101035,7 +101103,7 @@ GameObject:
   - component: {fileID: 1477395547}
   - component: {fileID: 1477395546}
   - component: {fileID: 1477395550}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101150,7 +101218,7 @@ GameObject:
   - component: {fileID: 1477662831}
   - component: {fileID: 1477662830}
   - component: {fileID: 1477662833}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101361,7 +101429,7 @@ GameObject:
   - component: {fileID: 1479010214}
   - component: {fileID: 1479010213}
   - component: {fileID: 1479010212}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101553,7 +101621,7 @@ GameObject:
   - component: {fileID: 1483847867}
   - component: {fileID: 1483847866}
   - component: {fileID: 1483847870}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101668,7 +101736,7 @@ GameObject:
   - component: {fileID: 1484918451}
   - component: {fileID: 1484918450}
   - component: {fileID: 1484918454}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101881,7 +101949,7 @@ GameObject:
   - component: {fileID: 1495296616}
   - component: {fileID: 1495296615}
   - component: {fileID: 1495296619}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101996,7 +102064,7 @@ GameObject:
   - component: {fileID: 1496826791}
   - component: {fileID: 1496826790}
   - component: {fileID: 1496826789}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102208,7 +102276,7 @@ GameObject:
   - component: {fileID: 1500057540}
   - component: {fileID: 1500057539}
   - component: {fileID: 1500057538}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102324,7 +102392,7 @@ GameObject:
   - component: {fileID: 1501843119}
   - component: {fileID: 1501843118}
   - component: {fileID: 1501843122}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102470,7 +102538,7 @@ GameObject:
   - component: {fileID: 1504585659}
   - component: {fileID: 1504585658}
   - component: {fileID: 1504585661}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103264,7 +103332,7 @@ GameObject:
   - component: {fileID: 1521132424}
   - component: {fileID: 1521132423}
   - component: {fileID: 1521132422}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103476,7 +103544,7 @@ GameObject:
   - component: {fileID: 1522850618}
   - component: {fileID: 1522850617}
   - component: {fileID: 1522850616}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103919,7 +103987,7 @@ GameObject:
   - component: {fileID: 1534084776}
   - component: {fileID: 1534084775}
   - component: {fileID: 1534084774}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104034,7 +104102,7 @@ GameObject:
   - component: {fileID: 1535070800}
   - component: {fileID: 1535070799}
   - component: {fileID: 1535070798}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104149,7 +104217,7 @@ GameObject:
   - component: {fileID: 1544322888}
   - component: {fileID: 1544322887}
   - component: {fileID: 1544322886}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104263,7 +104331,7 @@ GameObject:
   - component: {fileID: 1547708077}
   - component: {fileID: 1547708076}
   - component: {fileID: 1547708080}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104572,7 +104640,7 @@ GameObject:
   - component: {fileID: 1548289455}
   - component: {fileID: 1548289454}
   - component: {fileID: 1548289453}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105075,7 +105143,7 @@ GameObject:
   - component: {fileID: 1555458211}
   - component: {fileID: 1555458210}
   - component: {fileID: 1555458209}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105287,7 +105355,7 @@ GameObject:
   - component: {fileID: 1556100237}
   - component: {fileID: 1556100236}
   - component: {fileID: 1556100235}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105500,7 +105568,7 @@ GameObject:
   - component: {fileID: 1558819563}
   - component: {fileID: 1558819562}
   - component: {fileID: 1558819566}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105679,7 +105747,7 @@ GameObject:
   - component: {fileID: 1561112476}
   - component: {fileID: 1561112475}
   - component: {fileID: 1561112474}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105891,7 +105959,7 @@ GameObject:
   - component: {fileID: 1562448424}
   - component: {fileID: 1562448423}
   - component: {fileID: 1562448422}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106007,7 +106075,7 @@ GameObject:
   - component: {fileID: 1563340716}
   - component: {fileID: 1563340715}
   - component: {fileID: 1563340719}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106122,7 +106190,7 @@ GameObject:
   - component: {fileID: 1563444965}
   - component: {fileID: 1563444964}
   - component: {fileID: 1563444963}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106470,7 +106538,7 @@ GameObject:
   - component: {fileID: 1574914425}
   - component: {fileID: 1574914424}
   - component: {fileID: 1574914423}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106682,7 +106750,7 @@ GameObject:
   - component: {fileID: 1575077448}
   - component: {fileID: 1575077447}
   - component: {fileID: 1575077451}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106796,7 +106864,7 @@ GameObject:
   - component: {fileID: 1575331861}
   - component: {fileID: 1575331860}
   - component: {fileID: 1575331863}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107008,7 +107076,7 @@ GameObject:
   - component: {fileID: 1575569028}
   - component: {fileID: 1575569027}
   - component: {fileID: 1575569031}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107123,7 +107191,7 @@ GameObject:
   - component: {fileID: 1576116682}
   - component: {fileID: 1576116681}
   - component: {fileID: 1576116680}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107237,7 +107305,7 @@ GameObject:
   - component: {fileID: 1577128797}
   - component: {fileID: 1577128796}
   - component: {fileID: 1577128795}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107351,7 +107419,7 @@ GameObject:
   - component: {fileID: 1577538409}
   - component: {fileID: 1577538408}
   - component: {fileID: 1577538407}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107612,7 +107680,7 @@ GameObject:
   - component: {fileID: 1581544358}
   - component: {fileID: 1581544357}
   - component: {fileID: 1581544360}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107950,7 +108018,7 @@ GameObject:
   - component: {fileID: 1587157006}
   - component: {fileID: 1587157005}
   - component: {fileID: 1587157004}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108163,7 +108231,7 @@ GameObject:
   - component: {fileID: 1589235462}
   - component: {fileID: 1589235461}
   - component: {fileID: 1589235460}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108375,7 +108443,7 @@ GameObject:
   - component: {fileID: 1589610485}
   - component: {fileID: 1589610484}
   - component: {fileID: 1589610483}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108588,7 +108656,7 @@ GameObject:
   - component: {fileID: 1590023244}
   - component: {fileID: 1590023243}
   - component: {fileID: 1590023242}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108702,7 +108770,7 @@ GameObject:
   - component: {fileID: 1590836004}
   - component: {fileID: 1590836003}
   - component: {fileID: 1590836002}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108816,7 +108884,7 @@ GameObject:
   - component: {fileID: 1592543320}
   - component: {fileID: 1592543319}
   - component: {fileID: 1592543318}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109111,7 +109179,7 @@ GameObject:
   - component: {fileID: 1593844132}
   - component: {fileID: 1593844131}
   - component: {fileID: 1593844135}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109420,7 +109488,7 @@ GameObject:
   - component: {fileID: 1602547537}
   - component: {fileID: 1602547536}
   - component: {fileID: 1602547535}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109534,7 +109602,7 @@ GameObject:
   - component: {fileID: 1602564750}
   - component: {fileID: 1602564749}
   - component: {fileID: 1602564748}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109843,7 +109911,7 @@ GameObject:
   - component: {fileID: 1605215688}
   - component: {fileID: 1605215687}
   - component: {fileID: 1605215686}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110286,7 +110354,7 @@ GameObject:
   - component: {fileID: 1612430533}
   - component: {fileID: 1612430532}
   - component: {fileID: 1612430531}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110497,7 +110565,7 @@ GameObject:
   - component: {fileID: 1625189436}
   - component: {fileID: 1625189435}
   - component: {fileID: 1625189434}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111000,7 +111068,7 @@ GameObject:
   - component: {fileID: 1640770996}
   - component: {fileID: 1640770995}
   - component: {fileID: 1640770994}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111603,7 +111671,7 @@ GameObject:
   - component: {fileID: 1645543213}
   - component: {fileID: 1645543212}
   - component: {fileID: 1645543211}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111913,7 +111981,7 @@ GameObject:
   - component: {fileID: 1655188174}
   - component: {fileID: 1655188173}
   - component: {fileID: 1655188172}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112027,7 +112095,7 @@ GameObject:
   - component: {fileID: 1656392050}
   - component: {fileID: 1656392049}
   - component: {fileID: 1656392048}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112276,7 +112344,7 @@ GameObject:
   - component: {fileID: 1665521311}
   - component: {fileID: 1665521310}
   - component: {fileID: 1665521309}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112391,7 +112459,7 @@ GameObject:
   - component: {fileID: 1665666125}
   - component: {fileID: 1665666124}
   - component: {fileID: 1665666123}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112602,7 +112670,7 @@ GameObject:
   - component: {fileID: 1669929524}
   - component: {fileID: 1669929523}
   - component: {fileID: 1669929522}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112716,7 +112784,7 @@ GameObject:
   - component: {fileID: 1670223720}
   - component: {fileID: 1670223719}
   - component: {fileID: 1670223723}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112901,7 +112969,7 @@ GameObject:
   - component: {fileID: 1672841312}
   - component: {fileID: 1672841311}
   - component: {fileID: 1672841310}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113149,7 +113217,7 @@ GameObject:
   - component: {fileID: 1678414620}
   - component: {fileID: 1678414619}
   - component: {fileID: 1678414623}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113295,7 +113363,7 @@ GameObject:
   - component: {fileID: 1682298101}
   - component: {fileID: 1682298100}
   - component: {fileID: 1682298099}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113410,7 +113478,7 @@ GameObject:
   - component: {fileID: 1682987731}
   - component: {fileID: 1682987730}
   - component: {fileID: 1682987729}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113525,7 +113593,7 @@ GameObject:
   - component: {fileID: 1684035091}
   - component: {fileID: 1684035090}
   - component: {fileID: 1684035089}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113640,7 +113708,7 @@ GameObject:
   - component: {fileID: 1689627166}
   - component: {fileID: 1689627165}
   - component: {fileID: 1689627164}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -113755,7 +113823,7 @@ GameObject:
   - component: {fileID: 1690346514}
   - component: {fileID: 1690346513}
   - component: {fileID: 1690346516}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114059,7 +114127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1699472237}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Pickups
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114782,6 +114850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -114821,7 +114893,7 @@ GameObject:
   - component: {fileID: 1713390829}
   - component: {fileID: 1713390828}
   - component: {fileID: 1713390827}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114996,7 +115068,7 @@ MonoBehaviour:
   orderComplete: 0
   pickup:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!1 &1718025628
 GameObject:
   m_ObjectHideFlags: 0
@@ -115301,7 +115373,7 @@ GameObject:
   - component: {fileID: 1720428414}
   - component: {fileID: 1720428413}
   - component: {fileID: 1720428416}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115415,7 +115487,7 @@ GameObject:
   - component: {fileID: 1727229222}
   - component: {fileID: 1727229221}
   - component: {fileID: 1727229220}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115722,7 +115794,7 @@ GameObject:
   - component: {fileID: 1727558601}
   - component: {fileID: 1727558600}
   - component: {fileID: 1727558599}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115934,7 +116006,7 @@ GameObject:
   - component: {fileID: 1736902070}
   - component: {fileID: 1736902069}
   - component: {fileID: 1736902068}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116049,7 +116121,7 @@ GameObject:
   - component: {fileID: 1737886651}
   - component: {fileID: 1737886650}
   - component: {fileID: 1737886654}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116261,7 +116333,7 @@ GameObject:
   - component: {fileID: 1741365732}
   - component: {fileID: 1741365731}
   - component: {fileID: 1741365730}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116608,7 +116680,7 @@ GameObject:
   - component: {fileID: 1745262647}
   - component: {fileID: 1745262646}
   - component: {fileID: 1745262649}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116751,7 +116823,7 @@ GameObject:
   - component: {fileID: 1747998980}
   - component: {fileID: 1747998979}
   - component: {fileID: 1747998978}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117060,7 +117132,7 @@ GameObject:
   - component: {fileID: 1749971012}
   - component: {fileID: 1749971011}
   - component: {fileID: 1749971010}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117329,7 +117401,7 @@ MonoBehaviour:
   playerCam: {fileID: 1050956769}
   pickUpLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!114 &1752981903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117543,7 +117615,7 @@ GameObject:
   - component: {fileID: 1753163809}
   - component: {fileID: 1753163808}
   - component: {fileID: 1753163807}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117658,7 +117730,7 @@ GameObject:
   - component: {fileID: 1757498520}
   - component: {fileID: 1757498519}
   - component: {fileID: 1757498518}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117872,7 +117944,7 @@ GameObject:
   - component: {fileID: 1761376501}
   - component: {fileID: 1761376500}
   - component: {fileID: 1761376504}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117987,7 +118059,7 @@ GameObject:
   - component: {fileID: 1764787591}
   - component: {fileID: 1764787590}
   - component: {fileID: 1764787589}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118393,7 +118465,7 @@ GameObject:
   - component: {fileID: 1767640878}
   - component: {fileID: 1767640877}
   - component: {fileID: 1767640876}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118605,7 +118677,7 @@ GameObject:
   - component: {fileID: 1768745383}
   - component: {fileID: 1768745382}
   - component: {fileID: 1768745381}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119145,7 +119217,7 @@ GameObject:
   - component: {fileID: 1778780285}
   - component: {fileID: 1778780284}
   - component: {fileID: 1778780283}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119305,7 +119377,7 @@ GameObject:
   - component: {fileID: 1779750388}
   - component: {fileID: 1779750387}
   - component: {fileID: 1779750386}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119671,7 +119743,7 @@ GameObject:
   - component: {fileID: 1782591852}
   - component: {fileID: 1782591851}
   - component: {fileID: 1782591850}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119820,7 +119892,7 @@ GameObject:
   - component: {fileID: 1786893305}
   - component: {fileID: 1786893304}
   - component: {fileID: 1786893308}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119935,7 +120007,7 @@ GameObject:
   - component: {fileID: 1788010471}
   - component: {fileID: 1788010470}
   - component: {fileID: 1788010473}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120049,7 +120121,7 @@ GameObject:
   - component: {fileID: 1788510242}
   - component: {fileID: 1788510241}
   - component: {fileID: 1788510240}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120164,7 +120236,7 @@ GameObject:
   - component: {fileID: 1789285430}
   - component: {fileID: 1789285429}
   - component: {fileID: 1789285433}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120279,7 +120351,7 @@ GameObject:
   - component: {fileID: 1791866613}
   - component: {fileID: 1791866612}
   - component: {fileID: 1791866611}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120570,7 +120642,7 @@ GameObject:
   - component: {fileID: 1798063815}
   - component: {fileID: 1798063814}
   - component: {fileID: 1798063813}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120684,7 +120756,7 @@ GameObject:
   - component: {fileID: 1799941146}
   - component: {fileID: 1799941145}
   - component: {fileID: 1799941148}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120849,6 +120921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -120938,6 +121014,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -121075,7 +121155,7 @@ GameObject:
   - component: {fileID: 1806037587}
   - component: {fileID: 1806037586}
   - component: {fileID: 1806037590}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallYellowCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121190,7 +121270,7 @@ GameObject:
   - component: {fileID: 1806485681}
   - component: {fileID: 1806485680}
   - component: {fileID: 1806485683}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121641,7 +121721,7 @@ GameObject:
   - component: {fileID: 1811252032}
   - component: {fileID: 1811252031}
   - component: {fileID: 1811252030}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121755,7 +121835,7 @@ GameObject:
   - component: {fileID: 1812111680}
   - component: {fileID: 1812111679}
   - component: {fileID: 1812111683}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121870,7 +121950,7 @@ GameObject:
   - component: {fileID: 1812917801}
   - component: {fileID: 1812917800}
   - component: {fileID: 1812917799}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122082,7 +122162,7 @@ GameObject:
   - component: {fileID: 1814544291}
   - component: {fileID: 1814544290}
   - component: {fileID: 1814544289}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122196,7 +122276,7 @@ GameObject:
   - component: {fileID: 1816879908}
   - component: {fileID: 1816879907}
   - component: {fileID: 1816879906}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122424,7 +122504,7 @@ GameObject:
   - component: {fileID: 1819939334}
   - component: {fileID: 1819939333}
   - component: {fileID: 1819939332}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122588,7 +122668,7 @@ GameObject:
   - component: {fileID: 1822809739}
   - component: {fileID: 1822809738}
   - component: {fileID: 1822809742}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122800,7 +122880,7 @@ GameObject:
   - component: {fileID: 1828991891}
   - component: {fileID: 1828991890}
   - component: {fileID: 1828991889}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123011,7 +123091,7 @@ GameObject:
   - component: {fileID: 1831784295}
   - component: {fileID: 1831784294}
   - component: {fileID: 1831784293}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123272,6 +123352,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
       propertyPath: m_Name
       value: CardboardBoxes_1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -123546,7 +123630,7 @@ GameObject:
   - component: {fileID: 1837226425}
   - component: {fileID: 1837226424}
   - component: {fileID: 1837226423}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123660,7 +123744,7 @@ GameObject:
   - component: {fileID: 1837921092}
   - component: {fileID: 1837921091}
   - component: {fileID: 1837921095}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123882,7 +123966,7 @@ GameObject:
   - component: {fileID: 1840885188}
   - component: {fileID: 1840885187}
   - component: {fileID: 1840885186}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124328,7 +124412,7 @@ GameObject:
   - component: {fileID: 1842242660}
   - component: {fileID: 1842242659}
   - component: {fileID: 1842242658}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125107,7 +125191,7 @@ GameObject:
   - component: {fileID: 1855528821}
   - component: {fileID: 1855528820}
   - component: {fileID: 1855528824}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125319,7 +125403,7 @@ GameObject:
   - component: {fileID: 1857689473}
   - component: {fileID: 1857689472}
   - component: {fileID: 1857689475}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125433,7 +125517,7 @@ GameObject:
   - component: {fileID: 1858585466}
   - component: {fileID: 1858585465}
   - component: {fileID: 1858585468}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125547,7 +125631,7 @@ GameObject:
   - component: {fileID: 1858891775}
   - component: {fileID: 1858891774}
   - component: {fileID: 1858891773}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125661,7 +125745,7 @@ GameObject:
   - component: {fileID: 1859524816}
   - component: {fileID: 1859524815}
   - component: {fileID: 1859524819}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125815,7 +125899,7 @@ GameObject:
   - component: {fileID: 1863993358}
   - component: {fileID: 1863993357}
   - component: {fileID: 1863993356}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125930,7 +126014,7 @@ GameObject:
   - component: {fileID: 1864149707}
   - component: {fileID: 1864149706}
   - component: {fileID: 1864149705}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126045,7 +126129,7 @@ GameObject:
   - component: {fileID: 1865281669}
   - component: {fileID: 1865281668}
   - component: {fileID: 1865281667}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126211,6 +126295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -126250,7 +126338,7 @@ GameObject:
   - component: {fileID: 1867425660}
   - component: {fileID: 1867425659}
   - component: {fileID: 1867425658}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126364,7 +126452,7 @@ GameObject:
   - component: {fileID: 1870446327}
   - component: {fileID: 1870446326}
   - component: {fileID: 1870446325}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127022,7 +127110,7 @@ GameObject:
   - component: {fileID: 1893546648}
   - component: {fileID: 1893546647}
   - component: {fileID: 1893546646}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127234,7 +127322,7 @@ GameObject:
   - component: {fileID: 1901110834}
   - component: {fileID: 1901110833}
   - component: {fileID: 1901110832}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127543,7 +127631,7 @@ GameObject:
   - component: {fileID: 1908033345}
   - component: {fileID: 1908033344}
   - component: {fileID: 1908033343}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127657,7 +127745,7 @@ GameObject:
   - component: {fileID: 1909981198}
   - component: {fileID: 1909981197}
   - component: {fileID: 1909981196}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127907,7 +127995,7 @@ GameObject:
   - component: {fileID: 1910758567}
   - component: {fileID: 1910758566}
   - component: {fileID: 1910758565}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128021,7 +128109,7 @@ GameObject:
   - component: {fileID: 1910875250}
   - component: {fileID: 1910875249}
   - component: {fileID: 1910875248}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128232,7 +128320,7 @@ GameObject:
   - component: {fileID: 1911882818}
   - component: {fileID: 1911882817}
   - component: {fileID: 1911882816}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128444,7 +128532,7 @@ GameObject:
   - component: {fileID: 1916629763}
   - component: {fileID: 1916629762}
   - component: {fileID: 1916629761}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129492,7 +129580,7 @@ GameObject:
   - component: {fileID: 1928400564}
   - component: {fileID: 1928400563}
   - component: {fileID: 1928400562}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130110,7 +130198,7 @@ GameObject:
   - component: {fileID: 1937642913}
   - component: {fileID: 1937642912}
   - component: {fileID: 1937642916}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130225,7 +130313,7 @@ GameObject:
   - component: {fileID: 1938031758}
   - component: {fileID: 1938031757}
   - component: {fileID: 1938031760}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130436,7 +130524,7 @@ GameObject:
   - component: {fileID: 1939277097}
   - component: {fileID: 1939277096}
   - component: {fileID: 1939277095}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130666,7 +130754,7 @@ GameObject:
   - component: {fileID: 1943822544}
   - component: {fileID: 1943822543}
   - component: {fileID: 1943822547}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130860,7 +130948,7 @@ GameObject:
   - component: {fileID: 1945450844}
   - component: {fileID: 1945450843}
   - component: {fileID: 1945450842}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130975,7 +131063,7 @@ GameObject:
   - component: {fileID: 1945744354}
   - component: {fileID: 1945744353}
   - component: {fileID: 1945744352}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131284,7 +131372,7 @@ GameObject:
   - component: {fileID: 1948823122}
   - component: {fileID: 1948823121}
   - component: {fileID: 1948823120}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131399,7 +131487,7 @@ GameObject:
   - component: {fileID: 1949080385}
   - component: {fileID: 1949080384}
   - component: {fileID: 1949080383}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131515,7 +131603,7 @@ GameObject:
   - component: {fileID: 1950124215}
   - component: {fileID: 1950124214}
   - component: {fileID: 1950124218}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131694,7 +131782,7 @@ GameObject:
   - component: {fileID: 1952422820}
   - component: {fileID: 1952422819}
   - component: {fileID: 1952422818}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131809,7 +131897,7 @@ GameObject:
   - component: {fileID: 1952780865}
   - component: {fileID: 1952780864}
   - component: {fileID: 1952780863}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131924,7 +132012,7 @@ GameObject:
   - component: {fileID: 1956069168}
   - component: {fileID: 1956069167}
   - component: {fileID: 1956069170}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132038,7 +132126,7 @@ GameObject:
   - component: {fileID: 1956151745}
   - component: {fileID: 1956151744}
   - component: {fileID: 1956151743}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132250,7 +132338,7 @@ GameObject:
   - component: {fileID: 1960604065}
   - component: {fileID: 1960604064}
   - component: {fileID: 1960604063}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132394,7 +132482,7 @@ GameObject:
   - component: {fileID: 1965343426}
   - component: {fileID: 1965343425}
   - component: {fileID: 1965343424}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132606,7 +132694,7 @@ GameObject:
   - component: {fileID: 1968127990}
   - component: {fileID: 1968127989}
   - component: {fileID: 1968127988}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132720,7 +132808,7 @@ GameObject:
   - component: {fileID: 1968690495}
   - component: {fileID: 1968690494}
   - component: {fileID: 1968690493}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132835,7 +132923,7 @@ GameObject:
   - component: {fileID: 1971240407}
   - component: {fileID: 1971240406}
   - component: {fileID: 1971240405}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133436,7 +133524,7 @@ GameObject:
   - component: {fileID: 1986011764}
   - component: {fileID: 1986011763}
   - component: {fileID: 1986011762}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133648,7 +133736,7 @@ GameObject:
   - component: {fileID: 1988032845}
   - component: {fileID: 1988032844}
   - component: {fileID: 1988032843}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133860,7 +133948,7 @@ GameObject:
   - component: {fileID: 1990097773}
   - component: {fileID: 1990097772}
   - component: {fileID: 1990097771}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133974,7 +134062,7 @@ GameObject:
   - component: {fileID: 1990140056}
   - component: {fileID: 1990140055}
   - component: {fileID: 1990140054}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134357,7 +134445,7 @@ GameObject:
   - component: {fileID: 1998691948}
   - component: {fileID: 1998691947}
   - component: {fileID: 1998691946}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: BlackBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134606,7 +134694,7 @@ GameObject:
   - component: {fileID: 2000526510}
   - component: {fileID: 2000526509}
   - component: {fileID: 2000526508}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134721,7 +134809,7 @@ GameObject:
   - component: {fileID: 2001316013}
   - component: {fileID: 2001316012}
   - component: {fileID: 2001316011}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallDarkGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134836,7 +134924,7 @@ GameObject:
   - component: {fileID: 2004547951}
   - component: {fileID: 2004547950}
   - component: {fileID: 2004547954}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134950,7 +135038,7 @@ GameObject:
   - component: {fileID: 2005961902}
   - component: {fileID: 2005961901}
   - component: {fileID: 2005961900}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135065,7 +135153,7 @@ GameObject:
   - component: {fileID: 2007607208}
   - component: {fileID: 2007607207}
   - component: {fileID: 2007607206}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135315,7 +135403,7 @@ GameObject:
   - component: {fileID: 2010366508}
   - component: {fileID: 2010366507}
   - component: {fileID: 2010366506}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135524,7 +135612,7 @@ GameObject:
   - component: {fileID: 2017310649}
   - component: {fileID: 2017310648}
   - component: {fileID: 2017310651}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135947,7 +136035,7 @@ GameObject:
   - component: {fileID: 2025670458}
   - component: {fileID: 2025670457}
   - component: {fileID: 2025670456}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136236,7 +136324,7 @@ GameObject:
   - component: {fileID: 2027451258}
   - component: {fileID: 2027451257}
   - component: {fileID: 2027451256}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136642,7 +136730,7 @@ GameObject:
   - component: {fileID: 2035592505}
   - component: {fileID: 2035592504}
   - component: {fileID: 2035592503}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137089,7 +137177,7 @@ GameObject:
   - component: {fileID: 2036736756}
   - component: {fileID: 2036736755}
   - component: {fileID: 2036736758}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137426,7 +137514,7 @@ GameObject:
   - component: {fileID: 2043354139}
   - component: {fileID: 2043354138}
   - component: {fileID: 2043354137}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137541,7 +137629,7 @@ GameObject:
   - component: {fileID: 2043644125}
   - component: {fileID: 2043644124}
   - component: {fileID: 2043644123}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138220,7 +138308,7 @@ GameObject:
   - component: {fileID: 2057393682}
   - component: {fileID: 2057393681}
   - component: {fileID: 2057393680}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ThinBrownBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138431,7 +138519,7 @@ GameObject:
   - component: {fileID: 2059500202}
   - component: {fileID: 2059500201}
   - component: {fileID: 2059500200}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138739,7 +138827,7 @@ GameObject:
   - component: {fileID: 2062491758}
   - component: {fileID: 2062491757}
   - component: {fileID: 2062491761}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138990,7 +139078,7 @@ GameObject:
   - component: {fileID: 2064546838}
   - component: {fileID: 2064546837}
   - component: {fileID: 2064546841}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139105,7 +139193,7 @@ GameObject:
   - component: {fileID: 2064866635}
   - component: {fileID: 2064866634}
   - component: {fileID: 2064866633}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeGreenCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139597,7 +139685,7 @@ GameObject:
   - component: {fileID: 2075817238}
   - component: {fileID: 2075817237}
   - component: {fileID: 2075817236}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139711,7 +139799,7 @@ GameObject:
   - component: {fileID: 2077591343}
   - component: {fileID: 2077591342}
   - component: {fileID: 2077591341}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140248,6 +140336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -140384,7 +140476,7 @@ GameObject:
   - component: {fileID: 2093513230}
   - component: {fileID: 2093513229}
   - component: {fileID: 2093513228}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140694,7 +140786,7 @@ GameObject:
   - component: {fileID: 2102477454}
   - component: {fileID: 2102477453}
   - component: {fileID: 2102477452}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140897,7 +140989,7 @@ GameObject:
   - component: {fileID: 2103663695}
   - component: {fileID: 2103663694}
   - component: {fileID: 2103663693}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141510,7 +141602,7 @@ GameObject:
   - component: {fileID: 2111406464}
   - component: {fileID: 2111406463}
   - component: {fileID: 2111406467}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141625,7 +141717,7 @@ GameObject:
   - component: {fileID: 2111495459}
   - component: {fileID: 2111495458}
   - component: {fileID: 2111495457}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: RedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141797,7 +141889,7 @@ GameObject:
   - component: {fileID: 2112560502}
   - component: {fileID: 2112560501}
   - component: {fileID: 2112560500}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142071,6 +142163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardboardBoxes_1 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e8079ffa0913f6649ad346a65b2baaad, type: 3}
@@ -142207,7 +142303,7 @@ GameObject:
   - component: {fileID: 2121237454}
   - component: {fileID: 2121237453}
   - component: {fileID: 2121237452}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142664,7 +142760,7 @@ GameObject:
   - component: {fileID: 2125865707}
   - component: {fileID: 2125865706}
   - component: {fileID: 2125865710}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeRedCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142876,7 +142972,7 @@ GameObject:
   - component: {fileID: 2130499147}
   - component: {fileID: 2130499146}
   - component: {fileID: 2130499145}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: DarkRedBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142990,7 +143086,7 @@ GameObject:
   - component: {fileID: 2130737725}
   - component: {fileID: 2130737724}
   - component: {fileID: 2130737723}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143106,7 +143202,7 @@ GameObject:
   - component: {fileID: 2132053464}
   - component: {fileID: 2132053463}
   - component: {fileID: 2132053462}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143609,7 +143705,7 @@ GameObject:
   - component: {fileID: 2135805567}
   - component: {fileID: 2135805566}
   - component: {fileID: 2135805565}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: LargeBlueCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144074,7 +144170,7 @@ GameObject:
   - component: {fileID: 2145649036}
   - component: {fileID: 2145649035}
   - component: {fileID: 2145649034}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: SmallPinkCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144519,7 +144615,7 @@ GameObject:
   - component: {fileID: 1711813855303967577}
   - component: {fileID: 1818148832}
   - component: {fileID: 1818148831}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144539,7 +144635,7 @@ GameObject:
   - component: {fileID: 1711813855231361395}
   - component: {fileID: 1745542650}
   - component: {fileID: 1745542649}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144559,7 +144655,7 @@ GameObject:
   - component: {fileID: 1711813854910362166}
   - component: {fileID: 1965338293}
   - component: {fileID: 1965338292}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144597,7 +144693,7 @@ GameObject:
   - component: {fileID: 1711813854786586265}
   - component: {fileID: 1921456672}
   - component: {fileID: 1921456671}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144617,7 +144713,7 @@ GameObject:
   - component: {fileID: 1711813855039116672}
   - component: {fileID: 2106607879}
   - component: {fileID: 2106607878}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144637,7 +144733,7 @@ GameObject:
   - component: {fileID: 1711813854972357821}
   - component: {fileID: 2040180796}
   - component: {fileID: 2040180795}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144657,7 +144753,7 @@ GameObject:
   - component: {fileID: 1711813854292155035}
   - component: {fileID: 1343194658}
   - component: {fileID: 1343194657}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144677,7 +144773,7 @@ GameObject:
   - component: {fileID: 1711813854308174675}
   - component: {fileID: 1359157210}
   - component: {fileID: 1359157209}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144697,7 +144793,7 @@ GameObject:
   - component: {fileID: 1711813854465093010}
   - component: {fileID: 1582919961}
   - component: {fileID: 1582919960}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144717,7 +144813,7 @@ GameObject:
   - component: {fileID: 1711813856131391978}
   - component: {fileID: 586104177}
   - component: {fileID: 586104176}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144737,7 +144833,7 @@ GameObject:
   - component: {fileID: 1711813856327287274}
   - component: {fileID: 693656945}
   - component: {fileID: 693656944}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144757,7 +144853,7 @@ GameObject:
   - component: {fileID: 1711813855870740415}
   - component: {fileID: 845609790}
   - component: {fileID: 845609789}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144777,7 +144873,7 @@ GameObject:
   - component: {fileID: 1711813856072747343}
   - component: {fileID: 1047287246}
   - component: {fileID: 1047287245}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144797,7 +144893,7 @@ GameObject:
   - component: {fileID: 1711813856028338670}
   - component: {fileID: 948680045}
   - component: {fileID: 948680044}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144817,7 +144913,7 @@ GameObject:
   - component: {fileID: 1711813856021328854}
   - component: {fileID: 991735637}
   - component: {fileID: 991735636}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144837,7 +144933,7 @@ GameObject:
   - component: {fileID: 1711813856024871485}
   - component: {fileID: 995548860}
   - component: {fileID: 995548859}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144857,7 +144953,7 @@ GameObject:
   - component: {fileID: 1711813855721923623}
   - component: {fileID: 88553638}
   - component: {fileID: 88553637}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144895,7 +144991,7 @@ GameObject:
   - component: {fileID: 1711813855798809456}
   - component: {fileID: 249057271}
   - component: {fileID: 249057270}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144915,7 +145011,7 @@ GameObject:
   - component: {fileID: 1711813855388988752}
   - component: {fileID: 380627415}
   - component: {fileID: 380627414}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144935,7 +145031,7 @@ GameObject:
   - component: {fileID: 1711813855405927711}
   - component: {fileID: 397242782}
   - component: {fileID: 397242781}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: Can_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146371,7 +146467,7 @@ MonoBehaviour:
   playerCam: {fileID: 4976062621827575169}
   pickUpLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 1024
 --- !u!4 &6106513821730472527
 Transform:
   m_ObjectHideFlags: 0
