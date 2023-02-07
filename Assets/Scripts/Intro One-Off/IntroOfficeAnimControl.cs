@@ -11,7 +11,7 @@ public class IntroOfficeAnimControl : MonoBehaviour
     private int sceneNumber = 0;
     public bool allowedToCallPatient = false;
     public GameObject menuUI;
-    public static bool isIntro = true;
+    public bool isIntro = true;
 
     [SerializeField] private int _DEBUGPATIENTCHOICE = -1;
 

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
+//using UnityEngine.EventSystems;
 
 namespace PlayerControllers
 {
@@ -23,6 +23,10 @@ namespace PlayerControllers
         [SerializeField] private GameObject _optionsUI;
 
         //[SerializeField] GameObject playerInteraction;
+
+        void Start()
+        {
+        }
 
         // Update is called once per frame
         void Update()
@@ -55,8 +59,8 @@ namespace PlayerControllers
         //pauses time and sets the pause menu to be active
         private void PauseGame()
         {
-            EventSystem.current.SetSelectedGameObject(null);
-            EventSystem.current.SetSelectedGameObject(_Resumebutton);
+          //  EventSystem.current.SetSelectedGameObject(null);
+          //  EventSystem.current.SetSelectedGameObject(_Resumebutton);
             _PauseMenuUI.SetActive(true);
             _GUIMenuUI.SetActive(false);
             Time.timeScale = 0f;
@@ -70,8 +74,8 @@ namespace PlayerControllers
         {
             Debug.Log("Options Open");
             _optionsUI.SetActive(true);
-            EventSystem.current.SetSelectedGameObject(null);
-            EventSystem.current.SetSelectedGameObject(_Backbutton);
+         //   EventSystem.current.SetSelectedGameObject(null);
+         //   EventSystem.current.SetSelectedGameObject(_Backbutton);
             _PauseMenuUI.SetActive(false);
         }
 
