@@ -14,17 +14,18 @@ public class IntroOfficeAnimControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && allowedToCallPatient)
-        {
-            ChangePatient();
-            patients[patientNumber].SetActive(false);
-        }
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     ChangePatient();
+        // }
     }
 
     public void ChangePatient()
     {
         patientNumber++;
         anim.SetInteger("PatientNumber", patientNumber);
+        patients[patientNumber].SetActive(false);
+        allowedToCallPatient = false;
     }
 
     public void ChangeScene()
