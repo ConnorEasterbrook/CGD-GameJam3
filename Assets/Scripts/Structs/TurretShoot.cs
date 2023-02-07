@@ -18,6 +18,15 @@ public class TurretShoot : MonoBehaviour
     [HideInInspector] public int buildStrikes = 0;
     [SerializeField] private bool _forceShoot = false;
 
+    // Sound
+    public AudioSource audioSource;
+    [SerializeField] private AudioClip _shootSound;
+    public AudioClip reloadSound;
+    [SerializeField] private AudioClip _emptySound;
+    public AudioClip buildSound;
+    [SerializeField] private AudioClip _buildCompleteSound;
+    [SerializeField] private AudioClip _idleSound;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +41,10 @@ public class TurretShoot : MonoBehaviour
             buildStrikes = 3;
         }
 
+        audioSource = GetComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.spatialBlend = 1;
+
         StartCoroutine(ShootAtEnemy());
     }
 
@@ -45,6 +58,9 @@ public class TurretShoot : MonoBehaviour
         {
             // Update ammo text
             _ammoText.text = ammo.ToString();
+
+            // Play buildcomplete sound
+            audioSource.PlayOneShot(_buildCompleteSound);
         }
         else
         {
@@ -89,18 +105,36 @@ public class TurretShoot : MonoBehaviour
     {
         while (true)
         {
-            if (_target != null && _isPlaced && ammo > 0 && buildStrikes >= 3)
+            if (_target != null && _isPlaced && buildStrikes >= 3)
             {
-                Debug.Log("Shooting at " + _target.name);
-                GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
-                newBullet.AddComponent<DestroyOnCollision>();
-                Vector3 direction = (_target.transform.position - transform.position).normalized;
-                Physics.IgnoreCollision(newBullet.GetComponent<Collider>(), GetComponent<Collider>());
-                newBullet.GetComponent<Rigidbody>().AddForce(direction * (_bulletSpeed * 100));
+                if (ammo <= 0)
+                {
+                    // Play empty sound
+                    audioSource.PlayOneShot(_emptySound);
+                }
+                else if (ammo > 0)
+                {
+                    GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
+                    newBullet.AddComponent<DestroyOnCollision>();
+                    Vector3 direction = (_target.transform.position - transform.position).normalized;
+                    Physics.IgnoreCollision(newBullet.GetComponent<Collider>(), GetComponent<Collider>());
+                    newBullet.GetComponent<Rigidbody>().AddForce(direction * (_bulletSpeed * 100));
 
-                _target.GetComponent<EnemyReceiveAttack>().ReceiveDamage(_damage);
+                    _target.GetComponent<EnemyReceiveAttack>().ReceiveDamage(_damage);
 
-                ammo--;
+                    ammo--;
+
+                    // Play shoot sound
+                    audioSource.PlayOneShot(_shootSound);
+                }
+            }
+            else
+            {
+                int rand = Random.Range(0, 10);
+                if (rand == 0)
+                {
+                    audioSource.PlayOneShot(_idleSound);
+                }
             }
 
             float waitTime = 1f / _fireRatePerSecond;
@@ -117,6 +151,14 @@ public class TurretShoot : MonoBehaviour
         _bulletSpeed = turret._bulletSpeed;
         ammo = 100;
         _isPlaced = true;
+
+        // Copy sounds
+        _shootSound = turret._shootSound;
+        reloadSound = turret.reloadSound;
+        _emptySound = turret._emptySound;
+        buildSound = turret.buildSound;
+        _buildCompleteSound = turret._buildCompleteSound;
+        _idleSound = turret._idleSound;
     }
 
     private void OnDrawGizmos()

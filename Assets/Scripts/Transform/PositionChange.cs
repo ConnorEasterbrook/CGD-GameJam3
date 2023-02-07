@@ -8,6 +8,8 @@ public class PositionChange : MonoBehaviour
     private int _index = 0;
     [SerializeField] private float _moveSpeed = 3f;
     [SerializeField] private float _rotationSpeed = 3f;
+    [SerializeField] private IntroText _introTextScript;
+    [SerializeField] private GameObject _player;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,8 @@ public class PositionChange : MonoBehaviour
     {
         if (_index >= _objects.Count)
         {
-            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>().disablePlayer = false;
+            _player.GetComponent<PlayerScript>().disablePlayer = false;
+            _player.SetActive(true);
             StopCoroutine(ChangePosition());
             gameObject.SetActive(false);
         }
@@ -38,6 +41,11 @@ public class PositionChange : MonoBehaviour
             else if (transform.position == _objects[_index].transform.position)
             {
                 _index++;
+
+                if (_introTextScript != null)
+                {
+                    _introTextScript.currentTextPart++;
+                }
             }
             yield return null;
         }
