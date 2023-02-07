@@ -8014,7 +8014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textBits:
-  - BLANK
+  - 
   - Hello
   - i
   - Have
@@ -9964,11 +9964,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textBits:
-  - BLANK
-  - Hello
-  - I HAVE
-  - 'aN '
-  - Issue
+  - Doctooooooooooorrrrrrr!
+  - You have to help me, Doc. I keep repeating a traumatic memory whenever I try
+    to sleep.
+  - It's like I'm fine one moment and then BAM! Here's a fungus-based nightmare!
+  - If only that god forsaken zombie fungus never rooted in my family's tree. That
+    tree was planted by my great great great great...
+  - great great great great great...
   _text: {fileID: 607956844}
   currentTextBit: 0
 --- !u!4 &2049214812
@@ -10301,7 +10303,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: 03271f9a6853cca4ead5bd485cbc88d6, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 019e63eb398053c4ab097c7d982339d2, type: 3}
   m_Bones:
   - {fileID: 2049214836}
   - {fileID: 2049214838}
