@@ -24,7 +24,7 @@ public class RefillStruct : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            if (Input.GetKey(KeyCode.E) && _turretShoot.ammo < 100)
+            if (Input.GetKey(KeyCode.E) && _turretShoot.ammo < 100 && other.GetComponent<ResourceScript>().ammoAmount > 0)
             {
                 other.GetComponent<ResourceScript>().ammoAmount--;
                 _turretShoot.audioSource.PlayOneShot(_turretShoot.reloadSound);
