@@ -8,7 +8,7 @@ public class ChatScript : MonoBehaviour
     [SerializeField] private GameObject _canvas;
     [SerializeField] private List<GameObject> _chatters = new List<GameObject>();
     private bool _isChatting = false;
-    [SerializeField] private int _currentChatter = 0;
+    private static int _currentChatter = 0;
     private ChatBits currentChatter;
     public bool patientSelected = false;
 

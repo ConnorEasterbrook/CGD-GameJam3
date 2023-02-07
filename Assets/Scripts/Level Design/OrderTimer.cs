@@ -56,7 +56,6 @@ public class OrderTimer : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(start);
         if (JoshSceneManager.dayComplete)
         {
             resetTimer();
