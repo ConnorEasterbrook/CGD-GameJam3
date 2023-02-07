@@ -7,7 +7,6 @@ public class TextNext : MonoBehaviour
 {
     private TextChange Text;
     public GameObject nexttextobj = null;
-    public GameObject Textobject;
 
     private void Start()
     {
@@ -23,7 +22,7 @@ public class TextNext : MonoBehaviour
             {
                 nexttextobj.SetActive(true);
                 enabled = false;
-                Textobject.SetActive(false);
+                gameObject.SetActive(false);
             }
         }
         else
