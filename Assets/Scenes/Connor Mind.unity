@@ -17724,7 +17724,7 @@ MonoBehaviour:
   - {fileID: 720578706}
   - {fileID: 1295971284}
   - {fileID: 4976062621927585725}
-  _moveSpeed: 50
+  _moveSpeed: 5
   _rotationSpeed: 3
   _introTextScript: {fileID: 1906505588}
   _player: {fileID: 4976062623035207485}

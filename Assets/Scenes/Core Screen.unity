@@ -883,7 +883,7 @@ MonoBehaviour:
   - {fileID: 1512550710}
   - {fileID: 1797083559}
   - {fileID: 1742271748}
-  _moveSpeed: 2
+  _moveSpeed: 20
   _rotationSpeed: 1.5
   _introTextScript: {fileID: 682122698}
   _player: {fileID: 0}
@@ -1969,6 +1969,7 @@ MonoBehaviour:
   - {fileID: 1969503737}
   - {fileID: 1775695663}
   allowedToCallPatient: 0
+  _DEBUGPATIENTCHOICE: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
