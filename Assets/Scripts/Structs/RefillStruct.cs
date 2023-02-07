@@ -27,6 +27,7 @@ public class RefillStruct : MonoBehaviour
             if (Input.GetKey(KeyCode.E) && _turretShoot.ammo < 100)
             {
                 other.GetComponent<ResourceScript>().ammoAmount--;
+                _turretShoot.audioSource.PlayOneShot(_turretShoot.reloadSound);
                 _turretShoot.ammo++;
             }
         }
@@ -34,6 +35,11 @@ public class RefillStruct : MonoBehaviour
         if (other.gameObject.tag == "Tool" && _isBuilding)
         {
             GetComponentInParent<TurretShoot>().buildStrikes++;
+            if (_turretShoot.buildStrikes < 3)
+            {
+                _turretShoot.audioSource.PlayOneShot(_turretShoot.buildSound);
+            }
+            
             _isBuilding = false;
         }
     }
