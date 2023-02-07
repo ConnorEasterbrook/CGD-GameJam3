@@ -79,7 +79,7 @@ namespace PlayerControllers
         public void GoToMainMenu()
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("Main Menu Scene");
+            SceneManager.LoadScene("Core Screen");
         }
 
         //exits the applicaton
