@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18330337, g: 0.22893275, b: 0.30626807, a: 1}
+  m_IndirectSpecularColor: {r: 0.18330315, g: 0.22893241, b: 0.30626726, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7590,11 +7590,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textBits:
-  - BLANK
-  - Hello
-  - i
-  - Have
-  - Jssye
+  - Why Hello There Doctor
+  - I Have Benn Told To Come Here
+  - They Said I Can't Bring People To The Tree Anymore
+  - How Did It Start You Ask?
+  - Well It All Began A While Ago?
   _text: {fileID: 607956844}
   currentTextBit: 0
 --- !u!1 &1775695665
