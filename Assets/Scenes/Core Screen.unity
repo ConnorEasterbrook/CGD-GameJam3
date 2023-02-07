@@ -1969,7 +1969,7 @@ MonoBehaviour:
   - {fileID: 1969503737}
   - {fileID: 1775695663}
   allowedToCallPatient: 0
-  _DEBUGPATIENTCHOICE: 1
+  _DEBUGPATIENTCHOICE: -1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
