@@ -14,6 +14,7 @@ public class ChatScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        _currentChatter = _introOfficeAnimControl.GetPatientNumber() + 1;
         currentChatter = _chatters[_currentChatter].GetComponent<ChatBits>();
 
         if (_canvas.activeSelf == false)
@@ -42,11 +43,6 @@ public class ChatScript : MonoBehaviour
             _isChatting = false;
             _introOfficeAnimControl.ChangeScene();
             _currentChatter++;
-
-            // if (_currentChatter >= _chatters.Count)
-            // {
-            //     _introOfficeAnimControl.ChangeScene();
-            // }
         }
         else
         {

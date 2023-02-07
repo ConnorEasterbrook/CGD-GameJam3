@@ -11,13 +11,16 @@ public class IntroOfficeAnimControl : MonoBehaviour
     private static int sceneNumber = 0;
     public bool allowedToCallPatient = false;
 
+    [SerializeField] private int _DEBUGPATIENTCHOICE = -1;
+
     // Update is called once per frame
     void Update()
     {
-        // if (Input.GetKeyDown(KeyCode.Space))
-        // {
-        //     ChangePatient();
-        // }
+        if (patientNumber != _DEBUGPATIENTCHOICE)
+        {
+            patientNumber = _DEBUGPATIENTCHOICE;
+            sceneNumber = _DEBUGPATIENTCHOICE + 1;
+        }
     }
 
     public void ChangePatient()
@@ -32,5 +35,10 @@ public class IntroOfficeAnimControl : MonoBehaviour
     {
         sceneNumber++;
         SceneManager.LoadScene(sceneNumber);
+    }
+
+    public int GetPatientNumber()
+    {
+        return patientNumber;
     }
 }

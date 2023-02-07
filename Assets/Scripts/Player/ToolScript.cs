@@ -82,6 +82,7 @@ public class ToolScript : MonoBehaviour
     IEnumerator ResetAttackBool()
     {
         yield return new WaitForSeconds(0.75f);
-        _animators[_currentToolSelected].SetBool("Attack", false);
+        if (_animators[_currentToolSelected] != null)
+            _animators[_currentToolSelected].SetBool("Attack", false);
     }
 }
