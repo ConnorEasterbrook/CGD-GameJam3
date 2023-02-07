@@ -10,6 +10,8 @@ public class PickUpItem : MonoBehaviour
     private Rigidbody rigidObject;
     private float force = 150;
 
+    public static bool allowPickup;
+
     public Camera playerCam;
     public LayerMask pickUpLayer;
     bool crouching;
@@ -18,27 +20,30 @@ public class PickUpItem : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (heldObject == null)
+        if (allowPickup)
         {
-            if (Physics.Raycast(playerCam.transform.position, playerCam.transform.TransformDirection(Vector3.forward), out hit, 2, pickUpLayer.value))
+            if (heldObject == null)
             {
-                pickUpText.SetActive(true);
-                if (Input.GetButtonUp("Interact"))
+                if (Physics.Raycast(playerCam.transform.position, playerCam.transform.TransformDirection(Vector3.forward), out hit, 2, pickUpLayer.value))
                 {
-                    PickUp(hit.transform.gameObject);
+                    pickUpText.SetActive(true);
+                    if (Input.GetButtonUp("Interact"))
+                    {
+                        PickUp(hit.transform.gameObject);
 
-                    Debug.Log("Item picked up");
+                        Debug.Log("Item picked up");
+                    }
                 }
             }
-        }
 
-        else
-        {
-            pickUpText.SetActive(false);
-            Move();
-            if (Input.GetButtonUp("Interact"))
+            else
             {
-                Drop();
+                pickUpText.SetActive(false);
+                Move();
+                if (Input.GetButtonUp("Interact"))
+                {
+                    Drop();
+                }
             }
         }
     }

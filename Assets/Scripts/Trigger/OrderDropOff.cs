@@ -23,8 +23,8 @@ public class OrderDropOff : MonoBehaviour
                 Debug.Log(other.gameObject.name);
                 if (other.gameObject.name == currentOrder[i].name)
                 {
-                    //currentOrder[i] = null;
                     currentFulfilment[i] = other.gameObject;
+                    orderCorrect += 1;
                 }
             }
         }
@@ -40,17 +40,11 @@ public class OrderDropOff : MonoBehaviour
             if (orderComplete)
             {
                 anim.SetBool("FadeIn", true);
-            }
-        }
-
-        if (orderComplete != true)
-        {
-            for (int i = 0; i < currentOrder.Length; i++)
-            {
-                if (currentOrder[i].name == currentFulfilment[i].name)
+                for (int i = 0; i < currentFulfilment.Length; i++)
                 {
-                    orderCorrect += 1;
+                    Destroy(currentFulfilment[i].gameObject);
                 }
+                JoshSceneManager.dayComplete = true;
             }
         }
     }

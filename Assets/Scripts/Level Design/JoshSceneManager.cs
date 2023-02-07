@@ -8,17 +8,12 @@ using TMPro;
 
 public class JoshSceneManager : MonoBehaviour
 {
+    public Animator anim;
     public Image FadeImage;
-    int dayCounter;
-    float currentTime = 59f;
-    float startingTime = 59f;
-    public static bool countDownStarted = false;
-    public GameObject gameoverScreen;
+    public static int dayCounter = 1;
 
-    public static bool dayOneTimerStarted = false;
+    public static bool dayComplete;
 
-    public GameObject timer;
-    public TextMeshProUGUI timerUI;
 
     public GameObject[] dayObjects;
 
@@ -87,43 +82,7 @@ public class JoshSceneManager : MonoBehaviour
         daySwitcher(0);
     }
 
-    void resetTimer()
-    {
-        currentTime = startingTime;
-        countDownStarted = true;
-    }
 
-    void timerCountdown()
-    {
-        if (countDownStarted)
-        {
-            timer.SetActive(true);
-            if (currentTime <= 0)
-            {
-                Time.timeScale = 0;
-                gameoverScreen.SetActive(true);
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.None;
-                countDownStarted = false;
-            }
-
-            if (currentTime > 0)
-            {
-                currentTime -= 1 * Time.deltaTime;
-
-                if (currentTime > 5)
-                {
-                    timerUI.color = Color.green;
-                }
-
-                if (currentTime <= 5)
-                {
-                    timerUI.color = Color.red;
-                }
-                timerUI.text = ((int)currentTime).ToString();
-            }
-        }
-    }
 
 
     public void dayItemManager(int day)
@@ -146,11 +105,12 @@ public class JoshSceneManager : MonoBehaviour
             daySwitcher(dayCounter);
         }
 
-        if (dayOneTimerStarted)
+        if (dayComplete)
         {
-            resetTimer();
-            dayOneTimerStarted = false;
+            dayCounter += 1;
+            daySwitcher(dayCounter);
+            anim.SetBool("FadeIn", false);
+            dayComplete = false;
         }
-        timerCountdown();
     }
 }

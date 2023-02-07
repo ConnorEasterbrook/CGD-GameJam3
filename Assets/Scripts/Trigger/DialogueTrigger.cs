@@ -6,6 +6,14 @@ public class DialogueTrigger : MonoBehaviour
 {
     public GameObject dialogueBox;
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            PickUpItem.allowPickup = true;
+        }
+    }
+
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -19,7 +27,6 @@ public class DialogueTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             dialogueBox.SetActive(false);
-            JoshSceneManager.dayOneTimerStarted = true;
         }
     }
 }
