@@ -7,7 +7,7 @@ public class ChatBits : MonoBehaviour
 {
     [SerializeField] List<string> _textBits = new List<string>();
     [SerializeField] TextMeshProUGUI _text;
-    public int currentTextBit = -1;
+    public int currentTextBit = 0;
 
     private void Update()
     {

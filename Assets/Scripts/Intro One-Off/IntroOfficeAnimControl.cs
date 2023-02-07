@@ -7,38 +7,40 @@ public class IntroOfficeAnimControl : MonoBehaviour
 {
     [SerializeField] private Animator anim;
     [SerializeField] private GameObject[] patients;
-    private static int patientNumber = -1;
-    private static int sceneNumber = 0;
+    [SerializeField] private int patientNumber = -1;
+    private int sceneNumber = 0;
     public bool allowedToCallPatient = false;
+    public GameObject menuUI;
 
     [SerializeField] private int _DEBUGPATIENTCHOICE = -1;
 
     // Update is called once per frame
     void Update()
     {
-        if (patientNumber != _DEBUGPATIENTCHOICE)
-        {
-            patientNumber = _DEBUGPATIENTCHOICE;
-            sceneNumber = _DEBUGPATIENTCHOICE + 1;
-        }
+       // if (patientNumber != _DEBUGPATIENTCHOICE)
+    //    {
+      //      patientNumber = _DEBUGPATIENTCHOICE;
+      //      sceneNumber = _DEBUGPATIENTCHOICE + 1;
+      //  }
     }
 
-    public void ChangePatient()
+    public void ChangePatient(int patient)
     {
-        patientNumber++;
+        patientNumber = patient;
         anim.SetInteger("PatientNumber", patientNumber);
-        patients[patientNumber].SetActive(false);
+        patients[patientNumber].SetActive(true);
         allowedToCallPatient = false;
     }
 
-    public void ChangeScene()
+    public void ChangeScene(int scene)
     {
-        sceneNumber++;
-        SceneManager.LoadScene(sceneNumber);
+        sceneNumber = scene;
+        SceneManager.LoadScene(sceneNumber + 1);
     }
 
     public int GetPatientNumber()
     {
         return patientNumber;
     }
+    
 }

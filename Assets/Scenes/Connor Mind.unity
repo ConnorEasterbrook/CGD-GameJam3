@@ -28677,7 +28677,7 @@ MonoBehaviour:
   _healthBar: {fileID: 413922574}
   _maxHealth: 1000
   _currentHealth: 1000
-  _armourLevel: 10
+  _armourLevel: 8
 --- !u!65 &6313484967912491306
 BoxCollider:
   m_ObjectHideFlags: 0
