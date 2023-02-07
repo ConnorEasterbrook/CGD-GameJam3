@@ -35,6 +35,11 @@ public class WeaponAttack : MonoBehaviour
         else if (other.gameObject.tag == "Root" && isAttacking)
         {
             _resourceScript.woodAmount += 10;
+            if (other.gameObject.GetComponent<EnemyReceiveAttack>())
+            {
+                _enemyReceiveAttack = other.gameObject.GetComponent<EnemyReceiveAttack>();
+                _enemyReceiveAttack.ReceiveDamage(_damage);
+            }
             isAttacking = false;
         }
     }

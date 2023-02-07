@@ -21,7 +21,7 @@ public class PlayerScript : MonoBehaviour
     private float cameraTilt; // Looking up and down
     private float cameraTiltSmooth; // For smoothing the tilt movement
     private float cameraTiltSmoothVelocity; // Tilt smoothing speed
-    private Quaternion panRotation;
+    private Quaternion panRotation; // For rotating the camera left and right
     private Vector3 oldCameraPos;
 
     [Header("Player Movement")]
@@ -34,8 +34,8 @@ public class PlayerScript : MonoBehaviour
     public float jumpForce = 8.0f;
     [Tooltip("Amount of gravity. 10.0f feels good for arcade-like gravity. 20.0f for realistic gravity.")]
     public float gravityForce = 4.0f;
-    private float fallingVelocity = 0.0f; // Keep track of falling speed
-    private Vector3 velocity;
+    public float fallingVelocity = 0.0f; // Keep track of falling speed
+    public Vector3 velocity;
     private Vector3 currentVelocity;
 
     // COLLISION
@@ -45,6 +45,7 @@ public class PlayerScript : MonoBehaviour
 
     [Header("Misc")]
     public bool lockCursor = false;
+    public bool disablePlayer = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -69,16 +70,27 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
+        if (disablePlayer)
+        {
+            return;
+        }
+
         CalculateCameraMovement();
     }
 
     void FixedUpdate()
     {
-        transform.rotation = panRotation;
+        if (disablePlayer)
+        {
+            return;
+        }
+
+        transform.localRotation = panRotation;
         playerCamera.transform.localEulerAngles = Vector3.right * cameraTiltSmooth;
 
         FixedGravity();
         CalculatePlayerMovement();
+
         Vector3 localMove = transform.TransformDirection(velocity); // Final calculation
         playerRigidbody.MovePosition(playerRigidbody.position + localMove * Time.fixedDeltaTime);
     }
