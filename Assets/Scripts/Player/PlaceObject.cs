@@ -88,6 +88,10 @@ public class PlaceObject : MonoBehaviour
                 GameObject newGO = new GameObject("Gnome Turret");
                 newGO.AddComponent<MeshFilter>().mesh = GetComponent<MeshFilter>().mesh;
                 newGO.AddComponent<MeshRenderer>().materials = _materials.ToArray();
+                AudioSource _as = newGO.AddComponent<AudioSource>();
+                _as.playOnAwake = false;
+                _as.spatialBlend = 1;
+
 
                 if (_isTurret)
                 {
