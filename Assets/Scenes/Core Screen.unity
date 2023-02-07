@@ -8014,11 +8014,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textBits:
-  - 
-  - Hello
-  - i
-  - Have
-  - Jssye
+  - Bonjour, Doctor.
+  - I have a story to tell you. I hope you know what can be done once you hear it.
+    Try not to cry too much...
+  - "When I was but a boy, my p\xE8re... Father... He loved food. Root vegetables
+    specifically."
+  - He would gulp and chew until he jaw hurt but one day he decided to go for his
+    twenty-first beet. Merde.
+  - He choked. Ever since I have not touched root vegetables and my G.P. says I am
+    malnourished.
   _text: {fileID: 607956844}
   currentTextBit: 0
 --- !u!1 &1925449648
@@ -9220,11 +9224,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _textBits:
-  - BLANK
-  - Hello
-  - i
-  - Have
-  - Jssye
+  - '*Gulp* Hey, Doc. '
+  - I've been helping my parents in their shop since I could walk but I've been having
+    these attacks recently...
+  - I'm scared of the future. I'm scared that I can't do what I want to do in life
+    if I continue going like this.
+  - See my parents died recently so I need to look after the shop but I'm not young
+    anymore. I want two things but they're mutually exclusive.
+  - I really hope you can help me, Doc.
   _text: {fileID: 607956844}
   currentTextBit: 0
 --- !u!137 &1974775945
