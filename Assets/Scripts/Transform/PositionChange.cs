@@ -22,8 +22,16 @@ public class PositionChange : MonoBehaviour
     {
         if (_index >= _objects.Count)
         {
-            _player.GetComponent<PlayerScript>().disablePlayer = false;
-            _player.SetActive(true);
+            if (_player != null)
+            {
+                _player.GetComponent<PlayerScript>().disablePlayer = false;
+                _player.SetActive(true);
+            }
+            else
+            {
+                _objects[_index - 1].SetActive(true);
+            }
+
             StopCoroutine(ChangePosition());
             gameObject.SetActive(false);
         }
