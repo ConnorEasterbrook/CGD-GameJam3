@@ -51,6 +51,8 @@ public class TurretShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        bool constructed;
+
         // Set target to the closest enemy
         GetClosestEnemy();
 
@@ -59,8 +61,12 @@ public class TurretShoot : MonoBehaviour
             // Update ammo text
             _ammoText.text = ammo.ToString();
 
-            // Play buildcomplete sound
-            audioSource.PlayOneShot(_buildCompleteSound);
+            if (buildStrikes == 3)
+            {
+                // Play buildcomplete sound
+                audioSource.PlayOneShot(_buildCompleteSound);
+                buildStrikes++;
+            }
         }
         else
         {

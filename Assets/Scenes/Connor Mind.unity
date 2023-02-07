@@ -8481,7 +8481,7 @@ AudioSource:
   m_GameObject: {fileID: 746693187}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d2927bae1838bfd498f42d11e0fb87de, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -13185,7 +13185,7 @@ AudioSource:
   m_GameObject: {fileID: 1147379915}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d2927bae1838bfd498f42d11e0fb87de, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -22882,6 +22882,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 29387427}
     m_Modifications:
+    - target: {fileID: 518333243, guid: 1e458f5853bd382438cc98cf5de7610b, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: d2927bae1838bfd498f42d11e0fb87de, type: 2}
     - target: {fileID: 518333243, guid: 1e458f5853bd382438cc98cf5de7610b, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 0
