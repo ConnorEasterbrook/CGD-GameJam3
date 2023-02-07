@@ -28,7 +28,7 @@ namespace PlayerControllers
         void Update()
         {
             //button to open or close pause menu
-            if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown("joystick button 9"))
+            if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown("joystick button 9")) && _optionsUI.activeSelf == false)
             {
                 _inputs = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
                 if (_MainGameIsPaused)
