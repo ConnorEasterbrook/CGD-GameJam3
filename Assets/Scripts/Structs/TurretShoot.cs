@@ -120,6 +120,9 @@ public class TurretShoot : MonoBehaviour
                 }
                 else if (ammo > 0)
                 {
+                    // Play shoot sound
+                    audioSource.PlayOneShot(_shootSound);
+
                     GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
                     newBullet.AddComponent<DestroyOnCollision>();
                     Vector3 direction = (_target.transform.position - transform.position).normalized;
@@ -129,9 +132,6 @@ public class TurretShoot : MonoBehaviour
                     _target.GetComponent<EnemyReceiveAttack>().ReceiveDamage(_damage);
 
                     ammo--;
-
-                    // Play shoot sound
-                    audioSource.PlayOneShot(_shootSound);
                 }
             }
             else
