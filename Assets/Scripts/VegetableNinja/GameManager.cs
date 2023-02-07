@@ -14,7 +14,10 @@ public class GameManager : MonoBehaviour
     private Blade blade;
     private Spawner spawner;
 
-    private int score;
+    public int score;
+
+    public GameObject winScreen;
+    public GameObject loseScreen;
 
     private void Awake()
     {
@@ -134,6 +137,17 @@ public class GameManager : MonoBehaviour
             elapsed += Time.unscaledDeltaTime;
 
             yield return null;
+        }
+    }
+    public void gameEnd()
+    {
+        if(score > 5000)
+        {
+            winScreen.SetActive(true);
+        }
+        else
+        {
+            loseScreen.SetActive(true);
         }
     }
 

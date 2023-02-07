@@ -1,3 +1,4 @@
+//using System;
 using UnityEngine;
 
 public class Vegetable : MonoBehaviour
@@ -7,6 +8,8 @@ public class Vegetable : MonoBehaviour
 
     private Rigidbody VegetableRigidbody;
     private Collider VegetableCollider;
+    private AudioSource noise;
+    public AudioClip[] splashNoises;
     [SerializeField] private ParticleSystem juiceEffect;
     public int points = 1;
 
@@ -15,6 +18,7 @@ public class Vegetable : MonoBehaviour
         VegetableRigidbody = GetComponent<Rigidbody>();
         VegetableCollider = GetComponent<Collider>();
         juiceEffect = GetComponentInChildren<ParticleSystem>();
+        noise = GetComponent<AudioSource>();
     }
 
     private void Slice(Vector3 direction, Vector3 position, float force)
@@ -34,7 +38,8 @@ public class Vegetable : MonoBehaviour
 
         Rigidbody[] slices = sliced.GetComponentsInChildren<Rigidbody>();
 
-
+        noise.clip = splashNoises[Random.Range(0, splashNoises.Length)];
+        noise.Play();
         // Add a force to each slice based on the blade direction
         foreach (Rigidbody slice in slices)
         {
