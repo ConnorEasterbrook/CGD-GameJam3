@@ -8,12 +8,11 @@ public class TextChange : MonoBehaviour
 {
     public bool isnext = false;
     public float time = 10f;
-    public GameObject Textobj;
     // Start is called before the first frame update
     void Start()
     {
         //Text = GetComponent<TextMeshPro>();
-        StartCoroutine(FadeFull(time, GetComponent<TextMeshProUGUI>(), Textobj));
+        StartCoroutine(FadeFull(time, GetComponent<TextMeshProUGUI>(), gameObject));
     }
 
     public IEnumerator FadeFull(float t, TextMeshProUGUI text, GameObject Text)
