@@ -32,7 +32,7 @@ public class ToolScript : MonoBehaviour
     void Update()
     {
         // If the player presses the left click, swing the tool
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && AnimationComplete())
         {
             if (_currentToolSelected < _animatorCount)
             {
@@ -87,6 +87,18 @@ public class ToolScript : MonoBehaviour
             _currentToolSelected = 2;
             _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _tools[_currentToolSelected].SetActive(true);
+        }
+    }
+
+    private bool AnimationComplete()
+    {
+        if (!_animators[_currentToolSelected].GetBool("Attack"))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 
