@@ -37,7 +37,11 @@ public class ToolScript : MonoBehaviour
             if (_currentToolSelected < _animatorCount)
             {
                 _animators[_currentToolSelected].SetBool("Attack", true);
-                _weaponAttackScripts[_currentToolSelected].isAttacking = true;
+
+                if (_weaponAttackScripts[_currentToolSelected].isInContact)
+                {
+                    _weaponAttackScripts[_currentToolSelected].isAttacking = true;
+                }
 
                 // When the animation is done, set the bool back to false
                 StartCoroutine(ResetAttackBool());
@@ -79,9 +83,9 @@ public class ToolScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             _tools[_currentToolSelected].SetActive(false);
-                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
+            _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _currentToolSelected = 2;
-                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
+            _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _tools[_currentToolSelected].SetActive(true);
         }
     }

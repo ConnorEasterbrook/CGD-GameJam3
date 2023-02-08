@@ -3608,7 +3608,7 @@ GameObject:
   - component: {fileID: 359075780}
   m_Layer: 0
   m_Name: GameObject(Clone)
-  m_TagString: Untagged
+  m_TagString: Struct
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3651,8 +3651,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15, z: 0.15}
-  m_Center: {x: 0, y: 0, z: 0.04}
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0.025}
 --- !u!1 &359726552
 GameObject:
   m_ObjectHideFlags: 0
@@ -6071,7 +6071,7 @@ GameObject:
   - component: {fileID: 570704202}
   m_Layer: 0
   m_Name: GameObject(Clone)
-  m_TagString: Untagged
+  m_TagString: Struct
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6114,8 +6114,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15, z: 0.15}
-  m_Center: {x: 0, y: 0, z: 0.04}
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0.025}
 --- !u!4 &570960752 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8209775890510335994, guid: c4fa87cd4eff4ae4ba4c8d1ad48df5f7, type: 3}
@@ -13826,6 +13826,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 2511873189411776313, guid: 2a2468fe6c4144544837a7013660f704, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2511873189411776317, guid: 2a2468fe6c4144544837a7013660f704, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -16334,7 +16338,7 @@ GameObject:
   - component: {fileID: 1400706495}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17540,7 +17544,7 @@ GameObject:
   - component: {fileID: 1538761884}
   m_Layer: 0
   m_Name: Spawner
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23830,7 +23834,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 25
   isAttacking: 0
+  isInContact: 0
   _resourceScript: {fileID: 4976062623035207489}
+  _isResourceGatherer: 1
 --- !u!33 &818208281522920887
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -24522,18 +24528,14 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 29387427}
     m_Modifications:
-    - target: {fileID: 518333243, guid: 1e458f5853bd382438cc98cf5de7610b, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: 24300002, guid: d2927bae1838bfd498f42d11e0fb87de, type: 2}
-    - target: {fileID: 518333243, guid: 1e458f5853bd382438cc98cf5de7610b, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1728341061, guid: 1e458f5853bd382438cc98cf5de7610b, type: 3}
       propertyPath: _target
       value: 
       objectReference: {fileID: 4976062623035207483}
+    - target: {fileID: 2055704339, guid: 1e458f5853bd382438cc98cf5de7610b, type: 3}
+      propertyPath: m_TagString
+      value: Struct
+      objectReference: {fileID: 0}
     - target: {fileID: 5931991099805937717, guid: 1e458f5853bd382438cc98cf5de7610b, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -28810,7 +28812,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 25
   isAttacking: 0
+  isInContact: 0
   _resourceScript: {fileID: 4976062623035207489}
+  _isResourceGatherer: 0
 --- !u!33 &4609647433562745639
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -31208,7 +31212,7 @@ GameObject:
   - component: {fileID: 8164078559866717808}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: Root
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
