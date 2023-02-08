@@ -63,10 +63,13 @@ public class WeaponAttack : MonoBehaviour
                 GatherResources(other);
             }
 
-            if (other.gameObject.GetComponent<EnemyReceiveAttack>())
+            if (isAttacking)
             {
-                _enemyReceiveAttack = other.gameObject.GetComponent<EnemyReceiveAttack>();
-                _enemyReceiveAttack.ReceiveDamage(_damage);
+                if (other.gameObject.GetComponent<EnemyReceiveAttack>())
+                {
+                    _enemyReceiveAttack = other.gameObject.GetComponent<EnemyReceiveAttack>();
+                    _enemyReceiveAttack.ReceiveDamage(_damage);
+                }
             }
         }
         else if (other.gameObject.tag == "Struct")

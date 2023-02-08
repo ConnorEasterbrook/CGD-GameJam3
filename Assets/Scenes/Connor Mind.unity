@@ -10018,7 +10018,7 @@ GameObject:
   - component: {fileID: 801029389}
   - component: {fileID: 801029388}
   m_Layer: 0
-  m_Name: Image (6)
+  m_Name: Gnome BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12042,7 +12042,7 @@ GameObject:
   - component: {fileID: 949450300}
   - component: {fileID: 949450299}
   m_Layer: 0
-  m_Name: Image (7)
+  m_Name: Hatchet BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22696,7 +22696,7 @@ GameObject:
   - component: {fileID: 2037913652}
   - component: {fileID: 2037913651}
   m_Layer: 0
-  m_Name: Image (4)
+  m_Name: Hammer BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29260,7 +29260,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoAmount: 200
+  ammoMaxAmount: 200
   woodAmount: 100
+  woodMaxAmount: 100
   _ammoText: {fileID: 1259347164}
   _woodText: {fileID: 763763251}
 --- !u!114 &4976062623035207490
@@ -30312,19 +30314,20 @@ MonoBehaviour:
   _maxHealth: 1000
   _currentHealth: 1000
   _armourLevel: 8
---- !u!65 &6313484967912491306
-BoxCollider:
+--- !u!136 &6313484967912491306
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6313484967909430567}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.005, y: 0.005, z: 0.042241726}
-  m_Center: {x: -0.0019057562, y: 0.0007101317, z: 0.016226463}
+  m_Radius: 0.0035
+  m_Height: 0.03
+  m_Direction: 2
+  m_Center: {x: -0.0015, y: 0, z: 0.005}
 --- !u!4 &6313523167486355619
 Transform:
   m_ObjectHideFlags: 0
