@@ -5,6 +5,7 @@ using UnityEngine;
 public class ToolScript : MonoBehaviour
 {
     [SerializeField] private GameObject[] _tools;
+    [SerializeField] private GameObject[] _toolsUISelection;
     [SerializeField] private int _animatorCount = 0;
     [SerializeField] private int _placementToolPosition = 0;
     private Animator[] _animators;
@@ -15,6 +16,7 @@ public class ToolScript : MonoBehaviour
     void Start()
     {
         _tools[_currentToolSelected].SetActive(true);
+        _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
 
         _animators = new Animator[_tools.Length];
         _weaponAttackScripts = new WeaponAttack[_tools.Length];
@@ -48,7 +50,9 @@ public class ToolScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 _tools[_currentToolSelected].SetActive(false);
+                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
                 _currentToolSelected = 0;
+                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
                 _tools[_currentToolSelected].SetActive(true);
             }
 
@@ -56,7 +60,9 @@ public class ToolScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 _tools[_currentToolSelected].SetActive(false);
+                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
                 _currentToolSelected = 1;
+                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
                 _tools[_currentToolSelected].SetActive(true);
             }
 
@@ -73,7 +79,9 @@ public class ToolScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             _tools[_currentToolSelected].SetActive(false);
+                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _currentToolSelected = 2;
+                _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _tools[_currentToolSelected].SetActive(true);
         }
     }

@@ -136,7 +136,7 @@ public class TurretShoot : MonoBehaviour
             }
             else
             {
-                int rand = Random.Range(0, 10);
+                int rand = Random.Range(0, 20);
                 if (rand == 0)
                 {
                     audioSource.PlayOneShot(_idleSound);
