@@ -92,14 +92,17 @@ public class ToolScript : MonoBehaviour
 
     private bool AnimationComplete()
     {
+        if (_animators[_currentToolSelected] == null)
+        {
+            return false;
+        }
+
         if (!_animators[_currentToolSelected].GetBool("Attack"))
         {
             return true;
         }
-        else
-        {
-            return false;
-        }
+
+        return false;
     }
 
     // When the animation is done, set the bool back to false

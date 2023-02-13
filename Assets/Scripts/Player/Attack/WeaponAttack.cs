@@ -58,11 +58,6 @@ public class WeaponAttack : MonoBehaviour
         }
         else if (other.gameObject.tag == "Root")
         {
-            if (_isResourceGatherer)
-            {
-                GatherResources(other);
-            }
-
             if (isAttacking)
             {
                 if (other.gameObject.GetComponent<EnemyReceiveAttack>())
@@ -70,6 +65,16 @@ public class WeaponAttack : MonoBehaviour
                     _enemyReceiveAttack = other.gameObject.GetComponent<EnemyReceiveAttack>();
                     _enemyReceiveAttack.ReceiveDamage(_damage);
                 }
+                else if (other.gameObject.GetComponentInParent<EnemyReceiveAttack>())
+                {
+                    _enemyReceiveAttack = other.gameObject.GetComponentInParent<EnemyReceiveAttack>();
+                    _enemyReceiveAttack.ReceiveDamage(_damage);
+                }
+            }
+
+            if (_isResourceGatherer)
+            {
+                GatherResources(other);
             }
         }
         else if (other.gameObject.tag == "Struct")
