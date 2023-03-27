@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6764384727437708474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishAltTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436051216100897385}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishAltSplit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 9156606491936173849}
   - component: {fileID: 6743156253842574884}
   - component: {fileID: 1851185981134601004}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishAlt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 6592879216561624217}
   - component: {fileID: 1283499579386016147}
   - component: {fileID: 2134152437458163107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5065,7 +5065,7 @@ GameObject:
   - component: {fileID: 6841015820654605107}
   - component: {fileID: 1203998439858629049}
   - component: {fileID: 9039744889957081064}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishAlt.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5182,12 +5182,14 @@ GameObject:
   m_Component:
   - component: {fileID: 4139575896630089251}
   - component: {fileID: 4412888955432949937}
-  - component: {fileID: 6079710302668919593}
   - component: {fileID: 4185264052695295473}
   - component: {fileID: 7609782135586449053}
-  m_Layer: 0
+  - component: {fileID: 8672041969815185821}
+  - component: {fileID: 8635724271145919339}
+  - component: {fileID: 3870963477721132794}
+  m_Layer: 3
   m_Name: RadishAlt
-  m_TagString: Untagged
+  m_TagString: Sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5201,11 +5203,11 @@ Transform:
   m_GameObject: {fileID: 7321655486432684382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.5, y: 6.206893, z: 0.0428748}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 436051216100897385}
   - {fileID: 1269946617304280862}
+  - {fileID: 436051216100897385}
   - {fileID: 6592879216561624217}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -5226,20 +5228,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &6079710302668919593
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7321655486432684382}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.6256542
-  m_Height: 3.7246265
-  m_Direction: 1
-  m_Center: {x: 0.025447845, y: 1.3623133, z: 0}
 --- !u!114 &4185264052695295473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5275,8 +5263,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 703d19209cd4caf4ebf51a09d7dd3ae8, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5361,6 +5349,70 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!23 &8672041969815185821
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321655486432684382}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &8635724271145919339
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321655486432684382}
+  m_Mesh: {fileID: -8377430053272422062, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
+--- !u!64 &3870963477721132794
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321655486432684382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8377430053272422062, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
 --- !u!1 &9176802501191036331
 GameObject:
   m_ObjectHideFlags: 0
@@ -5370,7 +5422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6988289081766904837}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishAltBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5419,7 +5471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5463,7 +5515,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
     - target: {fileID: 919132149155446097, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
       propertyPath: m_Name
-      value: RadishAlt
+      value: RadishAltModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5478,3 +5542,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}
   m_PrefabInstance: {fileID: 1591310831631206645}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &5406808379938969828
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933188921044317604}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8377430053272422062, guid: 32b73da542f845340a8fb39a7b3857bc, type: 3}

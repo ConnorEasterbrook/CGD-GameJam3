@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 833410467403959833}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParsnipSplit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,12 +43,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1358260985197825023}
   - component: {fileID: 8919254736609677352}
-  - component: {fileID: 4311249991992882865}
   - component: {fileID: 7667346918504978355}
   - component: {fileID: 2466158254308297955}
-  m_Layer: 0
+  - component: {fileID: 923711935278181571}
+  - component: {fileID: 8614965625367828253}
+  - component: {fileID: 5269367166115102981}
+  m_Layer: 3
   m_Name: Parsnip
-  m_TagString: Untagged
+  m_TagString: Sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,11 +64,11 @@ Transform:
   m_GameObject: {fileID: 4430245716731043086}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.31, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 833410467403959833}
   - {fileID: 5163450150218321190}
+  - {fileID: 833410467403959833}
   - {fileID: 5822123582066594599}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -87,20 +89,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &4311249991992882865
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4430245716731043086}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 5.41151
-  m_Direction: 1
-  m_Center: {x: 0, y: 2.205755, z: 0}
 --- !u!114 &7667346918504978355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,8 +124,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 27815a93c58e2b8469d3bb5ea7ac6f63, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -222,6 +210,70 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!33 &923711935278181571
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430245716731043086}
+  m_Mesh: {fileID: 8770521308672148011, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
+--- !u!23 &8614965625367828253
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430245716731043086}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5269367166115102981
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430245716731043086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8770521308672148011, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
 --- !u!1 &4484677710650609576
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +287,7 @@ GameObject:
   - component: {fileID: 4041088929762758246}
   - component: {fileID: 3991076272532246731}
   - component: {fileID: 3962589176173070006}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Parsnip.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +400,7 @@ GameObject:
   - component: {fileID: 5822123582066594599}
   - component: {fileID: 5433846598276772118}
   - component: {fileID: 5479236348740174560}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5222,7 +5274,7 @@ GameObject:
   - component: {fileID: 8306446005327391986}
   - component: {fileID: 4298265767843307142}
   - component: {fileID: 8428342597113135685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Parsnip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5335,7 +5387,7 @@ GameObject:
   - component: {fileID: 7659853416526564111}
   - component: {fileID: 4125381739620187692}
   - component: {fileID: 4655674899612898312}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParsnipBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5399,7 +5451,7 @@ GameObject:
   - component: {fileID: 5460001160037991360}
   - component: {fileID: 3841989220576304891}
   - component: {fileID: 5108520568136355964}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParsnipTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5478,7 +5530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5522,7 +5574,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
     - target: {fileID: 919132149155446097, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
       propertyPath: m_Name
-      value: Parsnip
+      value: ParsnipModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5537,3 +5601,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}
   m_PrefabInstance: {fileID: 4621533178221177549}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &3260110589133070733
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540432638797617052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8770521308672148011, guid: 4405a7bae2f918b4c97ad29a975fd172, type: 3}

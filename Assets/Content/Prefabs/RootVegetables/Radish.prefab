@@ -10,12 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 5965743025495668343}
   - component: {fileID: 8423610954211948955}
-  - component: {fileID: 1058875122545662661}
   - component: {fileID: 8621813787126891871}
   - component: {fileID: 6096947826041356837}
-  m_Layer: 0
+  - component: {fileID: 7640857100500764463}
+  - component: {fileID: 524736341119514821}
+  - component: {fileID: 109557944244630671}
+  m_Layer: 3
   m_Name: Radish
-  m_TagString: Untagged
+  m_TagString: Sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,11 +31,11 @@ Transform:
   m_GameObject: {fileID: 53507028714690319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -13.02, y: 6.206893, z: 0.0428748}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 11, y: 11, z: 11}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5932977743707972257}
   - {fileID: 2017201169314816271}
+  - {fileID: 5932977743707972257}
   - {fileID: 2091759268382535247}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -54,20 +56,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &1058875122545662661
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53507028714690319}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.93540096
-  m_Height: 5.745719
-  m_Direction: 1
-  m_Center: {x: -0.05797577, y: 1.9374585, z: 0}
 --- !u!114 &8621813787126891871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,8 +91,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: e882b7f084ebaa84cb19e01e1ffd0f10, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -189,6 +177,70 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!33 &7640857100500764463
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53507028714690319}
+  m_Mesh: {fileID: -7657851506480798185, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
+--- !u!23 &524736341119514821
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53507028714690319}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &109557944244630671
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53507028714690319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7657851506480798185, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
 --- !u!1 &1144553198179554573
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,7 +250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5932977743707972257}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishSplit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +285,7 @@ GameObject:
   - component: {fileID: 2091759268382535247}
   - component: {fileID: 3334243223903567142}
   - component: {fileID: 5618402187200199907}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5107,7 +5159,7 @@ GameObject:
   - component: {fileID: 7488133035407417581}
   - component: {fileID: 5975431788382969912}
   - component: {fileID: 4193874758812283169}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Radish.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5222,7 +5274,7 @@ GameObject:
   - component: {fileID: 3759471974801539351}
   - component: {fileID: 5334889427117785284}
   - component: {fileID: 905900598343322651}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Radish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5335,7 +5387,7 @@ GameObject:
   - component: {fileID: 4534781507713190969}
   - component: {fileID: 9045369741321419641}
   - component: {fileID: 4440473123400194505}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5399,7 +5451,7 @@ GameObject:
   - component: {fileID: 5546396987499083704}
   - component: {fileID: 7597033494424385120}
   - component: {fileID: 6309458223216660397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RadishBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5522,7 +5574,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
     - target: {fileID: 919132149155446097, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
       propertyPath: m_Name
-      value: Radish
+      value: RadishModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5532,6 +5596,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
   m_PrefabInstance: {fileID: 2050317313822836452}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &6281832355736205842
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203966788186110901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7657851506480798185, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}
 --- !u!4 &2017201169314816271 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 463bd4c1a4666ed47820256807d71a1e, type: 3}

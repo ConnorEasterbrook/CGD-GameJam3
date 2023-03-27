@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 //using static System.Net.Mime.MediaTypeNames;
 using TMPro;
+using Connoreaster;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class GameManager : MonoBehaviour
     private int multiplier = 1;
     public Image fadeImage;
 
-    private Blade blade;
+    [SerializeField] private CamDragSlicer blade;
     private Spawner spawner;
 
     public int score;
@@ -21,7 +22,6 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        blade = FindObjectOfType<Blade>();
         spawner = FindObjectOfType<Spawner>();
     }
 
@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
 
         ClearScene();
 
-        blade.enabled = true;
+        /*blade.enabled = true;*/
         spawner.enabled = true;
 
         score = 0;
@@ -138,6 +138,8 @@ public class GameManager : MonoBehaviour
 
             yield return null;
         }
+
+        blade.enabled = true;
     }
     public void gameEnd()
     {
