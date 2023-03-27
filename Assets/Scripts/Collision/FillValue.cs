@@ -11,8 +11,7 @@ public class FillValue : MonoBehaviour
     {
         if (_isTriggered)
         {
-            // if (Input.GetKey(KeyCode.E) && _resourceScript.ammoAmount < 200 && transform.tag != "Root")
-            if (Input.GetKey(KeyCode.E) && _resourceScript.ammoAmount < 200)
+            if (Input.GetKey(KeyCode.E) && _resourceScript.ammoAmount < _resourceScript.ammoMaxAmount)
             {
                 _resourceScript.ammoAmount++;
             }

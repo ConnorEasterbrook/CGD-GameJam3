@@ -296,8 +296,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15, z: 0.15}
-  m_Center: {x: 0, y: 0, z: 0.04}
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0, z: 0.025}
 --- !u!114 &8320469725881326370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,6 +310,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5c4eb3d3ea0d134a99554551cd79ddb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isInContact: 0
 --- !u!1 &6420297800919444111
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,7 +478,7 @@ AudioSource:
   m_GameObject: {fileID: 6420297800919444111}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: d2927bae1838bfd498f42d11e0fb87de, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
