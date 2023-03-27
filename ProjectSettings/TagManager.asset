@@ -8,11 +8,12 @@ TagManager:
   - Root
   - EnemyTarget
   - Tool
+  - GameManager
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Veggies
   - Water
   - UI
   - Ground
