@@ -58,6 +58,10 @@ public class Spawner : MonoBehaviour
             Quaternion rotation = Quaternion.Euler(0f, 0f, Random.Range(minAngle, maxAngle));
 
             GameObject fruit = Instantiate(prefab, position, rotation);
+
+            // Ignore collisions on same layer
+            Physics.IgnoreLayerCollision(3, 3);
+
             Destroy(fruit, maxLifetime);
 
             float force = Random.Range(minForce, maxForce);

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5688764281379057152}
   - component: {fileID: 5180211216657690120}
   - component: {fileID: 914201559604751746}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DaikonBot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7273556374839333469}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DaikonSplit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,12 +107,14 @@ GameObject:
   m_Component:
   - component: {fileID: 6743788369375341826}
   - component: {fileID: 1897570914997655679}
-  - component: {fileID: 5009795230166973855}
   - component: {fileID: 8656761258203080322}
   - component: {fileID: 4761758068227061499}
-  m_Layer: 0
+  - component: {fileID: 7863816025803651262}
+  - component: {fileID: 3661905033770863199}
+  - component: {fileID: 3941140418983773753}
+  m_Layer: 3
   m_Name: Daikon
-  m_TagString: Untagged
+  m_TagString: Sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,11 +128,11 @@ Transform:
   m_GameObject: {fileID: 4623254006848827894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -23.06, y: 6.206893, z: 0.0428748}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7273556374839333469}
   - {fileID: 5372427696229865329}
+  - {fileID: 7273556374839333469}
   - {fileID: 277353059366416624}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -151,20 +153,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &5009795230166973855
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4623254006848827894}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.3961267
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.6980634, z: 0}
 --- !u!114 &8656761258203080322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,8 +188,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: bb89c412575d8fe47b179e2588c586a4, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -286,6 +274,70 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!23 &7863816025803651262
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4623254006848827894}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &3661905033770863199
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4623254006848827894}
+  m_Mesh: {fileID: -429174461283703833, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
+--- !u!64 &3941140418983773753
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4623254006848827894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -429174461283703833, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
 --- !u!1 &5230254412292548807
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +351,7 @@ GameObject:
   - component: {fileID: 723394162926846122}
   - component: {fileID: 6395159267142126355}
   - component: {fileID: 7336908286988079467}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Daikon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +466,7 @@ GameObject:
   - component: {fileID: 2032335383773183299}
   - component: {fileID: 8345784669112320883}
   - component: {fileID: 3554698550316610526}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Daikon.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +579,7 @@ GameObject:
   - component: {fileID: 6700859005719047930}
   - component: {fileID: 1972610606901571592}
   - component: {fileID: 7315036539427824397}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: DaikonTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,7 +643,7 @@ GameObject:
   - component: {fileID: 277353059366416624}
   - component: {fileID: 9066656097096864248}
   - component: {fileID: 3017357437336427489}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5478,7 +5530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5522,7 +5574,19 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 82111083bf69856419a53188be00c8b3, type: 2}
     - target: {fileID: 919132149155446097, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
       propertyPath: m_Name
-      value: Daikon
+      value: DaikonModel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5532,6 +5596,20 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
   m_PrefabInstance: {fileID: 5549573813525360794}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &7636360989205026903
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4739302119263178187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -429174461283703833, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}
 --- !u!4 &5372427696229865329 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1acaec6188f0f5b43a712bd59590874f, type: 3}

@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 3545605957199103491}
   - component: {fileID: 3649665336441341878}
   - component: {fileID: 6961782490763748925}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Vodka
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3201900904477627430}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1

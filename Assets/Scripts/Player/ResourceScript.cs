@@ -7,7 +7,9 @@ using TMPro;
 public class ResourceScript : MonoBehaviour
 {
     public int ammoAmount = 0;
+    public int ammoMaxAmount = 200;
     public int woodAmount = 50;
+    public int woodMaxAmount = 100;
     [SerializeField] private TextMeshProUGUI _ammoText;
     [SerializeField] private TextMeshProUGUI _woodText;
 

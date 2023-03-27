@@ -25,6 +25,7 @@ public class EnemyReceiveAttack : MonoBehaviour
 
     public void ReceiveDamage(float damage)
     {
+        Debug.Log("Enemy took " + damage + " damage");
         _currentHealth -= (damage / _armourLevel);
         _healthBar.value = _currentHealth / _maxHealth;
         if (_healthBar.value <= 0)
