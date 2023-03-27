@@ -24,6 +24,10 @@ namespace PlayerControllers
 
         //[SerializeField] GameObject playerInteraction;
 
+        void Start()
+        {
+        }
+
         // Update is called once per frame
         void Update()
         {
@@ -55,6 +59,8 @@ namespace PlayerControllers
         //pauses time and sets the pause menu to be active
         private void PauseGame()
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(_Resumebutton);
             _PauseMenuUI.SetActive(true);
@@ -78,6 +84,8 @@ namespace PlayerControllers
         //loads the main menu scene
         public void GoToMainMenu()
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
             Time.timeScale = 1f;
             SceneManager.LoadScene("Core Screen");
         }

@@ -5,9 +5,11 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private List<GameObject> _enemyPrefabs;
+    [Tooltip("Enemies spawned per second. Every 20 spawn ticks, the difficulty increases. The initial tick is 15")]
+    [SerializeField] private float _spawnRatePerSecond = 5f;
     private int _spawnLevel = 0;
     private Bounds _spawnerBounds;
-    private int _difficultyTick = 10;
+    private int _difficultyTick = 15;
 
     // Start is called before the first frame update
     void Start()
@@ -91,7 +93,7 @@ public class EnemySpawner : MonoBehaviour
                     break;
             }
 
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(_spawnRatePerSecond);
         }
     }
 }

@@ -31,16 +31,16 @@ public class RefillStruct : MonoBehaviour
                 _turretShoot.ammo++;
             }
         }
+    }
 
-        if (other.gameObject.tag == "Tool" && _isBuilding)
+    public void BuildStrike()
+    {
+        GetComponentInParent<TurretShoot>().buildStrikes++;
+        if (_turretShoot.buildStrikes < 3)
         {
-            GetComponentInParent<TurretShoot>().buildStrikes++;
-            if (_turretShoot.buildStrikes < 3)
-            {
-                _turretShoot.audioSource.PlayOneShot(_turretShoot.buildSound);
-            }
-            
-            _isBuilding = false;
+            _turretShoot.audioSource.PlayOneShot(_turretShoot.buildSound);
         }
+
+        _isBuilding = false;
     }
 }
