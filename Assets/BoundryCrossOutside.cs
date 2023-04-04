@@ -17,6 +17,7 @@ public class BoundryCrossOutside : MonoBehaviour
         {
             nexttextobj.SetActive(true);
             Textobject.gameObject.transform.position = StartPoint.transform.position;
+            //textChangeNoDisable.GetComponent<TextMeshProUGUI>().color.a 256; 
             StartCoroutine(FadeFull(time, textChangeNoDisable.GetComponent<TextMeshProUGUI>(), gameObject));
         }
     }
