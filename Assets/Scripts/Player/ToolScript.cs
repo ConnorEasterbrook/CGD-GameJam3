@@ -88,6 +88,15 @@ public class ToolScript : MonoBehaviour
             _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _tools[_currentToolSelected].SetActive(true);
         }
+        // If the player presses the 4 key, select the fourth tool
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            _tools[_currentToolSelected].SetActive(false);
+            _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
+            _currentToolSelected = 3;
+            _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
+            _tools[_currentToolSelected].SetActive(true);
+        }
     }
 
     private bool AnimationComplete()
