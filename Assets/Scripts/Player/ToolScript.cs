@@ -11,6 +11,7 @@ public class ToolScript : MonoBehaviour
     private Animator[] _animators;
     private WeaponAttack[] _weaponAttackScripts;
     private int _currentToolSelected = 0;
+    [SerializeField] AudioSource swingSound;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,7 @@ public class ToolScript : MonoBehaviour
         {
             if (_currentToolSelected < _animatorCount)
             {
+                swingSound.Play();
                 _animators[_currentToolSelected].SetBool("Attack", true);
 
                 if (_weaponAttackScripts[_currentToolSelected].isInContact)
