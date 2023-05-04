@@ -33,7 +33,7 @@ public class ToolScript : MonoBehaviour
     void Update()
     {
         // If the player presses the left click, swing the tool
-        if (Input.GetMouseButtonDown(0) && AnimationComplete())
+        if (Input.GetMouseButton(0) && AnimationComplete())
         {
             if (_currentToolSelected < _animatorCount)
             {
