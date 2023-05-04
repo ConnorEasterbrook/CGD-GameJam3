@@ -11,13 +11,6 @@ public class DialogueTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PickUpItem.allowPickup = true;
-        }
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
             dialogueBox.SetActive(true);
         }
     }
@@ -26,6 +19,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            Debug.Log("Player left");
             dialogueBox.SetActive(false);
         }
     }
