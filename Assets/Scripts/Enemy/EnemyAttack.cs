@@ -15,6 +15,7 @@ public class EnemyAttack : MonoBehaviour
     private Animator _animator;
     private int _randTarget;
     private bool _isAttackingPlayer = false;
+    [SerializeField] AudioSource attackSound;
 
     // Start is called before the first frame update
     void Start()
@@ -85,7 +86,7 @@ public class EnemyAttack : MonoBehaviour
         {
             _inAttackRange = true;
             _animator.SetBool("IsMoving", false);
-
+            attackSound.Play();
             _healthScript.TakeDamage(_damage);
         }
     }
