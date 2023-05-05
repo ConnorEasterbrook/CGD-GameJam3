@@ -11,6 +11,7 @@ public class ToolScript : MonoBehaviour
     private Animator[] _animators;
     private WeaponAttack[] _weaponAttackScripts;
     private int _currentToolSelected = 0;
+    [SerializeField] AudioSource swingSound;
 
     // Start is called before the first frame update
     void Start()
@@ -32,10 +33,11 @@ public class ToolScript : MonoBehaviour
     void Update()
     {
         // If the player presses the left click, swing the tool
-        if (Input.GetMouseButtonDown(0) && AnimationComplete())
+        if (Input.GetMouseButton(0) && AnimationComplete())
         {
             if (_currentToolSelected < _animatorCount)
             {
+                swingSound.Play();
                 _animators[_currentToolSelected].SetBool("Attack", true);
 
                 if (_weaponAttackScripts[_currentToolSelected].isInContact)
@@ -85,6 +87,15 @@ public class ToolScript : MonoBehaviour
             _tools[_currentToolSelected].SetActive(false);
             _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _currentToolSelected = 2;
+            _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
+            _tools[_currentToolSelected].SetActive(true);
+        }
+        // If the player presses the 4 key, select the fourth tool
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            _tools[_currentToolSelected].SetActive(false);
+            _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
+            _currentToolSelected = 3;
             _toolsUISelection[_currentToolSelected].GetComponent<ButtonHighlight>().SwapColour();
             _tools[_currentToolSelected].SetActive(true);
         }

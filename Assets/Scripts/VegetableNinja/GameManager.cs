@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 //using static System.Net.Mime.MediaTypeNames;
 using TMPro;
+using Connoreaster;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class GameManager : MonoBehaviour
     private int multiplier = 1;
     public Image fadeImage;
 
-    private Blade blade;
+    [SerializeField] private CamDragSlicer blade;
     private Spawner spawner;
 
     public int score;
@@ -19,9 +20,15 @@ public class GameManager : MonoBehaviour
     public GameObject winScreen;
     public GameObject loseScreen;
 
+    public AudioSource audioSource;
+    public AudioClip[] increaseScoreSounds;
+    public GameObject spawnerFrenzy1;
+    public GameObject spawnerFrenzy2;
+
+    private bool[] soundPlayed = new bool[4];
+
     private void Awake()
     {
-        blade = FindObjectOfType<Blade>();
         spawner = FindObjectOfType<Spawner>();
     }
 
@@ -36,7 +43,7 @@ public class GameManager : MonoBehaviour
 
         ClearScene();
 
-        blade.enabled = true;
+        /*blade.enabled = true;*/
         spawner.enabled = true;
 
         score = 0;
@@ -70,31 +77,63 @@ public class GameManager : MonoBehaviour
         if(multiplier<10)
         {
             multText.text = "Lame";
+            UnFrenzy();
         }
-        if (multiplier < 20 && multiplier > 10)
+        else if (multiplier < 20 && multiplier > 10)
         {
             multText.text = "Boring";
         }
-        if (multiplier < 30 && multiplier > 20)
+        else if(multiplier < 30 && multiplier > 20 && !soundPlayed[0])
         {
+            audioSource.PlayOneShot(increaseScoreSounds[0]);
             multText.text = "Mediocre";
+            soundPlayed[0] = true;
         }
-        if (multiplier < 40 && multiplier > 30)
+        else if(multiplier < 40 && multiplier > 30 && !soundPlayed[1])
         {
+            audioSource.PlayOneShot(increaseScoreSounds[1]);
             multText.text = "Good!";
+            soundPlayed[1] = true;
         }
-        if (multiplier < 50 && multiplier > 40)
+        else if(multiplier < 50 && multiplier > 40 && !soundPlayed[2])
         {
+            audioSource.PlayOneShot(increaseScoreSounds[2]);
             multText.text = "Great!";
+            soundPlayed[2] = true;
         }
-        if (multiplier < 60 && multiplier > 50)
+        else if(multiplier < 60 && multiplier > 50 && !soundPlayed[3])
         {
+            audioSource.PlayOneShot(increaseScoreSounds[3]);
             multText.text = "Perfect!";
+            soundPlayed[3] = true;
         }
-        if (multiplier > 60)
+        else if(multiplier < 70 && multiplier > 60 && !soundPlayed[4])
         {
+            audioSource.PlayOneShot(increaseScoreSounds[4]);
             multText.text = "INCREDIBLE!";
+            soundPlayed[4] = true;
         }
+        else if(multiplier > 70)
+        {
+            multText.text = "Frenzy!";
+            Frenzy();
+        }
+    }
+
+    public void Frenzy()
+    {
+        spawnerFrenzy1.SetActive(true);
+        spawnerFrenzy2.SetActive(true);
+    }
+
+    public void UnFrenzy()
+    {
+        for (int i = 0; i < soundPlayed.Length; i++)
+        {
+            soundPlayed[i] = false;
+        }
+        spawnerFrenzy1.SetActive(false);
+        spawnerFrenzy2.SetActive(false);
     }
 
     public void Explode()
@@ -138,6 +177,8 @@ public class GameManager : MonoBehaviour
 
             yield return null;
         }
+
+        blade.enabled = true;
     }
     public void gameEnd()
     {

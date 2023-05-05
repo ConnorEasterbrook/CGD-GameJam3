@@ -98,17 +98,18 @@ public class PlaceObject : MonoBehaviour
                     newGO.AddComponent<SphereCollider>().isTrigger = true;
                     TurretShoot turretShoot = newGO.AddComponent<TurretShoot>();
                     turretShoot.CopyTurret(GetComponent<TurretShoot>());
+                    for (int i = 0; i < _children.Length; i++)
+                    {
+                        GameObject child = Instantiate(_children[i], newGO.transform);
+                        child.transform.localPosition = Vector3.zero;
+                    }
                 }
 
                 newGO.transform.position = pos;
                 newGO.transform.rotation = transform.rotation;
                 newGO.transform.localScale = transform.localScale;
 
-                for (int i = 0; i < _children.Length; i++)
-                {
-                    GameObject child = Instantiate(_children[i], newGO.transform);
-                    child.transform.localPosition = Vector3.zero;
-                }
+
 
                 _resourceScript.RemoveAmmo(100);
                 _resourceScript.RemoveWood(50);
