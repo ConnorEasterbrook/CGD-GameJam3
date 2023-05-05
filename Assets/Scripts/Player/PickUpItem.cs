@@ -16,6 +16,11 @@ public class PickUpItem : MonoBehaviour
     public LayerMask pickUpLayer;
     bool crouching;
 
+    void Update()
+    {
+        FoundObject();
+    }
+
     void FoundObject()
     {
         RaycastHit hit;
@@ -34,8 +39,11 @@ public class PickUpItem : MonoBehaviour
                         Debug.Log("Item picked up");
                     }
                 }
+                else
+                {
+                    pickUpText.SetActive(false);
+                }
             }
-
             else
             {
                 pickUpText.SetActive(false);
@@ -79,12 +87,5 @@ public class PickUpItem : MonoBehaviour
 
             rigidObject.AddForce(movedir * force);
         }
-    }
-
-
-    void Update()
-    {
-      
-        FoundObject();
     }
 }
