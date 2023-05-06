@@ -1,3 +1,4 @@
+using PlayerControllers;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,11 @@ public class RefillStruct : MonoBehaviour
 
     private void Update()
     {
+        if (PauseMenu.GameIsPaused)
+        {
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             _isBuilding = true;
