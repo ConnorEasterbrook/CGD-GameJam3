@@ -23759,7 +23759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f789d2330fd23ef4baac98ec7af98dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _highlightColor: {r: 0.056000013, g: 0.56, b: 0.5092093, a: 1}
+  _highlightColor: {r: 0.72490203, g: 0.9019608, b: 0.39607844, a: 1}
 --- !u!114 &2117691784
 MonoBehaviour:
   m_ObjectHideFlags: 0
