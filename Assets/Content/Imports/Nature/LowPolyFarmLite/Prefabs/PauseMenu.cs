@@ -9,7 +9,7 @@ namespace PlayerControllers
 {
     public class PauseMenu : MonoBehaviour
     {
-
+        public static bool GameIsPaused = false;
         //bool for if the game is paused
         public bool _MainGameIsPaused;
         //insert options menu scene here
@@ -44,6 +44,8 @@ namespace PlayerControllers
                     PauseGame();
                 }
             }
+
+            GameIsPaused = _MainGameIsPaused;
         }
         //pauses time and sets the pause menu to be deactive
         public void ResumeGame()

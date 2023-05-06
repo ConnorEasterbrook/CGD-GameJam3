@@ -1,3 +1,4 @@
+using PlayerControllers;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -70,7 +71,7 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
-        if (disablePlayer)
+        if (disablePlayer || PauseMenu.GameIsPaused)
         {
             return;
         }

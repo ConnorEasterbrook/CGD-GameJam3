@@ -1,3 +1,4 @@
+using PlayerControllers;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,6 +33,11 @@ public class ToolScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(PauseMenu.GameIsPaused)
+        {
+            return;
+        }
+
         // If the player presses the left click, swing the tool
         if (Input.GetMouseButton(0) && AnimationComplete())
         {
