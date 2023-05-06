@@ -249,7 +249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 10
   isAttacking: 0
-  _speed: 4
+  _speed: 3
   attackSound: {fileID: 8108569129694689703}
 --- !u!54 &3274293127411817062
 Rigidbody:

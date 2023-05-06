@@ -1262,8 +1262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 2933422247554474939}
-  _maxHealth: 100
-  _currentHealth: 100
+  _maxHealth: 50
+  _currentHealth: 50
   _armourLevel: 1
 --- !u!114 &7213120701758234910
 MonoBehaviour:
@@ -1279,7 +1279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _damage: 10
   isAttacking: 0
-  _speed: 6
+  _speed: 5
   attackSound: {fileID: 9210379375551312348}
 --- !u!54 &7213120701758234911
 Rigidbody:

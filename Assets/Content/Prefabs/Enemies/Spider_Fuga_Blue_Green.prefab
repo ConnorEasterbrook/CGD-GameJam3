@@ -608,8 +608,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthBar: {fileID: 5578120690369521226}
-  _maxHealth: 300
-  _currentHealth: 300
+  _maxHealth: 200
+  _currentHealth: 200
   _armourLevel: 4
 --- !u!65 &2580759705783989821
 BoxCollider:
