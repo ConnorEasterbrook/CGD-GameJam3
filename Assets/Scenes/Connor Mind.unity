@@ -17762,7 +17762,7 @@ MonoBehaviour:
   - {fileID: 3108401207305320845, guid: 87c2be853aa14954b8b23b84f46d4a4c, type: 3}
   - {fileID: 2580759705776555448, guid: 896d3040ca50107459423ebd5191fc0e, type: 3}
   _spawnRatePerSecond: 4
-  _spawnOnStart: 1
+  _spawnOnStart: 0
 --- !u!1001 &1539175383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19121,7 +19121,7 @@ MonoBehaviour:
   _rotationSpeed: 3
   _introTextScript: {fileID: 1906505588}
   _player: {fileID: 4976062623035207485}
-  _fastSkip: 1
+  _fastSkip: 0
 --- !u!20 &1668872182
 Camera:
   m_ObjectHideFlags: 0
