@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PickUpItem : MonoBehaviour
 {
@@ -16,9 +17,28 @@ public class PickUpItem : MonoBehaviour
     public LayerMask pickUpLayer;
     bool crouching;
 
+    [SerializeField] private Slider _energySlider;
+    [Range(0.25f, 1.5f)]
+    [SerializeField] private float _playerWeakness = 1.5f; 
+    private bool _isHolding;
+
     void Update()
     {
         FoundObject();
+
+        if (_isHolding)
+        {
+            _energySlider.value -= _playerWeakness * Time.deltaTime;
+
+            if(_energySlider.value <= 0)
+            {
+                Drop();
+            }
+        }
+        else
+        {
+            _energySlider.value += _playerWeakness * Time.deltaTime;
+        }
     }
 
     void FoundObject()
@@ -60,17 +80,21 @@ public class PickUpItem : MonoBehaviour
     {
         if (obj.GetComponent<Rigidbody>())
         {
+            _isHolding = true;
             rigidObject = obj.GetComponent<Rigidbody>();
             rigidObject.drag = 10;
             rigidObject.useGravity = false;
             rigidObject.constraints = RigidbodyConstraints.FreezeRotation;
             rigidObject.transform.parent = holdPosition;
             heldObject = obj;
+
+            
         }
     }
 
     void Drop()
     {
+        _isHolding = false;
         rigidObject.drag = 1;
         rigidObject.useGravity = true;
         rigidObject.constraints = RigidbodyConstraints.None;
