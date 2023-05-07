@@ -39,7 +39,7 @@ public class ToolScript : MonoBehaviour
         }
 
         // If the player presses the left click, swing the tool
-        if (Input.GetMouseButton(0) && AnimationComplete())
+        if (Input.GetMouseButton(0) && AnimationComplete() && !PlayerScript.playerDisabled)
         {
             if (_currentToolSelected < _animatorCount)
             {
@@ -126,7 +126,9 @@ public class ToolScript : MonoBehaviour
     IEnumerator ResetAttackBool()
     {
         yield return new WaitForSeconds(0.75f);
-        if (_animators[_currentToolSelected] != null)
+        if(_animators[_currentToolSelected] != null)
+        {
             _animators[_currentToolSelected].SetBool("Attack", false);
+        }
     }
 }

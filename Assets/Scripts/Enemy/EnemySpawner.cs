@@ -11,10 +11,17 @@ public class EnemySpawner : MonoBehaviour
     private Bounds _spawnerBounds;
     private int _difficultyTick = 15;
 
+    [SerializeField] private bool _spawnOnStart = false;
+
     // Start is called before the first frame update
     void Start()
     {
         _spawnerBounds = GetComponent<BoxCollider>().bounds;
+
+        if (_spawnOnStart)
+        {
+            _spawnLevel = 1;
+        }
 
         StartCoroutine(SpawnEnemy());
     }

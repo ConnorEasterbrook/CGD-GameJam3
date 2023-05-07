@@ -47,6 +47,7 @@ public class PlayerScript : MonoBehaviour
     [Header("Misc")]
     public bool lockCursor = false;
     public bool disablePlayer = false;
+    public static bool playerDisabled = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -71,6 +72,8 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
+        playerDisabled = disablePlayer;
+
         if (disablePlayer || PauseMenu.GameIsPaused)
         {
             return;

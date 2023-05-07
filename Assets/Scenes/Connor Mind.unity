@@ -10886,7 +10886,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870516954}
   m_LocalRotation: {x: 0.000000014901159, y: 0.000000029802319, z: 0.3826834, w: 0.9238795}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10895,7 +10895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1526, y: 1501}
+  m_AnchoredPosition: {x: 259, y: 234}
   m_SizeDelta: {x: 480, y: 480}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870516956
@@ -17762,6 +17762,7 @@ MonoBehaviour:
   - {fileID: 3108401207305320845, guid: 87c2be853aa14954b8b23b84f46d4a4c, type: 3}
   - {fileID: 2580759705776555448, guid: 896d3040ca50107459423ebd5191fc0e, type: 3}
   _spawnRatePerSecond: 4
+  _spawnOnStart: 1
 --- !u!1001 &1539175383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19116,10 +19117,11 @@ MonoBehaviour:
   - {fileID: 720578706}
   - {fileID: 1295971284}
   - {fileID: 4976062621927585725}
-  _moveSpeed: 400
+  _moveSpeed: 4
   _rotationSpeed: 3
   _introTextScript: {fileID: 1906505588}
   _player: {fileID: 4976062623035207485}
+  _fastSkip: 1
 --- !u!20 &1668872182
 Camera:
   m_ObjectHideFlags: 0
@@ -24479,8 +24481,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 192.4575, y: 23.76528, z: 102.40428}
-  m_Center: {x: -34.65643, y: 8.334398, z: -3.3734324}
+  m_Size: {x: 316.58005, y: 23.76528, z: 212.78822}
+  m_Center: {x: -96.71749, y: 8.334431, z: -58.56484}
 --- !u!114 &813658320993310632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29387,8 +29389,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.096948475, y: 0.77039564, z: 0.44476926}
-  m_Center: {x: 0.019669356, y: 0.3473329, z: 0.068397924}
+  m_Size: {x: 0.096948475, y: 1.4946214, z: 1.0691358}
+  m_Center: {x: 0.019668674, y: -0.014774491, z: 0.3805802}
 --- !u!114 &4519630783720517551
 MonoBehaviour:
   m_ObjectHideFlags: 0

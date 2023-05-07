@@ -11,10 +11,17 @@ public class PositionChange : MonoBehaviour
     [SerializeField] private IntroText _introTextScript;
     [SerializeField] private GameObject _player;
 
+    [SerializeField] private bool _fastSkip = false;
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(ChangePosition());
+
+        if (_fastSkip)
+        {
+            _index = _objects.Count;
+        }
     }
 
     // Update is called once per frame
