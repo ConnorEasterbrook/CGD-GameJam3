@@ -18,7 +18,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 7
+    value: 28
   intensityX:
     overrideState: 0
     value: 1
@@ -100,8 +100,8 @@ MonoBehaviour:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
   fastMode:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
   dirtTexture:
     overrideState: 0
     value: {fileID: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
+    overrideState: 1
     value: 1
   externalLut:
     overrideState: 0
@@ -189,11 +189,11 @@ MonoBehaviour:
     overrideState: 1
     value: 0
   colorFilter:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+    overrideState: 1
+    value: {r: 1, g: 0.5157232, b: 0.5157232, a: 1}
   hueShift:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -43
   saturation:
     overrideState: 1
     value: -46
@@ -201,8 +201,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   postExposure:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 2.21
   contrast:
     overrideState: 1
     value: -1
@@ -1466,7 +1466,7 @@ MonoBehaviour:
     value: 1
   size:
     overrideState: 1
-    value: 2.38
+    value: 1.16
   lumContrib:
     overrideState: 0
     value: 0.8
@@ -1515,7 +1515,7 @@ MonoBehaviour:
     overrideState: 1
     value: 1.47
   color:
-    overrideState: 0
+    overrideState: 1
     value: {r: 0, g: 0, b: 0, a: 1}
   ambientOnly:
     overrideState: 0
@@ -1562,8 +1562,8 @@ MonoBehaviour:
     value: {fileID: 0}
     defaultState: 1
   intensity:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 1
   fastMode:
     overrideState: 0
     value: 0

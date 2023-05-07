@@ -13,7 +13,7 @@ public class Collectable : MonoBehaviour
         if (other.gameObject == Textobject)
         {
             Playsound.Play();
-
+            FindObjectOfType<EnemyScript>().aggression += 1;
             nexttextobj.SetActive(true);
             gameObject.SetActive(false);
         }

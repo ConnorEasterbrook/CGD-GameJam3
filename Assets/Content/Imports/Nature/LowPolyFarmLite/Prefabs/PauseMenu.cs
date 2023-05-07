@@ -50,6 +50,8 @@ namespace PlayerControllers
         //pauses time and sets the pause menu to be deactive
         public void ResumeGame()
         {
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
             Debug.Log("Game Resume");
             _PauseMenuUI.SetActive(false);
             _GUIMenuUI.SetActive(true);
