@@ -23,6 +23,7 @@ public class OrderDropOff : MonoBehaviour
                 {
                     currentFulfilment[i] = other.gameObject;
                     orderCorrect += 1;
+                    other.gameObject.layer = 0;
                 }
             }
         }
