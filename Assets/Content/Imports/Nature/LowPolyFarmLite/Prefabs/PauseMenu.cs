@@ -34,7 +34,7 @@ namespace PlayerControllers
             //button to open or close pause menu
             if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown("joystick button 9")) && _optionsUI.activeSelf == false)
             {
-                _inputs = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerScript>();
+                _inputs = GameObject.FindGameObjectWithTag("Player")?.GetComponent<PlayerScript>();
                 if (_MainGameIsPaused)
                 {
                     ResumeGame();
@@ -57,7 +57,10 @@ namespace PlayerControllers
             _GUIMenuUI.SetActive(true);
             Time.timeScale = 1f;
             _MainGameIsPaused = false;
-            _inputs.enabled = true;
+            if (_inputs != null)
+            {
+                _inputs.enabled = true;
+            }
             //playerInteraction.SetActive(true);
         }
         //pauses time and sets the pause menu to be active
@@ -71,7 +74,10 @@ namespace PlayerControllers
             _GUIMenuUI.SetActive(false);
             Time.timeScale = 0f;
             _MainGameIsPaused = true;
-            _inputs.enabled = false;
+            if (_inputs != null)
+            {
+                _inputs.enabled = false;
+            }
             //playerInteraction.SetActive(false);
         }
 
