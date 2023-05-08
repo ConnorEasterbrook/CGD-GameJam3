@@ -45,20 +45,18 @@ public class PlayerScript : MonoBehaviour
     private float lastGroundedTime = 0.0f; // Keep track of when last grounded
 
     [Header("Misc")]
-    public bool lockCursor = false;
+    public bool noLockCursor = false;
     public bool disablePlayer = false;
     public static bool playerDisabled = false;
 
     // Start is called before the first frame update
     void Awake()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-
         playerCamera = GetComponentInChildren<Camera>();
         playerRigidbody = GetComponent<Rigidbody>();
         playerChild = transform.GetChild(0).gameObject;
 
-        if (lockCursor)
+        if (!noLockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;

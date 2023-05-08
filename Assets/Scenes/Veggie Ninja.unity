@@ -1938,6 +1938,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6625171225707052541, guid: 2a2468fe6c4144544837a7013660f704, type: 3}
+      propertyPath: _inputs
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625171225707052541, guid: 2a2468fe6c4144544837a7013660f704, type: 3}
       propertyPath: _GUIMenuUI
       value: 
       objectReference: {fileID: 1769471353}
