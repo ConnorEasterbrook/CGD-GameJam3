@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 300}
   m_MaxSize: {x: 32384, y: 24288}
   vertical: 0
-  controlID: 81
+  controlID: 72
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 1
-  controlID: 82
+  controlID: 73
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 83
+  controlID: 74
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -483,24 +483,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 4355}
-      m_SelectedIDs: ce760000
-      m_LastClickedID: 30414
-      m_ExpandedIDs: e8faffff786800007c720000687b000030800000408000004e800000c6870000a28a0000
+      scrollPos: {x: 0, y: 163}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 989eeeff5ca9eeffaea9eeff42b6eeffeab8eeffacb9eeff12bfeeff7cc3eeff38b1fcff8eb1fcff06befcffaec0fcff70c1fcffd6c6fcff40cbfcff6ee1fdff48e6fdff9ae6fdff2cf3fdffd2f5fdff92f6fdfff6fbfdff5e00feffd613feff421bfeff941bfeff2828feffd02afeff922bfefff830feff6235feff4c40feff9456feff3a63feff5068feffa668feff1c75feffc277feff8278feffe67dfeff4e82feff5085feffc2aefeff70b3feff40cdfeff5cd2feff1850ffff3c57ffff3458ffffa45dffff6c66ffff5c74ffffac7bffff7e83fffff083ffff8290ffff2893ffffe893ffff4c99ffffac9dffff2ebfffff54d0ffff56e3ffffc4e7ffff3cf9ffff502f01000c1a02008c1a02000c620200f6720200287a020008b60200debe0200867e0400b686040058c9040012d3040026300600fa0d07001412070096130700741c07008e1d0700901e0700c8260700b80c0900
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Energy Slider
+        m_OriginalName: Energy Slider
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 463380
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 20.013588, y: 3.4730823, z: -4.2233467}
+    m_Target: {x: 599.1088, y: 16.26495, z: 252.24097}
     speed: 2
-    m_Value: {x: 20.013588, y: 3.4730823, z: -4.2233467}
+    m_Value: {x: 599.1088, y: 16.26495, z: 252.24097}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -781,10 +781,10 @@ MonoBehaviour:
   m_SceneViewState:
     m_AlwaysRefresh: 0
     showFog: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
+    showSkybox: 0
+    showFlares: 0
+    showImageEffects: 0
+    showParticleSystems: 0
     showVisualEffectGraphs: 1
     m_FxEnabled: 1
   m_Grid:
@@ -816,13 +816,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0030174528, y: -0.97286093, z: -0.012838285, w: -0.23182316}
+    m_Target: {x: 0.21906878, y: 0.0038089189, z: -0.0009700304, w: 0.9759188}
     speed: 2
-    m_Value: {x: 0.0030746188, y: -0.97162604, z: -0.012822177, w: -0.23615448}
+    m_Value: {x: 0.22048686, y: 0.002343574, z: -0.00064480933, w: 0.975387}
   m_Size:
-    m_Target: 10
+    m_Target: 5.9445624
     speed: 2
-    m_Value: 10
+    m_Value: 5.944578
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -838,7 +838,7 @@ MonoBehaviour:
     m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
-    m_DynamicClip: 1
+    m_DynamicClip: 0
     m_OcclusionCulling: 0
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
@@ -1008,22 +1008,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Content/Imports/BuildingParts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Content/Imports/BuildingParts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Not_Windows\Github\Matrix-GJ3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: b8970000
-    m_LastClickedID: 38840
-    m_ExpandedIDs: 00000000829700008497000086970000889700008a9700008c970000ce970000fe9700000098000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 155}
+    m_SelectedIDs: c29c0000
+    m_LastClickedID: 40130
+    m_ExpandedIDs: 000000005c9c00005e9c0000609c0000629c0000649c0000669c0000a29c00002c0b02002e0b020000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1051,7 +1051,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000829700008497000086970000889700008a9700008c970000
+    m_ExpandedIDs: 000000005c9c00005e9c0000609c0000629c0000649c0000669c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
