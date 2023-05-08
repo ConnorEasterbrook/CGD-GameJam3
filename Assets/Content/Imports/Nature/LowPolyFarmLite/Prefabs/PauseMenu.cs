@@ -10,6 +10,7 @@ namespace PlayerControllers
     public class PauseMenu : MonoBehaviour
     {
         public static bool GameIsPaused = false;
+        public bool canusemouse = false;
         //bool for if the game is paused
         public bool _MainGameIsPaused;
         //insert options menu scene here
@@ -51,7 +52,11 @@ namespace PlayerControllers
         public void ResumeGame()
         {
             Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            if (canusemouse != true)
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+            
             Debug.Log("Game Resume");
             _PauseMenuUI.SetActive(false);
             _GUIMenuUI.SetActive(true);
