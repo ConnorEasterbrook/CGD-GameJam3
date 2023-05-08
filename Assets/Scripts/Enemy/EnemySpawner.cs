@@ -9,7 +9,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float _spawnRatePerSecond = 5f;
     private int _spawnLevel = 0;
     private Bounds _spawnerBounds;
-    private int _difficultyTick = 15;
+    private int _difficultyTick = 10;
 
     [SerializeField] private bool _spawnOnStart = false;
 

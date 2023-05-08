@@ -29932,7 +29932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd939ce0a5951ad45a934ef0c00d3bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 15
+  mouseSensitivity: 5
   cameraRotationSmoothTime: 0.1
   cameraTiltRange: {x: -40, y: 40}
   walkSpeed: 8
