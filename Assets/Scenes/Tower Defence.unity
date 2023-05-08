@@ -20035,7 +20035,7 @@ MonoBehaviour:
   _rotationSpeed: 3
   _introTextScript: {fileID: 1906505588}
   _player: {fileID: 4976062623035207485}
-  _fastSkip: 1
+  _fastSkip: 0
 --- !u!20 &1668872182
 Camera:
   m_ObjectHideFlags: 0
