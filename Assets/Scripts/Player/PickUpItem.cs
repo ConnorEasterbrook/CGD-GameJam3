@@ -39,6 +39,10 @@ public class PickUpItem : MonoBehaviour
         {
             _energySlider.value += _playerWeakness * Time.deltaTime;
         }
+
+        // Change the slider colour based on the value
+        _energySlider.fillRect.GetComponentInChildren<Image>().color = Color.Lerp(Color.red, Color.green, _energySlider.normalizedValue);
+        _energySlider.GetComponentInChildren<Image>().color = Color.Lerp(new Color(1f, 0.5f, 0.5f), new Color(0.5f, 1f, 0.5f), _energySlider.normalizedValue);
     }
 
     void FoundObject()

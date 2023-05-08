@@ -15,12 +15,10 @@ public class OrderDropOff : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.layer);
         if (other.gameObject.layer == 10)
         {
             for (int i = 0; i < currentOrder.Length; i++)
             {
-                Debug.Log(other.gameObject.name);
                 if (other.gameObject.name == currentOrder[i].name)
                 {
                     currentFulfilment[i] = other.gameObject;

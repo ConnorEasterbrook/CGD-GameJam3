@@ -19,7 +19,6 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player left");
             dialogueBox.SetActive(false);
         }
     }
