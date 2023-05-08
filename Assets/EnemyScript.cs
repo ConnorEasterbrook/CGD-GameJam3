@@ -65,6 +65,7 @@ public class EnemyScript : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             deathScreen.SetActive(true);
+            FindObjectOfType<PlayerScript>().enabled = false;
         }
     }
 }
